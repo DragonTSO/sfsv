@@ -3,7 +3,6 @@ preset: FLUID_PUMP
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: BUCKET
-  amount: 2
 '20':
   ==: org.bukkit.inventory.ItemStack
   v: 3465

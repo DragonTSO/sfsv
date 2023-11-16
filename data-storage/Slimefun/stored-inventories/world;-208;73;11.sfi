@@ -1,17 +1,10 @@
 preset: FREEZER_2
-'24':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BUCKET
 '25':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: ICE
-'19':
+  amount: 2
+'24':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
-  type: WATER_BUCKET
-'20':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: WATER_BUCKET
+  type: BUCKET

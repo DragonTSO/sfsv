@@ -1,0 +1,5 @@
+preset: NTW_PUSHER
+'25':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: COBBLESTONE

@@ -1,0 +1,406 @@
+preset: BLOCK_CELL_BASIC
+'9':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'10':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'11':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'12':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'13':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'14':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'15':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'16':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'17':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'18':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'19':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'20':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'21':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'22':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'23':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'24':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'25':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'26':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'27':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'28':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'29':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'30':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'31':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'32':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'33':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'34':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'35':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'36':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'37':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'38':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'39':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'40':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'41':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'42':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'43':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'44':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'45':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'46':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'47':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'48':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'49':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'50':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'51':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'52':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'
+'53':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"No
+      item here"}],"text":""}'

@@ -1,124 +1,32 @@
 preset: NTW_GRID
+'35':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NAME_TAG
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Set
+      Filter (Right Click to Clear)"}],"text":""}'
+'44':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: RED_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Previous
+      Page"}],"text":""}'
+'53':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: RED_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Next
+      Page"}],"text":""}'
 '0':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: ARROW
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"3"}],"text":""}'
-'1':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BRICK
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Adamantite"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: ADAMANTITE
-'2':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: PLAYER_HEAD
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Advanced
-      Cargo Node "},{"italic":false,"color":"red","text":"(Output)"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cargo
-      Output Pipe"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"1"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: CARGO_NODE_OUTPUT_ADVANCED
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: 91d43134-5f6d-3335-b219-1c4be7d1874f
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViMjFmZDQ4MGMxYzQzYmYzYjlmODQyYzg2OWJkYzNiYzVhY2MyNTk5YmYyZWI2YjhhMWM5NWRjZTk3OGYifX19
-'3':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: PLAYER_HEAD
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Advanced
-      GPS Transmitter"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"64
-      J Buffer"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"6
-      J/s"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"60"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: GPS_TRANSMITTER_2
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: db0269e4-72ae-3d3c-987d-f5ca5a62f112
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBjOWMxYTAyMmY0MGI3M2YxNGI0Y2JhMzdjNzE4YzZhNTMzZjNhMjg2NGI2NTM2ZDVmNDU2OTM0Y2MxZiJ9fX0=
-'4':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: DAYLIGHT_DETECTOR
-  meta:
-    ==: ItemMeta
-    meta-type: TILE_ENTITY
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Advanced
-      Solar Generator"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Medium
-      Generator"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"0
-      J Buffer"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"16
-      J/s"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"60"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: SOLAR_GENERATOR_2
-    blockMaterial: DAYLIGHT_DETECTOR
-'5':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: IRON_INGOT
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aluminum
-      Ingot"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"53"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: ALUMINUM_INGOT
-'6':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: IRON_BLOCK
@@ -133,479 +41,7 @@ preset: NTW_GRID
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: ALUMINUM_SINGULARITY
-'7':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: ENCHANTING_TABLE
-  meta:
-    ==: ItemMeta
-    meta-type: TILE_ENTITY
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Ancient
-      Altar"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Multi-Block
-      Altar for"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"magical
-      Crafting Processes"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: ANCIENT_ALTAR
-    blockMaterial: ENCHANTING_TABLE
-'9':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: DISPENSER
-  meta:
-    ==: ItemMeta
-    meta-type: TILE_ENTITY
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Ancient
-      Pedestal"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Part
-      of the Ancient Altar"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"56"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: ANCIENT_PEDESTAL
-    blockMaterial: DISPENSER
-'10':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: FIREWORK_STAR
-  meta:
-    ==: ItemMeta
-    meta-type: FIREWORK_EFFECT
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Ancient
-      Rune "},{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"aqua","text":"Air"},{"bold":true,"italic":false,"color":"dark_gray","text":"]"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"54"}],"text":""}'
-    ItemFlags:
-    - HIDE_POTION_EFFECTS
-    PublicBukkitValues:
-      slimefun:slimefun_item: ANCIENT_RUNE_AIR
-    firework-effect:
-      ==: Firework
-      flicker: false
-      trail: false
-      colors:
-      - ==: Color
-        ALPHA: 255
-        RED: 0
-        BLUE: 255
-        GREEN: 255
-      fade-colors: []
-      type: BURST
-'11':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BAKED_POTATO
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"2"}],"text":""}'
-'12':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BEEF
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"32"}],"text":""}'
-'13':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BLACK_WOOL
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"58"}],"text":""}'
-'14':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BLAZE_ROD
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"96"}],"text":""}'
-'15':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BONE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"3"}],"text":""}'
-'16':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: GOLD_INGOT
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Blistering
-      Ingot"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"☢"},{"italic":false,"color":"gray","text":"
-      Radiation level: "},{"italic":false,"color":"red","text":"VERY HIGH"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"dark_red","text":"Hazmat Suit required!"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"53"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: BLISTERING_INGOT_3
-'18':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: GOLD_INGOT
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Blistering
-      Ingot "},{"italic":false,"color":"gray","text":"(33%)"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"☢"},{"italic":false,"color":"gray","text":"
-      Radiation level: "},{"italic":false,"color":"gold","text":"HIGH"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"dark_red","text":"Hazmat Suit required!"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: BLISTERING_INGOT
-'19':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: GOLD_INGOT
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Blistering
-      Ingot "},{"italic":false,"color":"gray","text":"(66%)"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"☢"},{"italic":false,"color":"gray","text":"
-      Radiation level: "},{"italic":false,"color":"red","text":"VERY HIGH"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"dark_red","text":"Hazmat Suit required!"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: BLISTERING_INGOT_2
-'20':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: CALCITE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"6"}],"text":""}'
-'21':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: CHEST
-  meta:
-    ==: ItemMeta
-    meta-type: TILE_ENTITY
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"34"}],"text":""}'
-    blockMaterial: CHEST
-'22':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: CHICKEN
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"32"}],"text":""}'
-'23':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: COAL
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"85"}],"text":""}'
-'24':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: COBBLESTONE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"49"}],"text":""}'
-'25':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: COD
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"1"}],"text":""}'
-'27':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: CRYING_OBSIDIAN
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"62"}],"text":""}'
-'28':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BLACK_STAINED_GLASS
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Carbon
-      Press"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
-      Machine"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
-      "},{"italic":false,"color":"aqua","text":"1.0x"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"20
-      J/s"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: CARBON_PRESS
-'29':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BLACK_STAINED_GLASS
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Carbon
-      Press "},{"italic":false,"color":"gray","text":"- "},{"italic":false,"color":"yellow","text":"II"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
-      Machine"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
-      "},{"italic":false,"color":"aqua","text":"3.0x"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"50
-      J/s"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: CARBON_PRESS_2
-'30':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BLACK_STAINED_GLASS
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Carbon
-      Press "},{"italic":false,"color":"gray","text":"- "},{"italic":false,"color":"yellow","text":"III"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
-      Machine"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
-      "},{"italic":false,"color":"aqua","text":"15.0x"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"180
-      J/s"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: CARBON_PRESS_3
-'31':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: PLAYER_HEAD
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Carbonado
-      GPS Transmitter"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"256
-      J Buffer"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"22
-      J/s"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"60"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: GPS_TRANSMITTER_3
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: db0269e4-72ae-3d3c-987d-f5ca5a62f112
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBjOWMxYTAyMmY0MGI3M2YxNGI0Y2JhMzdjNzE4YzZhNTMzZjNhMjg2NGI2NTM2ZDVmNDU2OTM0Y2MxZiJ9fX0=
-'32':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: DAYLIGHT_DETECTOR
-  meta:
-    ==: ItemMeta
-    meta-type: TILE_ENTITY
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Carbonado
-      Solar Generator"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
-      Generator"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"0
-      J Buffer"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"64
-      J/s"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"60"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: SOLAR_GENERATOR_3
-    blockMaterial: DAYLIGHT_DETECTOR
-'33':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: PLAYER_HEAD
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cargo
-      Node "},{"italic":false,"color":"red","text":"(Connector)"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cargo
-      Connector Pipe"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"53"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: CARGO_NODE
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: 795a3306-11a4-3524-904b-c2dec71d1582
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDdiN2VmNmZkNzg2NDg2NWMzMWMxZGM4N2JlZDI0YWI1OTczNTc5ZjVjNjYzOGZlY2I4ZGVkZWI0NDNmZjAifX19
-'34':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: PLAYER_HEAD
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cargo
-      Node "},{"italic":false,"color":"red","text":"(Input)"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cargo
-      Input Pipe"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"1"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: CARGO_NODE_INPUT
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: 7f95b0c2-c5d4-3a62-82da-371cdbe1c285
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkMWMxYTY5YTNkZTlmZWM5NjJhNzdiZjNiMmUzNzZkZDI1Yzg3M2EzZDhmMTRmMWRkMzQ1ZGFlNGM0In19fQ==
-'35':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: NAME_TAG
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Set
-      Filter (Right Click to Clear)"}],"text":""}'
-'36':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: PLAYER_HEAD
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cargo
-      Node "},{"italic":false,"color":"red","text":"(Output)"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cargo
-      Output Pipe"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"64"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: CARGO_NODE_OUTPUT
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: 91d43134-5f6d-3335-b219-1c4be7d1874f
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViMjFmZDQ4MGMxYzQzYmYzYjlmODQyYzg2OWJkYzNiYzVhY2MyNTk5YmYyZWI2YjhhMWM5NWRjZTk3OGYifX19
-'37':
+'1':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: COAL_BLOCK
@@ -620,22 +56,7 @@ preset: NTW_GRID
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: COAL_SINGULARITY
-'38':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: BRICK
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Copper
-      Ingot"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"160"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: COPPER_INGOT
-'39':
+'2':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: BRICKS
@@ -650,59 +71,7 @@ preset: NTW_GRID
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: COPPER_SINGULARITY
-'40':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: PLAYER_HEAD
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Core
-      of Death"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"This
-      core contains the souls of "}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"various
-      entities that have gone beyond."}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Supreme
-      Magical Components"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: SUPREME_CORE_OF_DEATH
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: 9221d35f-0e14-3243-a0f1-77de06081e89
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU5NTI5M2FjYmNkNGY1NWZhZjU5NDdiZmM1MTM1MDM4YjI3NWE3YWI4MTA4NzM0MWI5ZWM2ZTQ1M2U4MzkifX19
-'41':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: DIORITE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"11"}],"text":""}'
-'42':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: DIRT
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"95"}],"text":""}'
-'43':
+'3':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: DIAMOND_BLOCK
@@ -717,69 +86,7 @@ preset: NTW_GRID
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"62"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: DIAMOND_SINGULARITY
-'44':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: RED_STAINED_GLASS_PANE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Previous
-      Page"}],"text":""}'
-'45':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: OAK_SAPLING
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Dragon
-      Fruit Sapling"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"1"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: DRAGON_FRUIT_SAPLING
-'46':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: ENCHANTING_TABLE
-  meta:
-    ==: ItemMeta
-    meta-type: TILE_ENTITY
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"31"}],"text":""}'
-    blockMaterial: ENCHANTING_TABLE
-'47':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: ENDER_PEARL
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"2"}],"text":""}'
-'48':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: FEATHER
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Elytra
-      Scale"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"56"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: ELYTRA_SCALE
-'49':
+'4':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: EMERALD_BLOCK
@@ -791,92 +98,450 @@ preset: NTW_GRID
     lore:
     - '{"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"62"}],"text":""}'
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: EMERALD_SINGULARITY
-'50':
+'5':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
-  type: BLAZE_POWDER
+  type: GOLD_BLOCK
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Ender
-      Essence"}],"text":""}'
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Gold
+      Singularity"}],"text":""}'
     lore:
-    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"From
-      the depths of the end..."}],"text":""}'
     - '{"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
     PublicBukkitValues:
-      slimefun:slimefun_item: END_ESSENCE
-'51':
+      slimefun:slimefun_item: GOLD_SINGULARITY
+'6':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
-  type: PLAYER_HEAD
+  type: SMOOTH_QUARTZ
   meta:
     ==: ItemMeta
-    meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energized
-      GPS Transmitter"}],"text":""}'
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Infinity
+      Singularity"}],"text":""}'
     lore:
     - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"64"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: INFINITY_SINGULARITY
+'7':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Iron
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"62"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: IRON_SINGULARITY
+'9':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LAPIS_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Lapis
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: LAPIS_SINGULARITY
+'10':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Lead
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: LEAD_SINGULARITY
+'11':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHER_BRICKS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Magnesium
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"62"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: MAGNESIUM_SINGULARITY
+'12':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Netherite
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NETHERITE_SINGULARITY
+'13':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: QUARTZ_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Quartz
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: QUARTZ_SINGULARITY
+'14':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: REDSTONE_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Redstone
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: REDSTONE_SINGULARITY
+'15':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_BLOCK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Silver
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: SILVER_SINGULARITY
+'16':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: QUARTZ_BRICKS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Singularity
+      Constructor"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Condenses
+      large amounts of resources"}],"text":""}'
+    - '{"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"1024
-      J Buffer"}],"text":""}'
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
+      "},{"italic":false,"color":"aqua","text":"1x"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"92
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"240
       J/s"}],"text":""}'
     - '{"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"60"}],"text":""}'
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"52"}],"text":""}'
     PublicBukkitValues:
-      slimefun:slimefun_item: GPS_TRANSMITTER_4
-    skull-owner:
-      ==: PlayerProfile
-      uniqueId: db0269e4-72ae-3d3c-987d-f5ca5a62f112
-      name: CS-CoreLib
-      properties:
-      - name: textures
-        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBjOWMxYTAyMmY0MGI3M2YxNGI0Y2JhMzdjNzE4YzZhNTMzZjNhMjg2NGI2NTM2ZDVmNDU2OTM0Y2MxZiJ9fX0=
-'52':
+      slimefun:slimefun_item: SINGULARITY_CONSTRUCTOR
+'18':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
-  type: DAYLIGHT_DETECTOR
+  type: IRON_BLOCK
   meta:
     ==: ItemMeta
-    meta-type: TILE_ENTITY
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energized
-      Solar Generator"}],"text":""}'
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Tin
+      Singularity"}],"text":""}'
     lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Works
-      at Night"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
-      Generator"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"0
-      J Buffer"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"256
-      J/s (Day)"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
-      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"128
-      J/s (Night)"}],"text":""}'
     - '{"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
     PublicBukkitValues:
-      slimefun:slimefun_item: SOLAR_GENERATOR_4
-    blockMaterial: DAYLIGHT_DETECTOR
-'53':
+      slimefun:slimefun_item: TIN_SINGULARITY
+'19':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
-  type: RED_STAINED_GLASS_PANE
+  type: IRON_BLOCK
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Next
-      Page"}],"text":""}'
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Zinc
+      Singularity"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"63"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_SINGULARITY
+'20':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'21':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'22':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'23':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'24':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'25':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'27':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'28':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'29':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'30':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'31':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'32':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'33':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'34':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'36':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'37':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'38':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'39':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'40':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'41':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'42':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'43':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'45':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'46':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'47':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'48':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'49':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'50':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'51':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
+'52':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS_PANE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'

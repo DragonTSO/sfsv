@@ -494,27 +494,6 @@ preset: NTW_CELL
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: NTW_CELL
-'23':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: MAGENTA_STAINED_GLASS
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
-      Grabber"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
-      Network Grabber will try"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
-      grab the first item it finds"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"from
-      within the selected machine."}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: NTW_GRABBER
 '24':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
@@ -828,7 +807,7 @@ preset: NTW_CELL
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: PLAYER_HEAD
-  amount: 28
+  amount: 64
   meta:
     ==: ItemMeta
     meta-type: SKULL
@@ -1072,30 +1051,3 @@ preset: NTW_CELL
       Ingot"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: ZINC_INGOT
-'17':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: GREEN_STAINED_GLASS
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
-      Monitor"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
-      Network Monitor allows simple"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"import/export
-      interaction with adjacent"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"objects."}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Currently
-      Supports:"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Infinity
-      Barrels"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Network
-      Shells"}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: NTW_MONITOR

@@ -1,9 +1,4 @@
 preset: NTW_CELL
-'0':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: COBBLESTONE
-  amount: 49
 '1':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
@@ -44,29 +39,6 @@ preset: NTW_CELL
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: NTW_BRIDGE
-'3':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: RED_TERRACOTTA
-  amount: 64
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
-      Quantum Storage (∞)"}],"text":""}'
-    lore:
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Stores
-      ∞ items... almost"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Stores
-      items in mass quantities within"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"a
-      quantum singularity."}],"text":""}'
-    - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
-    PublicBukkitValues:
-      slimefun:slimefun_item: NTW_QUANTUM_STORAGE_8
 '4':
   ==: org.bukkit.inventory.ItemStack
   v: 3465

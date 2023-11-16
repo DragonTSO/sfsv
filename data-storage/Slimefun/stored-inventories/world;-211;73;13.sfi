@@ -1,0 +1,22 @@
+preset: NTW_RECIPE_ENCODER
+'19':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BLUE_DYE
+  amount: 62
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6B32A8","text":"Crafting
+      Blueprint"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+      blank blueprint that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      used to store a crafting"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"recipe."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Tool"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CRAFTING_BLUEPRINT

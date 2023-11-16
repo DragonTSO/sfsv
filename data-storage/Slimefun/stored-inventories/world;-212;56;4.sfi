@@ -428,7 +428,7 @@ preset: NTW_CELL
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: STRING
-  amount: 2
+  amount: 12
 '28':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
@@ -674,7 +674,7 @@ preset: NTW_CELL
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: DIRT
-  amount: 31
+  amount: 41
 '43':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
@@ -694,17 +694,17 @@ preset: NTW_CELL
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: ROTTEN_FLESH
-  amount: 61
+  amount: 64
 '47':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: BAKED_POTATO
-  amount: 2
+  amount: 3
 '48':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: SPIDER_EYE
-  amount: 41
+  amount: 42
 '49':
   ==: org.bukkit.inventory.ItemStack
   v: 3465

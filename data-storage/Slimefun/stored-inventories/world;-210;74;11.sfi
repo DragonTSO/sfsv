@@ -1,0 +1,53 @@
+preset: NTW_QUANTUM_STORAGE_8
+'4':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Plutonium"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"☢"},{"italic":false,"color":"gray","text":"
+      Radiation level: "},{"italic":false,"color":"red","text":"VERY HIGH"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"dark_red","text":"Hazmat Suit required!"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Voiding:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"True"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"126"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: PLUTONIUM
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 98b5381f-b123-31fb-b9f0-635f77ec80ff
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVjZjkxYjczODg2NjVhNmQ3YzFiNjAyNmJkYjIzMjJjNmQyNzg5OTdhNDQ0Nzg2NzdjYmNjMTVmNzYxMjRmIn19fQ==
+'7':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Plutonium"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"☢"},{"italic":false,"color":"gray","text":"
+      Radiation level: "},{"italic":false,"color":"red","text":"VERY HIGH"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"dark_red","text":"Hazmat Suit required!"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: PLUTONIUM
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 98b5381f-b123-31fb-b9f0-635f77ec80ff
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVjZjkxYjczODg2NjVhNmQ3YzFiNjAyNmJkYjIzMjJjNmQyNzg5OTdhNDQ0Nzg2NzdjYmNjMTVmNzYxMjRmIn19fQ==
