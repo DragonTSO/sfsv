@@ -1,0 +1,9 @@
+preset: SIMPLE_WORKBENCH
+'24':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BARRIER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":" "}],"text":""}'
