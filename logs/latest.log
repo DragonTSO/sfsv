@@ -1,779 +1,364 @@
-[00:47:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:47:25] [ServerMain/INFO]: Loaded 7 recipes
-[00:47:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:47:25] [Server thread/INFO]: Loading properties
-[00:47:25] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[00:47:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:47:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:47:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:04:01] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:04:03] [ServerMain/INFO]: Loaded 7 recipes
+[13:04:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:04:03] [Server thread/WARN]: ****************************
+[13:04:03] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:04:03] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:04:03] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:04:03] [Server thread/WARN]: ****************************
+[13:04:03] [Server thread/INFO]: Loading properties
+[13:04:03] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[13:04:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:04:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:04:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[00:47:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[00:47:26] [Server thread/INFO]: Default game type: SURVIVAL
-[00:47:26] [Server thread/INFO]: Generating keypair
-[00:47:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:47:26] [Server thread/INFO]: Using default channel type
-[00:47:26] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[00:47:26] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[00:47:28] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vDEV - 1104 (git c977454e)
-[00:47:28] [Server thread/INFO]: [SlimyTreeTaps] Loading server plugin SlimyTreeTaps vDEV - 20 (git 963f0383)
-[00:47:28] [Server thread/INFO]: [LiteXpansion] Loading server plugin LiteXpansion vDEV - 192 (git 661862ed)
-[00:47:28] [Server thread/INFO]: [Netheopoiesis] Loading server plugin Netheopoiesis vDEV - 18 (git 9d12cc6f)
-[00:47:28] [Server thread/INFO]: [InfinityExpansion] Loading server plugin InfinityExpansion vDEV - 144 (git 9da37202)
-[00:47:28] [Server thread/INFO]: [Networks] Loading server plugin Networks vDEV - 50 (git 3de3c9d6)
-[00:47:28] [Server thread/INFO]: [ExoticGarden] Loading server plugin ExoticGarden vDEV - 78 (git 7f9a5f63)
-[00:47:28] [Server thread/INFO]: [SimpleStorage] Loading server plugin SimpleStorage vDEV - 10 (git ea5e5637)
-[00:47:28] [Server thread/INFO]: [FluffyMachines] Loading server plugin FluffyMachines vDEV - 132 (git ccf029ba)
-[00:47:28] [Server thread/INFO]: [ColoredEnderChests] Loading server plugin ColoredEnderChests vDEV - 23 (git 4d041832)
-[00:47:28] [Server thread/INFO]: [FlowerPower] Loading server plugin FlowerPower vDEV - 16 (git 5a38d1c6)
-[00:47:28] [Server thread/INFO]: [SlimeTinker] Loading server plugin SlimeTinker vDEV - 84 (git 2c9f6155)
-[00:47:28] [Server thread/INFO]: [PrivateStorage] Loading server plugin PrivateStorage vDEV - 18 (git 5832db21)
-[00:47:28] [Server thread/INFO]: [MobCapturer] Loading server plugin MobCapturer vDEV - 33 (git 6fc26c35)
-[00:47:28] [Server thread/INFO]: [SoulJars] Loading server plugin SoulJars vDEV - 24 (git 78d1c6fa)
-[00:47:28] [Server thread/INFO]: [ExtraHeads] Loading server plugin ExtraHeads vDEV - 25 (git 8c29f73a)
-[00:47:28] [Server thread/INFO]: [SimpleUtils] Loading server plugin SimpleUtils vDEV - 15 (git 4250fd5e)
-[00:47:28] [Server thread/INFO]: [ElectricSpawners] Loading server plugin ElectricSpawners vDEV - 23 (git 6ec96773)
-[00:47:28] [Server thread/INFO]: [DankTech2] Loading server plugin DankTech2 vDEV - 9 (git aa6c2209)
-[00:47:28] [Server thread/INFO]: [ExtraGear] Loading server plugin ExtraGear vDEV - 13 (git c62047e2)
-[00:47:28] [Server thread/INFO]: [EcoPower] Loading server plugin EcoPower vDEV - 5 (git 5c1ecd68)
-[00:47:28] [Server thread/INFO]: [HotbarPets] Loading server plugin HotbarPets vDEV - 38 (git fa6c871d)
-[00:47:28] [Server thread/INFO]: [SlimefunOreChunks] Loading server plugin SlimefunOreChunks vDEV - 15 (git 2520cb23)
-[00:47:28] [Server thread/INFO]: [FoxyMachines] Loading server plugin FoxyMachines vDEV - 67 (git 0028aa93)
-[00:47:28] [Server thread/INFO]: [DyedBackpacks] Loading server plugin DyedBackpacks vDEV - 17 (git 8b329e96)
-[00:47:28] [Server thread/INFO]: [Supreme] Loading server plugin Supreme vDEV - 29 (git f9e70053)
-[00:47:28] [Server thread/INFO]: [SlimeHUD] Loading server plugin SlimeHUD vDEV - 11 (git b6dc2d53)
-[00:47:28] [Server thread/INFO]: [SfChunkInfo] Loading server plugin SfChunkInfo vDEV - 8 (git b1b94abb)
-[00:47:28] [Server thread/INFO]: [SensibleToolbox] Loading server plugin SensibleToolbox vUNOFFICIAL
-[00:47:28] [Server thread/INFO]: [Quaptics] Loading server plugin Quaptics vDEV - 4 (git cbc2e78e)
-[00:47:28] [Server thread/INFO]: [SlimefunLuckyBlocks] Loading server plugin SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[00:47:28] [Server thread/INFO]: [EMCTech] Loading server plugin EMCTech vDEV - 5 (git c61222fb)
-[00:47:28] [Server thread/INFO]: [BetterReactor] Loading server plugin BetterReactor vDEV - 11 (git 88a98d28)
-[00:47:28] [Server thread/INFO]: [AdvancedTech] Loading server plugin AdvancedTech vDEV - 19 (git c133bfdd)
-[00:47:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:47:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:47:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:47:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:47:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:47:28] [Server thread/INFO]: Preparing level "world"
-[00:47:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:47:29] [Server thread/INFO]: Time elapsed: 240 ms
-[00:47:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:47:29] [Server thread/INFO]: Time elapsed: 35 ms
-[00:47:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:47:29] [Server thread/INFO]: Time elapsed: 28 ms
-[00:47:29] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDEV - 1104 (git c977454e)
-[00:47:29] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
-[00:47:29] [Server thread/INFO]: [Slimefun] Creating directories...
-[00:47:29] [Server thread/INFO]: [Slimefun] Loading language files...
-[00:47:29] [Server thread/INFO]: [Slimefun] Loaded language "en"
-[00:47:29] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
-[00:47:29] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
-[00:47:29] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
-[00:47:30] [Server thread/INFO]: [Slimefun] Loading Tags...
-[00:47:30] [Server thread/INFO]: [Slimefun] Loading items...
-[00:47:31] [Server thread/INFO]: [Slimefun] Loading researches...
-[00:47:31] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
-[00:47:31] [Server thread/INFO]: [Slimefun] Registering listeners...
-[00:47:31] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
-[00:47:31] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 2.39s
-[00:47:31] [Server thread/INFO]: [SlimyTreeTaps] Enabling SlimyTreeTaps vDEV - 20 (git 963f0383)
-[00:47:31] [Server thread/INFO]: [LiteXpansion] Enabling LiteXpansion vDEV - 192 (git 661862ed)
-[00:47:31] [Server thread/INFO]: [LiteXpansion] Loaded 35 UU-Matter recipes
-[00:47:31] [Server thread/INFO]: [Netheopoiesis] Enabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
-[00:47:31] [Server thread/INFO]: [Netheopoiesis] ########################################
-[00:47:31] [Server thread/INFO]: [Netheopoiesis]     Netheopoiesis by Sefiraat, J3fftw   
-[00:47:31] [Server thread/INFO]: [Netheopoiesis] ########################################
-[00:47:31] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
-[00:47:31] [Server thread/INFO]: [Netheopoiesis] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:47:31] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
-[00:47:31] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis mobcaps' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
-[00:47:31] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis purgemobcap' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
-[00:47:31] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis purgeallmobcap' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
-[00:47:32] [Server thread/INFO]: [InfinityExpansion] Enabling InfinityExpansion vDEV - 144 (git 9da37202)
-[00:47:32] [Server thread/INFO]: [Networks] Enabling Networks vDEV - 50 (git 3de3c9d6)
-[00:47:32] [Server thread/INFO]: [Networks] ########################################
-[00:47:32] [Server thread/INFO]: [Networks]          Networks - By Sefiraat         
-[00:47:32] [Server thread/INFO]: [Networks] ########################################
-[00:47:32] [Server thread/INFO]: [ExoticGarden] Enabling ExoticGarden vDEV - 78 (git 7f9a5f63)
-[00:47:32] [Server thread/INFO]: [SimpleStorage] Enabling SimpleStorage vDEV - 10 (git ea5e5637)
-[00:47:32] [Server thread/INFO]: [SimpleStorage] ########################################
-[00:47:32] [Server thread/INFO]: [SimpleStorage]   SimpleStorage - Created by Sefiraat   
-[00:47:32] [Server thread/INFO]: [SimpleStorage] ########################################
-[00:47:32] [Server thread/INFO]: [FluffyMachines] Enabling FluffyMachines vDEV - 132 (git ccf029ba)
-[00:47:32] [Server thread/INFO]: [FluffyMachines] §aHi there! Want to share your server with the Slimefun community?
-[00:47:32] [Server thread/INFO]: [FluffyMachines] §aJoin the official Slimefun Discord server at https://discord.gg/slimefun
-[00:47:32] [Server thread/INFO]: [ColoredEnderChests] Enabling ColoredEnderChests vDEV - 23 (git 4d041832)
-[00:47:34] [Server thread/INFO]: [FlowerPower] Enabling FlowerPower vDEV - 16 (git 5a38d1c6)
-[00:47:34] [Server thread/INFO]: [SlimeTinker] Enabling SlimeTinker vDEV - 84 (git 2c9f6155)
-[00:47:34] [Server thread/INFO]: [SlimeTinker] ########################################
-[00:47:34] [Server thread/INFO]: [SlimeTinker]    Slime Tinker - Created by Sefiraat   
-[00:47:34] [Server thread/INFO]: [SlimeTinker] ########################################
-[00:47:34] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: Sefiraat
-[00:47:34] [Server thread/INFO]: [SlimeTinker] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:47:34] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker' - this is deprecated behavior, please report it to the authors: Sefiraat
-[00:47:34] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker addexp' - this is deprecated behavior, please report it to the authors: Sefiraat
-[00:47:34] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker generateitem tool' - this is deprecated behavior, please report it to the authors: Sefiraat
-[00:47:34] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker generateitem armour' - this is deprecated behavior, please report it to the authors: Sefiraat
-[00:47:34] [Server thread/INFO]: [PrivateStorage] Enabling PrivateStorage vDEV - 18 (git 5832db21)
-[00:47:34] [Server thread/INFO]: [MobCapturer] Enabling MobCapturer vDEV - 33 (git 6fc26c35)
-[00:47:34] [Server thread/INFO]: [SoulJars] Enabling SoulJars vDEV - 24 (git 78d1c6fa)
-[00:47:34] [Server thread/WARN]: [SoulJars] IllegalArgumentException: Possibly invalid mob type: PIG_ZOMBIE
-[00:47:34] [Server thread/INFO]: [ExtraHeads] Enabling ExtraHeads vDEV - 25 (git 8c29f73a)
-[00:47:34] [Server thread/INFO]: [SimpleUtils] Enabling SimpleUtils vDEV - 15 (git 4250fd5e)
-[00:47:34] [Server thread/INFO]: [ElectricSpawners] Enabling ElectricSpawners vDEV - 23 (git 6ec96773)
-[00:47:34] [Server thread/INFO]: [DankTech2] Enabling DankTech2 vDEV - 9 (git aa6c2209)
-[00:47:34] [Server thread/INFO]: [DankTech2] ########################################
-[00:47:34] [Server thread/INFO]: [DankTech2]          DankTech2 - By Sefiraat        
-[00:47:34] [Server thread/INFO]: [DankTech2] ########################################
-[00:47:35] [Server thread/INFO]: [ExtraGear] Enabling ExtraGear vDEV - 13 (git c62047e2)
-[00:47:35] [Server thread/INFO]: [EcoPower] Enabling EcoPower vDEV - 5 (git 5c1ecd68)
-[00:47:35] [Server thread/INFO]: [HotbarPets] Enabling HotbarPets vDEV - 38 (git fa6c871d)
-[00:47:35] [Server thread/INFO]: [SlimefunOreChunks] Enabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
-[00:47:35] [Server thread/INFO]: [FoxyMachines] Enabling FoxyMachines vDEV - 67 (git 0028aa93)
-[00:47:35] [Server thread/INFO]: [DyedBackpacks] Enabling DyedBackpacks vDEV - 17 (git 8b329e96)
-[00:47:35] [Server thread/INFO]: [Supreme] Enabling Supreme vDEV - 29 (git f9e70053)
-[00:47:35] [Server thread/INFO]: [Supreme] ########################################
-[00:47:35] [Server thread/INFO]: [Supreme]       Supreme 2.0  - By RelativoBR      
-[00:47:35] [Server thread/INFO]: [Supreme] ########################################
-[00:47:35] [Server thread/INFO]: [Supreme] Auto Update: enable
-[00:47:35] [Server thread/INFO]: [Supreme] Loaded language Supreme: en-US
-[00:47:35] [Server thread/INFO]: [Supreme] Legacy SupremeExpansion IDs: disable
-[00:47:35] [Server thread/INFO]: [SlimeHUD] Enabling SlimeHUD vDEV - 11 (git b6dc2d53)
-[00:47:35] [Server thread/INFO]: [SlimeHUD] #=================================#
-[00:47:35] [Server thread/INFO]: [SlimeHUD] #    SlimeHUD by SchnTgaiSpock    #
-[00:47:35] [Server thread/INFO]: [SlimeHUD] #=================================#
-[00:47:35] [Server thread/INFO]: [SlimeHUD] PlaceholderAPI is not installed and has been ignored.
-[00:47:35] [Server thread/INFO]: [SfChunkInfo] Enabling SfChunkInfo vDEV - 8 (git b1b94abb)
-[00:47:35] [Server thread/INFO]: [SfChunkInfo] ******************************************************
-[00:47:35] [Server thread/INFO]: [SfChunkInfo] *         SfChunkInfo - Created by FN_FAL113         *
-[00:47:35] [Server thread/INFO]: [SfChunkInfo] *                 Addon for Slimefun                 *
-[00:47:35] [Server thread/INFO]: [SfChunkInfo] *         Scan your chunk for # of sf blocks         *
-[00:47:35] [Server thread/INFO]: [SfChunkInfo] ******************************************************
-[00:47:35] [Server thread/INFO]: [SensibleToolbox] Enabling SensibleToolbox vUNOFFICIAL
-[00:47:35] [Server thread/WARN]: [SensibleToolbox] ProtocolLib not detected - some functionality is reduced:
-[00:47:35] [Server thread/WARN]: [SensibleToolbox]   No glowing items, Reduced particle effects, Sound Muffler item disabled
-[00:47:35] [Server thread/INFO]: [SensibleToolbox] Connecting to local database...
-[00:47:36] [Server thread/INFO]: [Quaptics] Enabling Quaptics vDEV - 4 (git cbc2e78e)
-[00:47:36] [Server thread/INFO]: [Quaptics] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:47:36] [Server thread/INFO]: [SlimefunLuckyBlocks] Enabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[00:47:36] [Server thread/INFO]: [SlimefunLuckyBlocks] Loaded 51 different Surprises!
-[00:47:36] [Server thread/INFO]: [EMCTech] Enabling EMCTech vDEV - 5 (git c61222fb)
-[00:47:36] [Server thread/INFO]: [EMCTech] ########################################
-[00:47:36] [Server thread/INFO]: [EMCTech]            EMCTech by Sefiraat          
-[00:47:36] [Server thread/INFO]: [EMCTech] ########################################
-[00:47:36] [Server thread/INFO]: [EMCTech] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:47:38] [Server thread/INFO]: [EMCTech] Adding extended recipes for DankTech2
-[00:47:38] [Server thread/INFO]: [EMCTech] Adding extended recipes for Infinity Expansion
-[00:47:38] [Server thread/INFO]: [BetterReactor] Enabling BetterReactor vDEV - 11 (git 88a98d28)
-[00:47:38] [Server thread/INFO]: [AdvancedTech] Enabling AdvancedTech vDEV - 19 (git c133bfdd)
-[00:47:38] [Server thread/INFO]: Running delayed init tasks
-[00:47:38] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
-[00:47:38] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
-[00:47:38] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
-[00:47:39] [Craft Scheduler Thread - 26 - SlimeHUD/INFO]: [SlimeHUD] SlimeHUD is already up to date!
-[00:47:39] [Craft Scheduler Thread - 32 - AdvancedTech/INFO]: [AdvancedTech] AdvancedTech is already up to date!
-[00:47:39] [Craft Scheduler Thread - 20 - EcoPower/INFO]: [EcoPower] EcoPower is already up to date!
-[00:47:39] [Craft Scheduler Thread - 28 - Quaptics/INFO]: [Quaptics] Quaptics is already up to date!
-[00:47:39] [Craft Scheduler Thread - 5 - SlimyTreeTaps/INFO]: [SlimyTreeTaps] SlimyTreeTaps is already up to date!
-[00:47:39] [Craft Scheduler Thread - 12 - PrivateStorage/INFO]: [PrivateStorage] PrivateStorage is already up to date!
-[00:47:39] [Craft Scheduler Thread - 1 - Networks/INFO]: [Networks] Networks is already up to date!
-[00:47:39] [Craft Scheduler Thread - 14 - SoulJars/INFO]: [SoulJars] SoulJars is already up to date!
-[00:47:39] [Craft Scheduler Thread - 10 - FlowerPower/INFO]: [FlowerPower] FlowerPower is already up to date!
-[00:47:39] [Craft Scheduler Thread - 7 - SimpleStorage/WARN]: [SimpleStorage] Could not connect to the updating site, is it down?
+[13:04:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[13:04:04] [Server thread/INFO]: Default game type: SURVIVAL
+[13:04:04] [Server thread/INFO]: Generating keypair
+[13:04:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:04:04] [Server thread/INFO]: Using default channel type
+[13:04:04] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:04:04] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:04:06] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vDEV - 1104 (git c977454e)
+[13:04:06] [Server thread/INFO]: [SlimyTreeTaps] Loading server plugin SlimyTreeTaps vDEV - 20 (git 963f0383)
+[13:04:06] [Server thread/INFO]: [LiteXpansion] Loading server plugin LiteXpansion vDEV - 192 (git 661862ed)
+[13:04:06] [Server thread/INFO]: [Netheopoiesis] Loading server plugin Netheopoiesis vDEV - 18 (git 9d12cc6f)
+[13:04:06] [Server thread/INFO]: [InfinityExpansion] Loading server plugin InfinityExpansion vDEV - 144 (git 9da37202)
+[13:04:06] [Server thread/INFO]: [Networks] Loading server plugin Networks vDEV - 50 (git 3de3c9d6)
+[13:04:06] [Server thread/INFO]: [ExoticGarden] Loading server plugin ExoticGarden vDEV - 78 (git 7f9a5f63)
+[13:04:06] [Server thread/INFO]: [SimpleStorage] Loading server plugin SimpleStorage vDEV - 10 (git ea5e5637)
+[13:04:06] [Server thread/INFO]: [FluffyMachines] Loading server plugin FluffyMachines vDEV - 132 (git ccf029ba)
+[13:04:06] [Server thread/INFO]: [ColoredEnderChests] Loading server plugin ColoredEnderChests vDEV - 23 (git 4d041832)
+[13:04:06] [Server thread/INFO]: [FlowerPower] Loading server plugin FlowerPower vDEV - 16 (git 5a38d1c6)
+[13:04:06] [Server thread/INFO]: [SlimeTinker] Loading server plugin SlimeTinker vDEV - 84 (git 2c9f6155)
+[13:04:06] [Server thread/INFO]: [PrivateStorage] Loading server plugin PrivateStorage vDEV - 18 (git 5832db21)
+[13:04:06] [Server thread/INFO]: [MobCapturer] Loading server plugin MobCapturer vDEV - 33 (git 6fc26c35)
+[13:04:06] [Server thread/INFO]: [SoulJars] Loading server plugin SoulJars vDEV - 24 (git 78d1c6fa)
+[13:04:06] [Server thread/INFO]: [ExtraHeads] Loading server plugin ExtraHeads vDEV - 25 (git 8c29f73a)
+[13:04:06] [Server thread/INFO]: [SimpleUtils] Loading server plugin SimpleUtils vDEV - 15 (git 4250fd5e)
+[13:04:06] [Server thread/INFO]: [ElectricSpawners] Loading server plugin ElectricSpawners vDEV - 23 (git 6ec96773)
+[13:04:06] [Server thread/INFO]: [DankTech2] Loading server plugin DankTech2 vDEV - 9 (git aa6c2209)
+[13:04:06] [Server thread/INFO]: [ExtraGear] Loading server plugin ExtraGear vDEV - 13 (git c62047e2)
+[13:04:06] [Server thread/INFO]: [EcoPower] Loading server plugin EcoPower vDEV - 5 (git 5c1ecd68)
+[13:04:06] [Server thread/INFO]: [HotbarPets] Loading server plugin HotbarPets vDEV - 38 (git fa6c871d)
+[13:04:06] [Server thread/INFO]: [SlimefunOreChunks] Loading server plugin SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[13:04:06] [Server thread/INFO]: [FoxyMachines] Loading server plugin FoxyMachines vDEV - 67 (git 0028aa93)
+[13:04:06] [Server thread/INFO]: [DyedBackpacks] Loading server plugin DyedBackpacks vDEV - 17 (git 8b329e96)
+[13:04:06] [Server thread/INFO]: [Supreme] Loading server plugin Supreme vDEV - 29 (git f9e70053)
+[13:04:06] [Server thread/INFO]: [SlimeHUD] Loading server plugin SlimeHUD vDEV - 11 (git b6dc2d53)
+[13:04:06] [Server thread/INFO]: [SfChunkInfo] Loading server plugin SfChunkInfo vDEV - 8 (git b1b94abb)
+[13:04:06] [Server thread/INFO]: [SensibleToolbox] Loading server plugin SensibleToolbox vUNOFFICIAL
+[13:04:06] [Server thread/INFO]: [Quaptics] Loading server plugin Quaptics vDEV - 4 (git cbc2e78e)
+[13:04:06] [Server thread/INFO]: [SlimefunLuckyBlocks] Loading server plugin SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
+[13:04:06] [Server thread/INFO]: [EMCTech] Loading server plugin EMCTech vDEV - 5 (git c61222fb)
+[13:04:06] [Server thread/INFO]: [BetterReactor] Loading server plugin BetterReactor vDEV - 11 (git 88a98d28)
+[13:04:06] [Server thread/INFO]: [AdvancedTech] Loading server plugin AdvancedTech vDEV - 19 (git c133bfdd)
+[13:04:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:04:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:04:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:04:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:04:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:04:06] [Server thread/INFO]: Preparing level "world"
+[13:04:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:04:06] [Server thread/INFO]: Time elapsed: 200 ms
+[13:04:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:04:06] [Server thread/INFO]: Time elapsed: 77 ms
+[13:04:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:04:06] [Server thread/INFO]: Time elapsed: 32 ms
+[13:04:06] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDEV - 1104 (git c977454e)
+[13:04:06] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
+[13:04:06] [Server thread/INFO]: [Slimefun] Creating directories...
+[13:04:07] [Server thread/INFO]: [Slimefun] Loading language files...
+[13:04:07] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[13:04:07] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[13:04:07] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[13:04:07] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[13:04:07] [Server thread/INFO]: [Slimefun] Loading Tags...
+[13:04:07] [Server thread/INFO]: [Slimefun] Loading items...
+[13:04:09] [Server thread/INFO]: [Slimefun] Loading researches...
+[13:04:09] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[13:04:09] [Server thread/INFO]: [Slimefun] Registering listeners...
+[13:04:09] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[13:04:09] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 2.34s
+[13:04:09] [Server thread/INFO]: [SlimyTreeTaps] Enabling SlimyTreeTaps vDEV - 20 (git 963f0383)
+[13:04:09] [Server thread/INFO]: [LiteXpansion] Enabling LiteXpansion vDEV - 192 (git 661862ed)
+[13:04:09] [Server thread/INFO]: [LiteXpansion] Loaded 35 UU-Matter recipes
+[13:04:09] [Server thread/INFO]: [Netheopoiesis] Enabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
+[13:04:09] [Server thread/INFO]: [Netheopoiesis] ########################################
+[13:04:09] [Server thread/INFO]: [Netheopoiesis]     Netheopoiesis by Sefiraat, J3fftw   
+[13:04:09] [Server thread/INFO]: [Netheopoiesis] ########################################
+[13:04:09] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
+[13:04:09] [Server thread/INFO]: [Netheopoiesis] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:04:09] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
+[13:04:09] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis purgemobcap' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
+[13:04:09] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis purgeallmobcap' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
+[13:04:09] [Server thread/WARN]: Plugin 'Netheopoiesis' is creating timing 'Command: netheopoiesis mobcaps' - this is deprecated behavior, please report it to the authors: Sefiraat, J3fftw
+[13:04:09] [Server thread/INFO]: [InfinityExpansion] Enabling InfinityExpansion vDEV - 144 (git 9da37202)
+[13:04:10] [Server thread/INFO]: [Networks] Enabling Networks vDEV - 50 (git 3de3c9d6)
+[13:04:10] [Server thread/INFO]: [Networks] ########################################
+[13:04:10] [Server thread/INFO]: [Networks]          Networks - By Sefiraat         
+[13:04:10] [Server thread/INFO]: [Networks] ########################################
+[13:04:10] [Server thread/INFO]: [ExoticGarden] Enabling ExoticGarden vDEV - 78 (git 7f9a5f63)
+[13:04:10] [Server thread/INFO]: [SimpleStorage] Enabling SimpleStorage vDEV - 10 (git ea5e5637)
+[13:04:10] [Server thread/INFO]: [SimpleStorage] ########################################
+[13:04:10] [Server thread/INFO]: [SimpleStorage]   SimpleStorage - Created by Sefiraat   
+[13:04:10] [Server thread/INFO]: [SimpleStorage] ########################################
+[13:04:10] [Server thread/INFO]: [FluffyMachines] Enabling FluffyMachines vDEV - 132 (git ccf029ba)
+[13:04:10] [Server thread/INFO]: [FluffyMachines] Â§aHi there! Want to share your server with the Slimefun community?
+[13:04:10] [Server thread/INFO]: [FluffyMachines] Â§aJoin the official Slimefun Discord server at https://discord.gg/slimefun
+[13:04:10] [Server thread/INFO]: [ColoredEnderChests] Enabling ColoredEnderChests vDEV - 23 (git 4d041832)
+[13:04:12] [Server thread/INFO]: [FlowerPower] Enabling FlowerPower vDEV - 16 (git 5a38d1c6)
+[13:04:12] [Server thread/INFO]: [SlimeTinker] Enabling SlimeTinker vDEV - 84 (git 2c9f6155)
+[13:04:12] [Server thread/INFO]: [SlimeTinker] ########################################
+[13:04:12] [Server thread/INFO]: [SlimeTinker]    Slime Tinker - Created by Sefiraat   
+[13:04:12] [Server thread/INFO]: [SlimeTinker] ########################################
+[13:04:13] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: Sefiraat
+[13:04:13] [Server thread/INFO]: [SlimeTinker] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:04:13] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker addexp' - this is deprecated behavior, please report it to the authors: Sefiraat
+[13:04:13] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker' - this is deprecated behavior, please report it to the authors: Sefiraat
+[13:04:13] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker generateitem tool' - this is deprecated behavior, please report it to the authors: Sefiraat
+[13:04:13] [Server thread/WARN]: Plugin 'SlimeTinker' is creating timing 'Command: slimetinker generateitem armour' - this is deprecated behavior, please report it to the authors: Sefiraat
+[13:04:13] [Server thread/INFO]: [PrivateStorage] Enabling PrivateStorage vDEV - 18 (git 5832db21)
+[13:04:13] [Server thread/INFO]: [MobCapturer] Enabling MobCapturer vDEV - 33 (git 6fc26c35)
+[13:04:13] [Server thread/INFO]: [SoulJars] Enabling SoulJars vDEV - 24 (git 78d1c6fa)
+[13:04:13] [Server thread/WARN]: [SoulJars] IllegalArgumentException: Possibly invalid mob type: PIG_ZOMBIE
+[13:04:13] [Server thread/INFO]: [ExtraHeads] Enabling ExtraHeads vDEV - 25 (git 8c29f73a)
+[13:04:13] [Server thread/INFO]: [SimpleUtils] Enabling SimpleUtils vDEV - 15 (git 4250fd5e)
+[13:04:13] [Server thread/INFO]: [ElectricSpawners] Enabling ElectricSpawners vDEV - 23 (git 6ec96773)
+[13:04:13] [Server thread/INFO]: [DankTech2] Enabling DankTech2 vDEV - 9 (git aa6c2209)
+[13:04:13] [Server thread/INFO]: [DankTech2] ########################################
+[13:04:13] [Server thread/INFO]: [DankTech2]          DankTech2 - By Sefiraat        
+[13:04:13] [Server thread/INFO]: [DankTech2] ########################################
+[13:04:13] [Server thread/INFO]: [ExtraGear] Enabling ExtraGear vDEV - 13 (git c62047e2)
+[13:04:13] [Server thread/INFO]: [EcoPower] Enabling EcoPower vDEV - 5 (git 5c1ecd68)
+[13:04:13] [Server thread/INFO]: [HotbarPets] Enabling HotbarPets vDEV - 38 (git fa6c871d)
+[13:04:13] [Server thread/INFO]: [SlimefunOreChunks] Enabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[13:04:13] [Server thread/INFO]: [FoxyMachines] Enabling FoxyMachines vDEV - 67 (git 0028aa93)
+[13:04:13] [Server thread/INFO]: [DyedBackpacks] Enabling DyedBackpacks vDEV - 17 (git 8b329e96)
+[13:04:13] [Server thread/INFO]: [Supreme] Enabling Supreme vDEV - 29 (git f9e70053)
+[13:04:13] [Server thread/INFO]: [Supreme] ########################################
+[13:04:13] [Server thread/INFO]: [Supreme]       Supreme 2.0  - By RelativoBR      
+[13:04:13] [Server thread/INFO]: [Supreme] ########################################
+[13:04:13] [Server thread/INFO]: [Supreme] Auto Update: enable
+[13:04:13] [Server thread/INFO]: [Supreme] Loaded language Supreme: en-US
+[13:04:13] [Server thread/INFO]: [Supreme] Legacy SupremeExpansion IDs: disable
+[13:04:14] [Server thread/INFO]: [SlimeHUD] Enabling SlimeHUD vDEV - 11 (git b6dc2d53)
+[13:04:14] [Server thread/INFO]: [SlimeHUD] #=================================#
+[13:04:14] [Server thread/INFO]: [SlimeHUD] #    SlimeHUD by SchnTgaiSpock    #
+[13:04:14] [Server thread/INFO]: [SlimeHUD] #=================================#
+[13:04:14] [Server thread/INFO]: [SlimeHUD] PlaceholderAPI is not installed and has been ignored.
+[13:04:14] [Server thread/INFO]: [SfChunkInfo] Enabling SfChunkInfo vDEV - 8 (git b1b94abb)
+[13:04:14] [Server thread/INFO]: [SfChunkInfo] ******************************************************
+[13:04:14] [Server thread/INFO]: [SfChunkInfo] *         SfChunkInfo - Created by FN_FAL113         *
+[13:04:14] [Server thread/INFO]: [SfChunkInfo] *                 Addon for Slimefun                 *
+[13:04:14] [Server thread/INFO]: [SfChunkInfo] *         Scan your chunk for # of sf blocks         *
+[13:04:14] [Server thread/INFO]: [SfChunkInfo] ******************************************************
+[13:04:14] [Server thread/INFO]: [SensibleToolbox] Enabling SensibleToolbox vUNOFFICIAL
+[13:04:14] [Server thread/WARN]: [SensibleToolbox] ProtocolLib not detected - some functionality is reduced:
+[13:04:14] [Server thread/WARN]: [SensibleToolbox]   No glowing items, Reduced particle effects, Sound Muffler item disabled
+[13:04:14] [Server thread/INFO]: [SensibleToolbox] Connecting to local database...
+[13:04:15] [Server thread/INFO]: [Quaptics] Enabling Quaptics vDEV - 4 (git cbc2e78e)
+[13:04:15] [Server thread/INFO]: [Quaptics] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:04:15] [Server thread/INFO]: [SlimefunLuckyBlocks] Enabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
+[13:04:15] [Server thread/INFO]: [SlimefunLuckyBlocks] Loaded 51 different Surprises!
+[13:04:15] [Server thread/INFO]: [EMCTech] Enabling EMCTech vDEV - 5 (git c61222fb)
+[13:04:15] [Server thread/INFO]: [EMCTech] ########################################
+[13:04:15] [Server thread/INFO]: [EMCTech]            EMCTech by Sefiraat          
+[13:04:15] [Server thread/INFO]: [EMCTech] ########################################
+[13:04:15] [Server thread/INFO]: [EMCTech] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:04:18] [Server thread/INFO]: [EMCTech] Adding extended recipes for DankTech2
+[13:04:18] [Server thread/INFO]: [EMCTech] Adding extended recipes for Infinity Expansion
+[13:04:18] [Server thread/INFO]: [BetterReactor] Enabling BetterReactor vDEV - 11 (git 88a98d28)
+[13:04:18] [Server thread/INFO]: [AdvancedTech] Enabling AdvancedTech vDEV - 19 (git c133bfdd)
+[13:04:18] [Server thread/INFO]: Running delayed init tasks
+[13:04:18] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
+[13:04:18] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
+[13:04:18] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
+[13:04:19] [Craft Scheduler Thread - 15 - SoulJars/INFO]: [SoulJars] SoulJars is already up to date!
+[13:04:19] [Craft Scheduler Thread - 24 - FoxyMachines/INFO]: [FoxyMachines] FoxyMachines is already up to date!
+[13:04:19] [Craft Scheduler Thread - 14 - MobCapturer/INFO]: [MobCapturer] MobCapturer is already up to date!
+[13:04:19] [Craft Scheduler Thread - 26 - Supreme/INFO]: [Supreme] Supreme is already up to date!
+[13:04:19] [Craft Scheduler Thread - 13 - PrivateStorage/INFO]: [PrivateStorage] PrivateStorage is already up to date!
+[13:04:19] [Craft Scheduler Thread - 30 - SlimefunLuckyBlocks/INFO]: [SlimefunLuckyBlocks] SlimefunLuckyBlocks is already up to date!
+[13:04:19] [Craft Scheduler Thread - 8 - Networks/INFO]: [Networks] Networks is already up to date!
+[13:04:19] [Craft Scheduler Thread - 12 - SlimeTinker/INFO]: [SlimeTinker] SlimeTinker is already up to date!
+[13:04:19] [Craft Scheduler Thread - 29 - Quaptics/INFO]: [Quaptics] Quaptics is already up to date!
+[13:04:19] [Craft Scheduler Thread - 0 - Netheopoiesis/INFO]: [Netheopoiesis] Netheopoiesis is already up to date!
+[13:04:19] [Craft Scheduler Thread - 17 - SimpleUtils/INFO]: [SimpleUtils] SimpleUtils is already up to date!
+[13:04:19] [Craft Scheduler Thread - 20 - ExtraGear/INFO]: [ExtraGear] ExtraGear is already up to date!
+[13:04:19] [Craft Scheduler Thread - 11 - FlowerPower/INFO]: [FlowerPower] FlowerPower is already up to date!
+[13:04:19] [Craft Scheduler Thread - 18 - ElectricSpawners/INFO]: [ElectricSpawners] ElectricSpawners is already up to date!
+[13:04:19] [Craft Scheduler Thread - 31 - EMCTech/INFO]: [EMCTech] EMCTech is already up to date!
+[13:04:19] [Craft Scheduler Thread - 16 - ExtraHeads/INFO]: [ExtraHeads] ExtraHeads is already up to date!
+[13:04:19] [Craft Scheduler Thread - 19 - DankTech2/INFO]: [DankTech2] DankTech2 is already up to date!
+[13:04:19] [Craft Scheduler Thread - 10 - ColoredEnderChests/INFO]: [ColoredEnderChests] ColoredEnderChests is already up to date!
+[13:04:19] [Craft Scheduler Thread - 32 - BetterReactor/INFO]: [BetterReactor] BetterReactor is already up to date!
+[13:04:19] [Craft Scheduler Thread - 21 - EcoPower/INFO]: [EcoPower] EcoPower is already up to date!
+[13:04:19] [Craft Scheduler Thread - 25 - DyedBackpacks/INFO]: [DyedBackpacks] DyedBackpacks is already up to date!
+[13:04:19] [Craft Scheduler Thread - 23 - SlimefunOreChunks/INFO]: [SlimefunOreChunks] SlimefunOreChunks is already up to date!
+[13:04:19] [Craft Scheduler Thread - 33 - AdvancedTech/INFO]: [AdvancedTech] AdvancedTech is already up to date!
+[13:04:19] [Craft Scheduler Thread - 2 - SimpleStorage/WARN]: [SimpleStorage] Could not connect to the updating site, is it down?
 java.io.FileNotFoundException: https://thebusybiscuit.github.io/builds/Sefiraat/SimpleStorage/master/builds.json
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1996) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
 	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.getLatestVersion(UpdaterTask.java:64) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
 	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.run(UpdaterTask.java:45) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
 	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
 	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.20.1.jar:git-Paper-196]
 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.20.1.jar:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[00:47:39] [Craft Scheduler Thread - 17 - ElectricSpawners/INFO]: [ElectricSpawners] ElectricSpawners is already up to date!
-[00:47:39] [Craft Scheduler Thread - 16 - SimpleUtils/INFO]: [SimpleUtils] SimpleUtils is already up to date!
-[00:47:39] [Craft Scheduler Thread - 30 - EMCTech/INFO]: [EMCTech] EMCTech is already up to date!
-[00:47:39] [Craft Scheduler Thread - 25 - Supreme/INFO]: [Supreme] Supreme is already up to date!
-[00:47:39] [Craft Scheduler Thread - 15 - ExtraHeads/INFO]: [ExtraHeads] ExtraHeads is already up to date!
-[00:47:39] [Craft Scheduler Thread - 31 - BetterReactor/INFO]: [BetterReactor] BetterReactor is already up to date!
-[00:47:39] [Craft Scheduler Thread - 4 - ExoticGarden/INFO]: [ExoticGarden] ExoticGarden is already up to date!
-[00:47:39] [Craft Scheduler Thread - 8 - FluffyMachines/INFO]: [FluffyMachines] FluffyMachines is already up to date!
-[00:47:39] [Craft Scheduler Thread - 21 - HotbarPets/INFO]: [HotbarPets] HotbarPets is already up to date!
-[00:47:39] [Craft Scheduler Thread - 27 - SfChunkInfo/INFO]: [SfChunkInfo] SfChunkInfo is already up to date!
-[00:47:39] [Craft Scheduler Thread - 22 - SlimefunOreChunks/INFO]: [SlimefunOreChunks] SlimefunOreChunks is already up to date!
-[00:47:39] [Craft Scheduler Thread - 18 - DankTech2/INFO]: [DankTech2] DankTech2 is already up to date!
-[00:47:39] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
-[00:47:39] [Server thread/INFO]: [Slimefun] Found 1,174 Recipes!
-[00:47:39] [Craft Scheduler Thread - 9 - ColoredEnderChests/INFO]: [ColoredEnderChests] ColoredEnderChests is already up to date!
-[00:47:39] [Craft Scheduler Thread - 29 - SlimefunLuckyBlocks/INFO]: [SlimefunLuckyBlocks] SlimefunLuckyBlocks is already up to date!
-[00:47:39] [Craft Scheduler Thread - 6 - LiteXpansion/INFO]: [LiteXpansion] LiteXpansion is already up to date!
-[00:47:39] [Craft Scheduler Thread - 0 - Netheopoiesis/INFO]: [Netheopoiesis] Netheopoiesis is already up to date!
-[00:47:39] [Craft Scheduler Thread - 13 - MobCapturer/INFO]: [MobCapturer] MobCapturer is already up to date!
-[00:47:39] [Craft Scheduler Thread - 11 - SlimeTinker/INFO]: [SlimeTinker] SlimeTinker is already up to date!
-[00:47:39] [Craft Scheduler Thread - 23 - FoxyMachines/INFO]: [FoxyMachines] FoxyMachines is already up to date!
-[00:47:39] [Craft Scheduler Thread - 3 - InfinityExpansion/INFO]: [InfinityExpansion] InfinityExpansion is already up to date!
-[00:47:39] [Craft Scheduler Thread - 24 - DyedBackpacks/INFO]: [DyedBackpacks] DyedBackpacks is already up to date!
-[00:47:39] [Craft Scheduler Thread - 19 - ExtraGear/INFO]: [ExtraGear] ExtraGear is already up to date!
-[00:47:40] [Server thread/INFO]: 
-[00:47:40] [Server thread/INFO]: ######################### - Slimefun vDEV - 1104 (git c977454e) - #########################
-[00:47:40] [Server thread/INFO]: 
-[00:47:40] [Server thread/INFO]: Successfully loaded 12659 Items and 377 Researches
-[00:47:40] [Server thread/INFO]: ( 555 Items from Slimefun, 12104 Items from 33 Addons )
-[00:47:40] [Server thread/INFO]: 
-[00:47:40] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
-[00:47:40] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
-[00:47:40] [Server thread/INFO]: 
-[00:47:40] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
-[00:47:40] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
-[00:47:40] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
-[00:47:40] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
-[00:47:40] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
-[00:47:40] [Server thread/INFO]: 
-[00:47:40] [Craft Scheduler Thread - 2 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
-[00:47:40] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
-[00:47:40] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:47:40] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:47:40] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
-[00:47:40] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
-[00:47:40] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:47:40] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:47:40] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
-[00:47:40] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
-[00:47:40] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:47:40] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:47:40] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
-[00:47:40] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
-[00:47:40] [Server thread/INFO]: [dough: protection] This may happen more than once.
-[00:47:40] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[00:47:40] [Server thread/WARN]: [InfinityExpansion] ########################################################
-[00:47:40] [Server thread/WARN]: [InfinityExpansion] LiteXpansion nerfs energy generation in this addon.
-[00:47:40] [Server thread/WARN]: [InfinityExpansion] You can disable these nerfs in the LiteXpansion config.
-[00:47:40] [Server thread/WARN]: [InfinityExpansion] Under 'options:' add 'nerf-other-addons: false'
-[00:47:40] [Server thread/WARN]: [InfinityExpansion] ########################################################
-[00:47:40] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
-[00:47:40] [Server thread/INFO]: [dough: protection] This may happen more than once.
-[00:47:40] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[00:47:40] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[00:47:40] [Server thread/INFO]: Done (15.097s)! For help, type "help"
-[00:47:41] [Server thread/INFO]: Timings Reset
-[00:47:56] [User Authenticator #0/INFO]: UUID of player DragonDirt is c969ed92-dcb2-30d9-9c6e-707695dd3e7f
-[00:47:56] [Server thread/INFO]: DragonDirt joined the game
-[00:47:56] [Server thread/INFO]: DragonDirt[/26.200.43.28:61114] logged in with entity id 187 at ([world]-31.5, 101.0, 0.5)
-[00:47:59] [Server thread/INFO]: Server Plugins (34):
-[00:47:59] [Server thread/INFO]: Bukkit Plugins:
-[00:47:59] [Server thread/INFO]:  - AdvancedTech, BetterReactor, ColoredEnderChests, DankTech2, DyedBackpacks, EcoPower, ElectricSpawners, EMCTech, ExoticGarden, ExtraGear
-[00:47:59] [Server thread/INFO]:  ExtraHeads, FlowerPower, FluffyMachines, FoxyMachines, HotbarPets, InfinityExpansion, LiteXpansion, MobCapturer, Netheopoiesis, Networks
-[00:47:59] [Server thread/INFO]:  PrivateStorage, Quaptics, SensibleToolbox, SfChunkInfo, SimpleStorage, SimpleUtils, Slimefun, SlimefunLuckyBlocks, SlimefunOreChunks, SlimeHUD
-[00:47:59] [Server thread/INFO]:  SlimeTinker, SlimyTreeTaps, SoulJars, Supreme
-[00:48:13] [Craft Scheduler Thread - 11 - Slimefun/ERROR]: [dough: skins] Exception while requesting skin: https://api.mojang.com/users/profiles/minecraft/Nekomitsuki
-[00:48:13] [Craft Scheduler Thread - 24 - Slimefun/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: ExecutionException: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/Nekomitsuki
-[00:48:13] [Craft Scheduler Thread - 24 - Slimefun/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
-[00:49:18] [Craft Scheduler Thread - 2 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[00:49:18] [Craft Scheduler Thread - 2 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (11 change(s) queued)
-[00:52:14] [Server thread/INFO]: DragonDirt lost connection: Disconnected
-[00:52:14] [Server thread/INFO]: DragonDirt left the game
-[00:53:00] [User Authenticator #1/INFO]: UUID of player DragonDirt is c969ed92-dcb2-30d9-9c6e-707695dd3e7f
-[00:53:00] [Server thread/INFO]: DragonDirt joined the game
-[00:53:00] [Server thread/INFO]: DragonDirt[/26.200.43.28:61248] logged in with entity id 1433 at ([world]-203.6778187154237, 64.0, 62.30000001192093)
-[00:53:58] [Server thread/INFO]: Made DragonDirt a server operator
-[00:54:01] [Server thread/INFO]: DragonDirt issued server command: /gamemode creative
-[00:54:01] [Server thread/INFO]: [DragonDirt: Set own game mode to Creative Mode]
-[00:54:05] [Server thread/INFO]: DragonDirt issued server command: /sf cheat
-[00:55:58] [Server thread/INFO]: DragonDirt issued server command: /gamemode survival
-[00:55:58] [Server thread/INFO]: [DragonDirt: Set own game mode to Survival Mode]
-[00:56:40] [Server thread/INFO]: DragonDirt issued server command: /sf cheat
-[00:57:17] [Server thread/INFO]: DragonDirt has made the advancement [Stone Age]
-[00:57:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[00:57:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[00:57:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[00:57:49] [Server thread/INFO]: DragonDirt has made the advancement [Getting an Upgrade]
-[00:59:13] [Server thread/INFO]: DragonDirt has made the advancement [Monster Hunter]
-[00:59:18] [Craft Scheduler Thread - 23 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[00:59:18] [Craft Scheduler Thread - 23 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (25 change(s) queued)
-[01:03:13] [Server thread/INFO]: DragonDirt has made the advancement [Acquire Hardware]
-[01:03:27] [Server thread/INFO]: DragonDirt has made the advancement [Suit Up]
-[01:03:36] [Server thread/INFO]: DragonDirt has made the advancement [Isn't It Iron Pick]
-[01:06:12] [Server thread/INFO]: DragonDirt has reached the goal [Hired Help]
-[01:06:38] [Server thread/INFO]: DragonDirt issued server command: /sf research DragonDirt all
-[01:07:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[01:07:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[01:07:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[01:09:18] [Craft Scheduler Thread - 39 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[01:09:18] [Craft Scheduler Thread - 39 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (7 change(s) queued)
-[01:09:18] [Server thread/INFO]: [Slimefun] Auto-saved all player data for 1 player(s)!
-[01:12:49] [Server thread/INFO]: DragonDirt has made the advancement [Sweet Dreams]
-[01:17:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[01:17:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[01:17:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[01:18:33] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:34] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:34] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:35] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:35] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:36] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:36] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:37] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:37] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:38] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:38] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:39] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:39] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:40] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:40] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:41] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:41] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:42] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:42] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:18:43] [Server thread/WARN]: [SensibleToolbox] Task #77 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.STBEnergyNet.tick(STBEnergyNet.java:244) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.energy.EnergyNetManager.tick(EnergyNetManager.java:267) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:19:03] [Server thread/WARN]: [SensibleToolbox] Task #74 for SensibleToolbox vUNOFFICIAL generated an exception
-java.lang.IllegalArgumentException: invalid count: -1
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:193) ~[guava-31.1-jre.jar:?]
-	at com.google.common.base.Strings.repeat(Strings.java:156) ~[guava-31.1-jre.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.buildChargeLabel(BaseSTBMachine.java:360) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.api.items.BaseSTBMachine.setCharge(BaseSTBMachine.java:321) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.blocks.machines.HeatEngine.onServerTick(HeatEngine.java:205) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.storage.LocationManager.tickWorld(LocationManager.java:388) ~[SensibleToolbox.vMCT.jar:?]
-	at io.github.thebusybiscuit.sensibletoolbox.core.storage.LocationManager.tick(LocationManager.java:356) ~[SensibleToolbox.vMCT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[01:27:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[01:27:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[01:27:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[01:29:18] [Craft Scheduler Thread - 23 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[01:29:18] [Craft Scheduler Thread - 23 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (52 change(s) queued)
-[01:33:29] [Server thread/INFO]: DragonDirt issued server command: /i ne
-[01:33:29] [Server thread/INFO]: DragonDirt issued server command: /i
-[01:33:41] [Server thread/INFO]: DragonDirt issued server command: /give DragonDirt minecraft:netherrack 1
-[01:33:41] [Server thread/INFO]: [DragonDirt: Gave 1 [Netherrack] to DragonDirt]
-[01:37:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[01:37:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[01:37:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[01:39:18] [Craft Scheduler Thread - 23 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[01:39:18] [Craft Scheduler Thread - 23 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (35 change(s) queued)
-[01:47:03] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:47:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[01:47:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[01:47:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[01:49:18] [Craft Scheduler Thread - 57 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[01:49:18] [Craft Scheduler Thread - 57 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (46 change(s) queued)
-[01:57:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[01:57:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[01:57:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[01:59:18] [Craft Scheduler Thread - 48 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[01:59:18] [Craft Scheduler Thread - 48 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (66 change(s) queued)
-[02:04:21] [Server thread/INFO]: DragonDirt has made the advancement [Ice Bucket Challenge]
-[02:05:34] [Server thread/INFO]: DragonDirt has made the advancement [We Need to Go Deeper]
-[02:06:28] [Async Chat Thread - #1/INFO]: [Not Secure] <DragonDirt> -17 70 -4
-[02:06:58] [Server thread/WARN]: DragonDirt was kicked for floating too long!
-[02:06:58] [Server thread/INFO]: DragonDirt lost connection: Flying is not enabled on this server
-[02:06:58] [Server thread/INFO]: DragonDirt left the game
-[02:07:04] [User Authenticator #2/INFO]: UUID of player DragonDirt is c969ed92-dcb2-30d9-9c6e-707695dd3e7f
-[02:07:04] [Server thread/INFO]: DragonDirt joined the game
-[02:07:04] [Server thread/INFO]: DragonDirt[/26.200.43.28:53716] logged in with entity id 11565 at ([world_nether]-1.8791296446881054, 79.81290757981593, -194.43920713782873)
-[02:07:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[02:07:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[02:07:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[02:07:46] [Server thread/INFO]: DragonDirt fell from a high place
-[02:09:18] [Craft Scheduler Thread - 63 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[02:09:18] [Craft Scheduler Thread - 63 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (8 change(s) queued)
-[02:11:37] [Async Chat Thread - #3/INFO]: [Not Secure] <DragonDirt> -18 70 -5
-[02:12:56] [Server thread/INFO]: DragonDirt has completed the challenge [Return to Sender]
-[02:14:49] [Server thread/INFO]: DragonDirt has made the advancement [Who is Cutting Onions?]
-[02:15:03] [Server thread/INFO]: DragonDirt has made the advancement [Those Were the Days]
-[02:15:07] [Server thread/INFO]: DragonDirt issued server command: /wb
-[02:15:08] [Server thread/INFO]: DragonDirt issued server command: /wb
-[02:15:18] [Server thread/INFO]: DragonDirt issued server command: /gamerule keepInventory true
-[02:15:18] [Server thread/INFO]: [DragonDirt: Gamerule keepInventory is now set to: true]
-[02:15:57] [Server thread/INFO]: DragonDirt has made the advancement [War Pigs]
-[02:16:14] [Server thread/INFO]: DragonDirt has made the advancement [Not Today, Thank You]
-[02:16:20] [Server thread/INFO]: DragonDirt has made the advancement [A Terrible Fortress]
-[02:16:24] [Server thread/INFO]: DragonDirt has made the advancement [Into Fire]
-[02:17:06] [Server thread/INFO]: DragonDirt has made the advancement [Diamonds!]
-[02:17:38] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[02:17:38] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[02:17:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[02:18:04] [Server thread/INFO]: DragonDirt issued server command: /gamerule keepInventory true
-[02:18:04] [Server thread/INFO]: [DragonDirt: Gamerule keepInventory is now set to: true]
-[02:18:08] [Server thread/INFO]: DragonDirt issued server command: /kill DragonDirt
-[02:18:08] [Server thread/INFO]: DragonDirt was killed
-[02:18:08] [Server thread/INFO]: [DragonDirt: Killed DragonDirt]
-[02:19:18] [Craft Scheduler Thread - 61 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
-[02:19:18] [Craft Scheduler Thread - 61 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (14 change(s) queued)
-[02:21:10] [Server thread/INFO]: DragonDirt issued server command: /wb
-[02:21:11] [Server thread/INFO]: DragonDirt issued server command: /wb
-[02:21:12] [Server thread/INFO]: DragonDirt issued server command: /wb
-[02:26:07] [Server thread/INFO]: Stopping the server
-[02:26:07] [Server thread/INFO]: Stopping server
-[02:26:07] [Server thread/INFO]: [AdvancedTech] Disabling AdvancedTech vDEV - 19 (git c133bfdd)
-[02:26:07] [Server thread/INFO]: [BetterReactor] Disabling BetterReactor vDEV - 11 (git 88a98d28)
-[02:26:07] [Server thread/INFO]: [EMCTech] Disabling EMCTech vDEV - 5 (git c61222fb)
-[02:26:07] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[02:26:07] [Server thread/INFO]: [SlimefunLuckyBlocks] Disabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[02:26:07] [Server thread/INFO]: [Quaptics] Disabling Quaptics vDEV - 4 (git cbc2e78e)
-[02:26:07] [Server thread/INFO]: [SensibleToolbox] Disabling SensibleToolbox vUNOFFICIAL
-[02:26:07] [Server thread/INFO]: [SfChunkInfo] Disabling SfChunkInfo vDEV - 8 (git b1b94abb)
-[02:26:07] [Server thread/INFO]: [SlimeHUD] Disabling SlimeHUD vDEV - 11 (git b6dc2d53)
-[02:26:07] [Server thread/INFO]: [Supreme] Disabling Supreme vDEV - 29 (git f9e70053)
-[02:26:07] [Server thread/INFO]: [DyedBackpacks] Disabling DyedBackpacks vDEV - 17 (git 8b329e96)
-[02:26:07] [Server thread/INFO]: [FoxyMachines] Disabling FoxyMachines vDEV - 67 (git 0028aa93)
-[02:26:07] [Server thread/INFO]: [SlimefunOreChunks] Disabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
-[02:26:07] [Server thread/INFO]: [HotbarPets] Disabling HotbarPets vDEV - 38 (git fa6c871d)
-[02:26:07] [Server thread/INFO]: [EcoPower] Disabling EcoPower vDEV - 5 (git 5c1ecd68)
-[02:26:07] [Server thread/INFO]: [ExtraGear] Disabling ExtraGear vDEV - 13 (git c62047e2)
-[02:26:07] [Server thread/INFO]: [DankTech2] Disabling DankTech2 vDEV - 9 (git aa6c2209)
-[02:26:07] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[02:26:07] [Server thread/INFO]: [ElectricSpawners] Disabling ElectricSpawners vDEV - 23 (git 6ec96773)
-[02:26:07] [Server thread/INFO]: [SimpleUtils] Disabling SimpleUtils vDEV - 15 (git 4250fd5e)
-[02:26:07] [Server thread/INFO]: [ExtraHeads] Disabling ExtraHeads vDEV - 25 (git 8c29f73a)
-[02:26:07] [Server thread/INFO]: [SoulJars] Disabling SoulJars vDEV - 24 (git 78d1c6fa)
-[02:26:07] [Server thread/INFO]: [MobCapturer] Disabling MobCapturer vDEV - 33 (git 6fc26c35)
-[02:26:07] [Server thread/INFO]: [PrivateStorage] Disabling PrivateStorage vDEV - 18 (git 5832db21)
-[02:26:07] [Server thread/INFO]: [SlimeTinker] Disabling SlimeTinker vDEV - 84 (git 2c9f6155)
-[02:26:07] [Server thread/INFO]: [FlowerPower] Disabling FlowerPower vDEV - 16 (git 5a38d1c6)
-[02:26:07] [Server thread/INFO]: [ColoredEnderChests] Disabling ColoredEnderChests vDEV - 23 (git 4d041832)
-[02:26:07] [Server thread/INFO]: [FluffyMachines] Disabling FluffyMachines vDEV - 132 (git ccf029ba)
-[02:26:07] [Server thread/INFO]: [SimpleStorage] Disabling SimpleStorage vDEV - 10 (git ea5e5637)
-[02:26:07] [Server thread/INFO]: [ExoticGarden] Disabling ExoticGarden vDEV - 78 (git 7f9a5f63)
-[02:26:07] [Server thread/INFO]: [Networks] Disabling Networks vDEV - 50 (git 3de3c9d6)
-[02:26:07] [Server thread/INFO]: [InfinityExpansion] Disabling InfinityExpansion vDEV - 144 (git 9da37202)
-[02:26:07] [Server thread/INFO]: [Netheopoiesis] Disabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
-[02:26:07] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[02:26:07] [Server thread/INFO]: [LiteXpansion] Disabling LiteXpansion vDEV - 192 (git 661862ed)
-[02:26:07] [Server thread/INFO]: [SlimyTreeTaps] Disabling SlimyTreeTaps vDEV - 20 (git 963f0383)
-[02:26:07] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDEV - 1104 (git c977454e)
-[02:26:07] [Server thread/INFO]: [Slimefun] Saving block data for world "world" (146 change(s) queued)
-[02:26:07] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2023-11-16-02-26.zip
-[02:26:07] [Server thread/INFO]: Saving players
-[02:26:07] [Server thread/INFO]: DragonDirt lost connection: Server closed
-[02:26:07] [Server thread/INFO]: DragonDirt left the game
-[02:26:07] [Server thread/INFO]: Saving worlds
-[02:26:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:26:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:26:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:26:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:26:08] [Server thread/INFO]: [ChunkHolderManager] Saved 1580 block chunks, 301 entity chunks, 2 poi chunks in world 'world' in 0.92s
-[02:26:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:26:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:26:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:26:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:26:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:26:09] [Server thread/INFO]: [ChunkHolderManager] Saved 997 block chunks, 23 entity chunks, 0 poi chunks in world 'world_nether' in 0.25s
-[02:26:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:26:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:26:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:26:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:26:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:26:09] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:26:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:26:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:26:09] [Server thread/INFO]: Flushing Chunk IO
-[02:26:09] [Server thread/INFO]: Closing Thread Pool
-[02:26:09] [Server thread/INFO]: Closing Server
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:04:19] [Craft Scheduler Thread - 7 - InfinityExpansion/INFO]: [InfinityExpansion] InfinityExpansion is already up to date!
+[13:04:19] [Craft Scheduler Thread - 5 - SlimyTreeTaps/INFO]: [SlimyTreeTaps] SlimyTreeTaps is already up to date!
+[13:04:19] [Craft Scheduler Thread - 9 - ExoticGarden/INFO]: [ExoticGarden] ExoticGarden is already up to date!
+[13:04:19] [Craft Scheduler Thread - 27 - SlimeHUD/INFO]: [SlimeHUD] SlimeHUD is already up to date!
+[13:04:19] [Craft Scheduler Thread - 22 - HotbarPets/INFO]: [HotbarPets] HotbarPets is already up to date!
+[13:04:19] [Craft Scheduler Thread - 1 - FluffyMachines/INFO]: [FluffyMachines] FluffyMachines is already up to date!
+[13:04:19] [Craft Scheduler Thread - 6 - LiteXpansion/INFO]: [LiteXpansion] LiteXpansion is already up to date!
+[13:04:19] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[13:04:19] [Server thread/INFO]: [Slimefun] Found 1,174 Recipes!
+[13:04:19] [Craft Scheduler Thread - 3 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
+[13:04:19] [Craft Scheduler Thread - 28 - SfChunkInfo/INFO]: [SfChunkInfo] SfChunkInfo is already up to date!
+[13:04:20] [Server thread/INFO]: 
+[13:04:20] [Server thread/INFO]: ######################### - Slimefun vDEV - 1104 (git c977454e) - #########################
+[13:04:20] [Server thread/INFO]: 
+[13:04:20] [Server thread/INFO]: Successfully loaded 12659 Items and 377 Researches
+[13:04:20] [Server thread/INFO]: ( 555 Items from Slimefun, 12104 Items from 33 Addons )
+[13:04:20] [Server thread/INFO]: 
+[13:04:20] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
+[13:04:20] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
+[13:04:20] [Server thread/INFO]: 
+[13:04:20] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[13:04:20] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[13:04:20] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[13:04:20] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[13:04:20] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
+[13:04:20] [Server thread/INFO]: 
+[13:04:20] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[13:04:20] [Server thread/INFO]: [Slimefun] This may take a long time...
+[13:04:20] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 6ms)
+[13:04:20] [Server thread/INFO]: [Slimefun] Loaded a total of 248 Blocks for World "world"
+[13:04:20] [Server thread/INFO]: [Slimefun] Avg: 0.02ms/Block
+[13:04:20] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[13:04:20] [Server thread/INFO]: [Slimefun] This may take a long time...
+[13:04:20] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[13:04:20] [Server thread/INFO]: [Slimefun] This may take a long time...
+[13:04:20] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[13:04:20] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[13:04:20] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[13:04:20] [Server thread/WARN]: [InfinityExpansion] ########################################################
+[13:04:20] [Server thread/WARN]: [InfinityExpansion] LiteXpansion nerfs energy generation in this addon.
+[13:04:20] [Server thread/WARN]: [InfinityExpansion] You can disable these nerfs in the LiteXpansion config.
+[13:04:20] [Server thread/WARN]: [InfinityExpansion] Under 'options:' add 'nerf-other-addons: false'
+[13:04:20] [Server thread/WARN]: [InfinityExpansion] ########################################################
+[13:04:21] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[13:04:21] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[13:04:21] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[13:04:21] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[13:04:21] [Server thread/INFO]: Done (17.535s)! For help, type "help"
+[13:04:21] [Server thread/INFO]: Timings Reset
+[13:04:48] [User Authenticator #0/INFO]: UUID of player DragonDirt is c969ed92-dcb2-30d9-9c6e-707695dd3e7f
+[13:04:48] [Server thread/INFO]: DragonDirt joined the game
+[13:04:48] [Server thread/INFO]: DragonDirt[/26.183.169.170:50819] logged in with entity id 232 at ([world]-198.81874209744257, 72.0, 36.76859604357404)
+[13:05:00] [Craft Scheduler Thread - 22 - Slimefun/ERROR]: [dough: skins] Exception while requesting skin: https://api.mojang.com/users/profiles/minecraft/jphipps3
+[13:05:00] [Craft Scheduler Thread - 6 - Slimefun/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: ExecutionException: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/jphipps3
+[13:05:00] [Craft Scheduler Thread - 6 - Slimefun/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
+[13:05:54] [Server thread/INFO]: DragonDirt issued server command: /sf cheat
+[13:05:57] [Server thread/INFO]: DragonDirt issued server command: /sf cheat
+[13:05:58] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[13:05:58] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (1 change(s) queued)
+[13:10:57] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:11:32] [Server thread/INFO]: DragonDirt issued server command: /gamerule mobExplosionDropDecay
+[13:11:33] [Server thread/INFO]: DragonDirt issued server command: /gamerule mobExplosionDropDecay false
+[13:11:33] [Server thread/INFO]: [DragonDirt: Gamerule mobExplosionDropDecay is now set to: false]
+[13:14:18] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[13:14:18] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[13:14:18] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[13:15:58] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[13:15:58] [Craft Scheduler Thread - 9 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (21 change(s) queued)
+[13:24:18] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[13:24:18] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[13:24:18] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[13:25:58] [Craft Scheduler Thread - 6 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[13:25:58] [Craft Scheduler Thread - 6 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (30 change(s) queued)
+[13:34:18] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[13:34:18] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[13:34:18] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[13:35:58] [Craft Scheduler Thread - 6 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[13:35:58] [Craft Scheduler Thread - 6 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (302 change(s) queued)
+[13:38:44] [Server thread/INFO]: DragonDirt issued server command: /sf cheat
+[13:44:18] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[13:44:18] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[13:44:18] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[13:45:58] [Craft Scheduler Thread - 45 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[13:45:58] [Craft Scheduler Thread - 45 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (217 change(s) queued)
+[13:49:56] [Server thread/INFO]: DragonDirt lost connection: Disconnected
+[13:49:56] [Server thread/INFO]: DragonDirt left the game
+[13:49:58] [Server thread/INFO]: Stopping the server
+[13:49:58] [Server thread/INFO]: Stopping server
+[13:49:58] [Server thread/INFO]: [AdvancedTech] Disabling AdvancedTech vDEV - 19 (git c133bfdd)
+[13:49:58] [Server thread/INFO]: [BetterReactor] Disabling BetterReactor vDEV - 11 (git 88a98d28)
+[13:49:58] [Server thread/INFO]: [EMCTech] Disabling EMCTech vDEV - 5 (git c61222fb)
+[13:49:58] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[13:49:58] [Server thread/INFO]: [SlimefunLuckyBlocks] Disabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
+[13:49:58] [Server thread/INFO]: [Quaptics] Disabling Quaptics vDEV - 4 (git cbc2e78e)
+[13:49:58] [Server thread/INFO]: [SensibleToolbox] Disabling SensibleToolbox vUNOFFICIAL
+[13:49:58] [Server thread/INFO]: [SfChunkInfo] Disabling SfChunkInfo vDEV - 8 (git b1b94abb)
+[13:49:58] [Server thread/INFO]: [SlimeHUD] Disabling SlimeHUD vDEV - 11 (git b6dc2d53)
+[13:49:58] [Server thread/INFO]: [Supreme] Disabling Supreme vDEV - 29 (git f9e70053)
+[13:49:58] [Server thread/INFO]: [DyedBackpacks] Disabling DyedBackpacks vDEV - 17 (git 8b329e96)
+[13:49:58] [Server thread/INFO]: [FoxyMachines] Disabling FoxyMachines vDEV - 67 (git 0028aa93)
+[13:49:58] [Server thread/INFO]: [SlimefunOreChunks] Disabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[13:49:58] [Server thread/INFO]: [HotbarPets] Disabling HotbarPets vDEV - 38 (git fa6c871d)
+[13:49:58] [Server thread/INFO]: [EcoPower] Disabling EcoPower vDEV - 5 (git 5c1ecd68)
+[13:49:58] [Server thread/INFO]: [ExtraGear] Disabling ExtraGear vDEV - 13 (git c62047e2)
+[13:49:58] [Server thread/INFO]: [DankTech2] Disabling DankTech2 vDEV - 9 (git aa6c2209)
+[13:49:58] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[13:49:58] [Server thread/INFO]: [ElectricSpawners] Disabling ElectricSpawners vDEV - 23 (git 6ec96773)
+[13:49:58] [Server thread/INFO]: [SimpleUtils] Disabling SimpleUtils vDEV - 15 (git 4250fd5e)
+[13:49:58] [Server thread/INFO]: [ExtraHeads] Disabling ExtraHeads vDEV - 25 (git 8c29f73a)
+[13:49:58] [Server thread/INFO]: [SoulJars] Disabling SoulJars vDEV - 24 (git 78d1c6fa)
+[13:49:58] [Server thread/INFO]: [MobCapturer] Disabling MobCapturer vDEV - 33 (git 6fc26c35)
+[13:49:58] [Server thread/INFO]: [PrivateStorage] Disabling PrivateStorage vDEV - 18 (git 5832db21)
+[13:49:58] [Server thread/INFO]: [SlimeTinker] Disabling SlimeTinker vDEV - 84 (git 2c9f6155)
+[13:49:58] [Server thread/INFO]: [FlowerPower] Disabling FlowerPower vDEV - 16 (git 5a38d1c6)
+[13:49:58] [Server thread/INFO]: [ColoredEnderChests] Disabling ColoredEnderChests vDEV - 23 (git 4d041832)
+[13:49:58] [Server thread/INFO]: [FluffyMachines] Disabling FluffyMachines vDEV - 132 (git ccf029ba)
+[13:49:58] [Server thread/INFO]: [SimpleStorage] Disabling SimpleStorage vDEV - 10 (git ea5e5637)
+[13:49:58] [Server thread/INFO]: [ExoticGarden] Disabling ExoticGarden vDEV - 78 (git 7f9a5f63)
+[13:49:58] [Server thread/INFO]: [Networks] Disabling Networks vDEV - 50 (git 3de3c9d6)
+[13:49:58] [Server thread/INFO]: [InfinityExpansion] Disabling InfinityExpansion vDEV - 144 (git 9da37202)
+[13:49:58] [Server thread/INFO]: [Netheopoiesis] Disabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
+[13:49:58] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[13:49:58] [Server thread/INFO]: [LiteXpansion] Disabling LiteXpansion vDEV - 192 (git 661862ed)
+[13:49:58] [Server thread/INFO]: [SlimyTreeTaps] Disabling SlimyTreeTaps vDEV - 20 (git 963f0383)
+[13:49:58] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDEV - 1104 (git c977454e)
+[13:49:58] [Server thread/INFO]: [Slimefun] Saving block data for world "world" (14 change(s) queued)
+[13:49:58] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2023-11-16-13-49.zip
+[13:49:58] [Server thread/INFO]: Saving players
+[13:49:58] [Server thread/INFO]: Saving worlds
+[13:49:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Saved 44 block chunks, 215 entity chunks, 1 poi chunks in world 'world' in 0.08s
+[13:49:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:49:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Saved 121 block chunks, 157 entity chunks, 0 poi chunks in world 'world_nether' in 0.20s
+[13:49:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:49:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:49:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:49:59] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[13:49:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:49:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:49:59] [Server thread/INFO]: Flushing Chunk IO
+[13:49:59] [Server thread/INFO]: Closing Thread Pool
+[13:49:59] [Server thread/INFO]: Closing Server
