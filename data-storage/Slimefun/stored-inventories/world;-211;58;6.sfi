@@ -1,0 +1,1101 @@
+preset: NTW_CELL
+'0':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'1':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'2':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'3':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'4':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'5':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BRICK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"I.R.
+      Mod: Stack Upgrade"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▹SensibleToolbox
+      (STB) item"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Insert
+      into an Item Router"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Passive
+      module; each stack module"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"doubles
+      the number of items moved"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"per
+      operation, up to the item''s max"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"stack
+      size."}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Any
+      modules over 6 are ignored."}],"text":""}'
+    PublicBukkitValues:
+      sensibletoolbox:item_data: |
+        '*TYPE': stackmodule
+'6':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'7':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'8':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'9':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'10':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'11':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NOTE_BLOCK
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Grid"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Grid shows you all"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"the
+      items you have in the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      lets you insert or withdraw"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"directly."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_GRID
+'12':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BLACK_STAINED_GLASS
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Controller"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network controller is the brain"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"for
+      the whole network. Max 1 per network."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CONTROLLER
+'13':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHER_STAR
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DBCEA9","text":"Optic
+      Star"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+      crystalline star structure that"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"can
+      transfer large bits of information."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Crafting
+      Material"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_OPTIC_STAR
+'14':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHER_STAR
+  amount: 64
+'15':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: WHITE_STAINED_GLASS
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Bridge"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      bridge allows you to cheaply"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"connect
+      network objects together."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_BRIDGE
+'16':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: STRING
+  amount: 24
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DBCEA9","text":"Optic
+      Cable"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+      simple wire that is able to"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"transfer
+      large bits of information."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Crafting
+      Material"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_OPTIC_CABLE
+'18':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GLASS
+  amount: 38
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DBCEA9","text":"Optic
+      Glass"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"A
+      simple glass that is able to"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"transfer
+      small bits of information."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Crafting
+      Material"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_OPTIC_GLASS
+'19':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'20':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'21':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'22':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'23':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: MAGENTA_STAINED_GLASS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Grabber"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Grabber will try"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"to
+      grab the first item it finds"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"from
+      within the selected machine."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_GRABBER
+'24':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HONEYCOMB_BLOCK
+  amount: 38
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Cell"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Cell is a large"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(double
+      chest) inventory that can"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"be
+      accessed both from the network"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"and
+      in the world."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_CELL
+'25':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: WHEAT_SEEDS
+  amount: 21
+'27':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_NUGGET
+  amount: 55
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Void
+      Bit"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"It
+      feels... empty"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: VOID_BIT
+'28':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GUNPOWDER
+  amount: 55
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Void
+      Dust"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Its
+      starting to take form..."}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: VOID_DUST
+'29':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Void
+      Ingot"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      emptiness of the cosmos"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"in
+      the palm of your hand"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: VOID_INGOT
+'30':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_GRAY_STAINED_GLASS
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Heated
+      Pressure Chamber"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
+      Machine"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
+      "},{"italic":false,"color":"aqua","text":"1.0x"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"10
+      J/s"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: HEATED_PRESSURE_CHAMBER
+'31':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BLACK_STAINED_GLASS
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Carbon
+      Press"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
+      Machine"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
+      "},{"italic":false,"color":"aqua","text":"1.0x"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"20
+      J/s"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: CARBON_PRESS
+'32':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BLACK_STAINED_GLASS
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Carbon
+      Press "},{"italic":false,"color":"gray","text":"- "},{"italic":false,"color":"yellow","text":"II"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
+      Machine"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
+      "},{"italic":false,"color":"aqua","text":"3.0x"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"50
+      J/s"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: CARBON_PRESS_2
+'33':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BLACK_STAINED_GLASS
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Carbon
+      Press "},{"italic":false,"color":"gray","text":"- "},{"italic":false,"color":"yellow","text":"III"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
+      Machine"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
+      "},{"italic":false,"color":"aqua","text":"15.0x"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"180
+      J/s"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: CARBON_PRESS_3
+'34':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energy
+      Connector"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Range:
+      "},{"italic":false,"color":"red","text":"6 blocks"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Place
+      this between machines"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"and
+      generators to connect them"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
+      your regulator."}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ENERGY_CONNECTOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e73d8c61-0218-3454-ae14-f15500cd6e87
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA4NWUwOTg3NTZiOTk1YjAwMjQxNjQ0MDg5YzU1YThmOWFjZGUzNWI5YTM3Nzg1ZDVlMDU3YTkyMzYxM2IifX19
+'35':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energy
+      Connector"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Range:
+      "},{"italic":false,"color":"red","text":"6 blocks"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Place
+      this between machines"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"and
+      generators to connect them"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
+      your regulator."}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ENERGY_CONNECTOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e73d8c61-0218-3454-ae14-f15500cd6e87
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA4NWUwOTg3NTZiOTk1YjAwMjQxNjQ0MDg5YzU1YThmOWFjZGUzNWI5YTM3Nzg1ZDVlMDU3YTkyMzYxM2IifX19
+'36':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energy
+      Connector"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Range:
+      "},{"italic":false,"color":"red","text":"6 blocks"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Place
+      this between machines"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"and
+      generators to connect them"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
+      your regulator."}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ENERGY_CONNECTOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e73d8c61-0218-3454-ae14-f15500cd6e87
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA4NWUwOTg3NTZiOTk1YjAwMjQxNjQ0MDg5YzU1YThmOWFjZGUzNWI5YTM3Nzg1ZDVlMDU3YTkyMzYxM2IifX19
+'37':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energy
+      Connector"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Range:
+      "},{"italic":false,"color":"red","text":"6 blocks"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Place
+      this between machines"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"and
+      generators to connect them"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
+      your regulator."}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ENERGY_CONNECTOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e73d8c61-0218-3454-ae14-f15500cd6e87
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA4NWUwOTg3NTZiOTk1YjAwMjQxNjQ0MDg5YzU1YThmOWFjZGUzNWI5YTM3Nzg1ZDVlMDU3YTkyMzYxM2IifX19
+'38':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energy
+      Connector"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Range:
+      "},{"italic":false,"color":"red","text":"6 blocks"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Place
+      this between machines"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"and
+      generators to connect them"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
+      your regulator."}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ENERGY_CONNECTOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e73d8c61-0218-3454-ae14-f15500cd6e87
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA4NWUwOTg3NTZiOTk1YjAwMjQxNjQ0MDg5YzU1YThmOWFjZGUzNWI5YTM3Nzg1ZDVlMDU3YTkyMzYxM2IifX19
+'39':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 28
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Energy
+      Connector"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Range:
+      "},{"italic":false,"color":"red","text":"6 blocks"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Place
+      this between machines"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"and
+      generators to connect them"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
+      your regulator."}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ENERGY_CONNECTOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: e73d8c61-0218-3454-ae14-f15500cd6e87
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA4NWUwOTg3NTZiOTk1YjAwMjQxNjQ0MDg5YzU1YThmOWFjZGUzNWI5YTM3Nzg1ZDVlMDU3YTkyMzYxM2IifX19
+'26':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: HOPPER
+'40':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BRICK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Copper
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: COPPER_INGOT
+'41':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BRICK
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Copper
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: COPPER_INGOT
+'42':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cargo
+      Node "},{"italic":false,"color":"red","text":"(Output)"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cargo
+      Output Pipe"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: CARGO_NODE_OUTPUT
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 91d43134-5f6d-3335-b219-1c4be7d1874f
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViMjFmZDQ4MGMxYzQzYmYzYjlmODQyYzg2OWJkYzNiYzVhY2MyNTk5YmYyZWI2YjhhMWM5NWRjZTk3OGYifX19
+'43':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: LIGHT_BLUE_STAINED_GLASS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Freezer"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Advanced
+      Machine"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"aqua","text":"⚡ "},{"italic":false,"color":"gray","text":"Speed:
+      "},{"italic":false,"color":"aqua","text":"1.0x"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"256
+      J Buffer"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"18
+      J/s"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: FREEZER
+'44':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 63
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Nuclear
+      Reactor"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Requires
+      Cooling!"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"aqua","text":"Must be surrounded by Water"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"aqua","text":"Must be supplied with Reactor Coolant
+      Cells"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"End-Game
+      Generator"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"16384
+      J Buffer"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"500
+      J/s"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NUCLEAR_REACTOR
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: d36beaa7-9abf-3545-b842-2902c43eda3a
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE1ZGUwYmMyYmZiNWNjMmQyM2ViNzJmOTY0MDJhZGE0Nzk1MjRkZDBkZTQwNGJjMjNiNmRhY2VlM2ZmZDA4MCJ9fX0=
+'45':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'46':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'47':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'48':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'49':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'50':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'51':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'52':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'53':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_INGOT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      Ingot"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: ZINC_INGOT
+'17':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GREEN_STAINED_GLASS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"Network
+      Monitor"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"The
+      Network Monitor allows simple"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"import/export
+      interaction with adjacent"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"objects."}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Currently
+      Supports:"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Infinity
+      Barrels"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Network
+      Shells"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Machine"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NTW_MONITOR

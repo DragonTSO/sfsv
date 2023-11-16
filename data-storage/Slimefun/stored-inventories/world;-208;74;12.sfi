@@ -1,0 +1,5 @@
+preset: EXTREME_FREEZER
+'19':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: ICE

@@ -3,6 +3,7 @@ preset: VOID_HARVESTER
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: IRON_NUGGET
+  amount: 13
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC

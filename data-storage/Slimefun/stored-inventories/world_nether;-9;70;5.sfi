@@ -1,0 +1,80 @@
+preset: GEO_MINER
+'29':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DBCEA9","text":"Proustite
+      Crystal"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Proustite
+      crystals are a rare resource that"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"are
+      used for more advanced data transfer."}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Only
+      found in the hottest locations."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F0EA4F","text":"Base
+      Resource"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: MATERIAL_PROUSTITE
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: 3a59d6ed-eea0-32c3-929e-4871a869dfa4
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRlNGE2OTdmN2YzNWJhYTRjZDczNDI5YjE1YmVjNjhjYzcyOGU5ZjZkNmYwMzU3YTM4MzMyNjZjNGMyIn19fQ==
+'30':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GUNPOWDER
+  amount: 19
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Borium"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: BORIUM
+'31':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: PLAYER_HEAD
+  amount: 31
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Nether
+      Ice"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"☢"},{"italic":false,"color":"gray","text":"
+      Radiation level: "},{"italic":false,"color":"yellow","text":"MODERATE"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"dark_red","text":"Hazmat Suit required!"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: NETHER_ICE
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: dfd33df5-1568-3c92-8855-d4b6d70797f5
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NlMmRhZDliYWY3ZWFiYTdlODBkNGQwZjlmYWMwYWFiMDFhNzZiMTJmYjcxYzNkMmFmMmExNmZkZDRjNzM4MyJ9fX0=
+'32':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: SUGAR
+  amount: 11
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Salt"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: SALT

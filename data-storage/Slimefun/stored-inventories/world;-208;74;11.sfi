@@ -1,0 +1,9 @@
+preset: FREEZER_2
+'19':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: WATER_BUCKET
+'20':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: WATER_BUCKET

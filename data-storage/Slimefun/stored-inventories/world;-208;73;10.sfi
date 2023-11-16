@@ -1,0 +1,19 @@
+preset: FLUID_PUMP
+'19':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BUCKET
+  amount: 14
+'20':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BUCKET
+  amount: 16
+'24':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: WATER_BUCKET
+'25':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: WATER_BUCKET

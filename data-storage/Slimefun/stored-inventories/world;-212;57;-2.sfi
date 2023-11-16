@@ -1,0 +1,11 @@
+preset: NTW_CELL
+'0':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: COAL
+  amount: 64
+'1':
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: COAL
+  amount: 21
