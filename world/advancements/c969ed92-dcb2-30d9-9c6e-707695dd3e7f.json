@@ -2854,9 +2854,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/copper_block": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_copper_ingot": "2023-11-16 21:34:13 +0700"
+      "lava_bucket": "2023-11-16 21:17:41 +0700"
     },
     "done": true
   },
@@ -2866,15 +2866,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_blue_wool": {
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
-      "has_needed_dye": "2023-11-16 21:42:11 +0700"
+      "has_smooth_stone": "2023-11-16 21:17:59 +0700"
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
-      "lava_bucket": "2023-11-16 21:17:41 +0700"
+      "has_smooth_stone": "2023-11-16 21:17:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-16 21:34:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-16 21:34:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-16 21:34:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-11-16 21:42:11 +0700"
     },
     "done": true
   },
@@ -2890,12 +2914,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/brush": {
-    "criteria": {
-      "has_copper_ingot": "2023-11-16 21:34:13 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2023-11-16 21:42:11 +0700"
@@ -2908,27 +2926,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lightning_rod": {
-    "criteria": {
-      "has_copper_ingot": "2023-11-16 21:34:13 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_bed": {
     "criteria": {
       "has_needed_dye": "2023-11-16 21:42:11 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2023-11-16 21:17:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2023-11-16 21:17:59 +0700"
     },
     "done": true
   },

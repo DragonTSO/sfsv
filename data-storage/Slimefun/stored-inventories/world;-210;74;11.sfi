@@ -17,7 +17,7 @@ preset: NTW_QUANTUM_STORAGE_8
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Voiding:
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"True"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4ED32","text":"Amount:
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"126"}],"text":""}'
+      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"138"}],"text":""}'
     PublicBukkitValues:
       slimefun:slimefun_item: PLUTONIUM
     skull-owner:

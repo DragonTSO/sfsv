@@ -13,7 +13,6 @@ preset: URANIUM_EXTRACTOR
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: PLAYER_HEAD
-  amount: 64
   meta:
     ==: ItemMeta
     meta-type: SKULL

@@ -428,7 +428,7 @@ preset: NTW_CELL
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: STRING
-  amount: 12
+  amount: 18
 '28':
   ==: org.bukkit.inventory.ItemStack
   v: 3465
@@ -704,7 +704,7 @@ preset: NTW_CELL
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: SPIDER_EYE
-  amount: 42
+  amount: 52
 '49':
   ==: org.bukkit.inventory.ItemStack
   v: 3465

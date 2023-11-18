@@ -3,7 +3,7 @@ preset: SUPREME_TECH_MUTATION_I
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: PLAYER_HEAD
-  amount: 33
+  amount: 40
   meta:
     ==: ItemMeta
     meta-type: SKULL
@@ -27,7 +27,7 @@ preset: SUPREME_TECH_MUTATION_I
   ==: org.bukkit.inventory.ItemStack
   v: 3465
   type: PLAYER_HEAD
-  amount: 32
+  amount: 39
   meta:
     ==: ItemMeta
     meta-type: SKULL

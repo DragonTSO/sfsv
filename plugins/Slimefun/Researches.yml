@@ -1143,3 +1143,52 @@ advancedtech:
   advanced_tech_gens:
     cost: 105
     enabled: true
+gastronomicon:
+  wooden_tools:
+    cost: 10
+    enabled: true
+  steel_tools:
+    cost: 15
+    enabled: true
+  culinary_workbench:
+    cost: 10
+    enabled: true
+  multi_stove:
+    cost: 15
+    enabled: true
+  grain_mill:
+    cost: 10
+    enabled: true
+  refridgerator:
+    cost: 17
+    enabled: true
+  fermenter:
+    cost: 25
+    enabled: true
+  chefs_hat:
+    cost: 5
+    enabled: true
+  traps:
+    cost: 18
+    enabled: true
+  fishing_nets:
+    cost: 10
+    enabled: true
+  chef_android:
+    cost: 20
+    enabled: true
+  electric_kitchen:
+    cost: 20
+    enabled: true
+  sickles:
+    cost: 18
+    enabled: true
+  raw_ingredients:
+    cost: 11
+    enabled: true
+  processed_ingredients:
+    cost: 19
+    enabled: true
+  food:
+    cost: 32
+    enabled: true
