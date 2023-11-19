@@ -1,25 +1,25 @@
-[00:32:14] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:32:16] [Worker-Main-1/INFO]: Loaded 7 recipes
-[00:32:17] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[00:32:17] [Server thread/WARN]: ****************************
-[00:32:17] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[00:32:17] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[00:32:17] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[00:32:17] [Server thread/WARN]: ****************************
-[00:32:17] [Server thread/INFO]: Loading properties
-[00:32:17] [Server thread/INFO]: This server is running Paper version git-Paper-388 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: fc9ee65 on ver/1.18.2)
-[00:32:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:32:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:32:17] [Server thread/INFO]: Default game type: SURVIVAL
-[00:32:17] [Server thread/INFO]: Generating keypair
-[00:32:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:32:17] [Server thread/INFO]: Using default channel type
-[00:32:17] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[00:32:17] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[00:32:17] [Server thread/ERROR]: Ambiguous plugin name `Supreme' for files `plugins\Supreme - DEV 29 (git f9e70).jar' and `plugins\Supreme - DEV 29 (git f9e70) (1).jar' in `plugins'
-[00:32:18] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[00:32:21] [Server thread/WARN]: Legacy plugin SimpleTeleportation v1.0 does not specify an api-version.
-[00:32:23] [Server thread/ERROR]: Could not load 'plugins\Quaptics - DEV 4 (git cbc2e).jar' in folder 'plugins'
+[01:11:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:11:18] [Worker-Main-2/INFO]: Loaded 7 recipes
+[01:11:19] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[01:11:19] [Server thread/WARN]: ****************************
+[01:11:19] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[01:11:19] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[01:11:19] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[01:11:19] [Server thread/WARN]: ****************************
+[01:11:19] [Server thread/INFO]: Loading properties
+[01:11:19] [Server thread/INFO]: This server is running Paper version git-Paper-388 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: fc9ee65 on ver/1.18.2)
+[01:11:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:11:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:11:20] [Server thread/INFO]: Default game type: SURVIVAL
+[01:11:20] [Server thread/INFO]: Generating keypair
+[01:11:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:11:20] [Server thread/INFO]: Using default channel type
+[01:11:20] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[01:11:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:11:20] [Server thread/ERROR]: Ambiguous plugin name `Supreme' for files `plugins\Supreme - DEV 29 (git f9e70).jar' and `plugins\Supreme - DEV 29 (git f9e70) (1).jar' in `plugins'
+[01:11:20] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:11:24] [Server thread/WARN]: Legacy plugin SimpleTeleportation v1.0 does not specify an api-version.
+[01:11:25] [Server thread/ERROR]: Could not load 'plugins\Quaptics - DEV 4 (git cbc2e).jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.19
 	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:375) ~[paper-1.18.2.jar:git-Paper-388]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
@@ -30,7 +30,7 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.19
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:32:23] [Server thread/ERROR]: Could not load 'plugins\SpiritsUnchained - DEV 22 (git 28e03).jar' in folder 'plugins'
+[01:11:25] [Server thread/ERROR]: Could not load 'plugins\SpiritsUnchained - DEV 22 (git 28e03).jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.19
 	at org.bukkit.craftbukkit.v1_18_R2.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:375) ~[paper-1.18.2.jar:git-Paper-388]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
@@ -41,175 +41,183 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.19
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:32:23] [Server thread/INFO]: [LuckyPanda] Loading LuckyPanda vDEV - 1 (git c8bd8dd7)
-[00:32:23] [Server thread/INFO]: [SimpleTeleportation] Loading SimpleTeleportation v1.0
-[00:32:23] [Server thread/INFO]: [Slimefun] Loading Slimefun vDEV - 1104 (git c977454e)
-[00:32:23] [Server thread/INFO]: [EcoPower] Loading EcoPower vDEV - 5 (git 5c1ecd68)
-[00:32:23] [Server thread/INFO]: [DankTech2] Loading DankTech2 vDEV - 9 (git aa6c2209)
-[00:32:23] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.1
-[00:32:23] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
-[00:32:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:32:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:32:23] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:32:23] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:32:24] [Server thread/INFO]: [Netheopoiesis] Loading Netheopoiesis vDEV - 18 (git 9d12cc6f)
-[00:32:24] [Server thread/INFO]: [EquivalencyTech] Loading EquivalencyTech v${project.version}
-[00:32:24] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.8.1
-[00:32:24] [Server thread/INFO]: [SimpleStorage] Loading SimpleStorage vDEV - 10 (git ea5e5637)
-[00:32:24] [Server thread/INFO]: [GlobalWarming] Loading GlobalWarming vDEV - 11 (git 73ff77d4)
-[00:32:24] [Server thread/INFO]: [MiniBlocks] Loading MiniBlocks vDEV - 4 (git f7a34b6e)
-[00:32:24] [Server thread/INFO]: [SfChunkInfo] Loading SfChunkInfo vDEV - 8 (git b1b94abb)
-[00:32:24] [Server thread/INFO]: [ExtraGear] Loading ExtraGear vDEV - 13 (git c62047e2)
-[00:32:24] [Server thread/INFO]: [SlimeHUD] Loading SlimeHUD vDEV - 11 (git b6dc2d53)
-[00:32:24] [Server thread/INFO]: [SFCalc] Loading SFCalc vDEV - 37 (git dfc0fc41)
-[00:32:24] [Server thread/INFO]: [BetterReactor] Loading BetterReactor vDEV - 11 (git 88a98d28)
-[00:32:24] [Server thread/INFO]: [MobCapturer] Loading MobCapturer vDEV - 33 (git 6fc26c35)
-[00:32:24] [Server thread/INFO]: [TranscEndence] Loading TranscEndence vDEV - 41 (git 98d7d47e)
-[00:32:24] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.1-SNAPSHOT-669
-[00:32:25] [Server thread/INFO]: [HotbarPets] Loading HotbarPets vDEV - 38 (git fa6c871d)
-[00:32:25] [Server thread/INFO]: [SlimefunLuckyBlocks] Loading SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[00:32:25] [Server thread/INFO]: [ExoticGarden] Loading ExoticGarden vDEV - 78 (git 7f9a5f63)
-[00:32:25] [Server thread/INFO]: [HeadLimiter] Loading HeadLimiter vDEV - 15 (git 66d18f52)
-[00:32:25] [Server thread/INFO]: [Liquid] Loading Liquid vDEV - 14 (git 0f5346bf)
-[00:32:25] [Server thread/INFO]: [SoulJars] Loading SoulJars vDEV - 24 (git 78d1c6fa)
-[00:32:25] [Server thread/INFO]: [AdvancedTech] Loading AdvancedTech vDEV - 19 (git c133bfdd)
-[00:32:25] [Server thread/INFO]: [SlimyRepair] Loading SlimyRepair vDEV - 4 (git 790c41cb)
-[00:32:25] [Server thread/INFO]: [FoxyMachines] Loading FoxyMachines vDEV - 67 (git 0028aa93)
-[00:32:25] [Server thread/INFO]: [RelicsOfCthonia] Loading RelicsOfCthonia vDEV - 10 (git 5a7cbe8d)
-[00:32:25] [Server thread/INFO]: [SlimefunNetherTech2] Loading SlimefunNetherTech2 v1.4.2.2
-[00:32:25] [Server thread/INFO]: [SlimefunOreChunks] Loading SlimefunOreChunks vDEV - 15 (git 2520cb23)
-[00:32:25] [Server thread/INFO]: [SimpleMaterialGenerators] Loading SimpleMaterialGenerators vDEV - 4 (git 5543cc8f)
-[00:32:25] [Server thread/INFO]: [VillagerTrade] Loading VillagerTrade vDEV - 4 (git bcce2a41)
-[00:32:25] [Server thread/INFO]: [DyeBench] Loading DyeBench vDEV - 6 (git ae841c2d)
-[00:32:25] [Server thread/INFO]: [Supreme] Loading Supreme vDEV - 29 (git f9e70053)
-[00:32:25] [Server thread/INFO]: [ElectricSpawners] Loading ElectricSpawners vDEV - 23 (git 6ec96773)
-[00:32:25] [Server thread/INFO]: [Wildernether] Loading Wildernether vDEV - 5 (git 5be3da69)
-[00:32:25] [Server thread/INFO]: [CompressionCraft] Loading CompressionCraft vDEV - 25 (git dbca94b8)
-[00:32:25] [Server thread/INFO]: [ExtraHeads] Loading ExtraHeads vDEV - 25 (git 8c29f73a)
-[00:32:25] [Server thread/INFO]: [SlimyTreeTaps] Loading SlimyTreeTaps vDEV - 20 (git 963f0383)
-[00:32:25] [Server thread/INFO]: [FlowerPower] Loading FlowerPower vDEV - 16 (git 5a38d1c6)
-[00:32:25] [Server thread/INFO]: [PrivateStorage] Loading PrivateStorage vDEV - 18 (git 5832db21)
-[00:32:25] [Server thread/INFO]: [ColoredEnderChests] Loading ColoredEnderChests vDEV - 23 (git 4d041832)
-[00:32:25] [Server thread/INFO]: [Galactifun] Loading Galactifun vDEV - 76 (git aa6414a8)
-[00:32:25] [Server thread/INFO]: [FluffyMachines] Loading FluffyMachines vDEV - 132 (git ccf029ba)
-[00:32:25] [Server thread/INFO]: [DyedBackpacks] Loading DyedBackpacks vDEV - 17 (git 8b329e96)
-[00:32:25] [Server thread/INFO]: [Gastronomicon] Loading Gastronomicon vDEV - 8 (git 76336191)
-[00:32:25] [Server thread/INFO]: [FastMachines] Loading FastMachines vBuild 9 (git 00f7d11)
-[00:32:25] [Server thread/INFO]: [SoundMuffler] Loading SoundMuffler vDEV - 24 (git ae8e2bf7)
-[00:32:25] [Server thread/INFO]: [SmallSpace] Loading SmallSpace vDEV - 13 (git dcf995c3)
-[00:32:25] [Server thread/INFO]: [GSit] Loading GSit v1.5.5
-[00:32:25] [Server thread/INFO]: [LiteXpansion] Loading LiteXpansion vDEV - 192 (git 661862ed)
-[00:32:25] [Server thread/INFO]: [FNAmplifications] Loading FNAmplifications vDEV - 93 (git 7bc01100)
-[00:32:25] [Server thread/INFO]: [ElementManipulation] Loading ElementManipulation vDEV - 28 (git 2b469991)
-[00:32:25] [Server thread/INFO]: [InfinityExpansion] Loading InfinityExpansion vDEV - 144 (git 9da37202)
-[00:32:25] [Server thread/INFO]: [SlimefunWarfare] Loading SlimefunWarfare vDEV - 82 (git 0bb3ff87)
-[00:32:25] [Server thread/INFO]: [Networks] Loading Networks vDEV - 50 (git 3de3c9d6)
-[00:32:25] [Server thread/INFO]: [SimpleUtils] Loading SimpleUtils vDEV - 15 (git 4250fd5e)
-[00:32:25] [Server thread/INFO]: [SlimeTinker] Loading SlimeTinker vDEV - 84 (git 2c9f6155)
-[00:32:25] [Server thread/INFO]: [CrystamaeHistoria] Loading CrystamaeHistoria vDEV - 81 (git 0c0efa95)
-[00:32:25] [Server thread/INFO]: [EMCTech] Loading EMCTech vDEV - 5 (git c61222fb)
-[00:32:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:32:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.1-SNAPSHOT-669
-[00:32:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:32:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:32:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:32:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:32:25] [Server thread/INFO]: Preparing level "world"
-[00:32:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:32:26] [Server thread/INFO]: Time elapsed: 284 ms
-[00:32:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:32:26] [Server thread/INFO]: Time elapsed: 150 ms
-[00:32:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:32:27] [Server thread/INFO]: Time elapsed: 89 ms
-[00:32:27] [Server thread/INFO]: [LuckyPanda] Enabling LuckyPanda vDEV - 1 (git c8bd8dd7)
-[00:32:27] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
-[00:32:27] [Server thread/INFO]: [dough: protection] This may happen more than once.
-[00:32:27] [Server thread/INFO]: [SimpleTeleportation] Enabling SimpleTeleportation v1.0*
-[00:32:27] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDEV - 1104 (git c977454e)
-[00:32:27] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
-[00:32:27] [Server thread/INFO]: [Slimefun] Creating directories...
-[00:32:27] [Server thread/INFO]: [Slimefun] Loading language files...
-[00:32:27] [Server thread/INFO]: [Slimefun] Loaded language "en"
-[00:32:27] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
-[00:32:27] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
-[00:32:27] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
-[00:32:28] [Server thread/INFO]: [Slimefun] Loading Tags...
-[00:32:28] [Server thread/INFO]: [Slimefun] Loading items...
-[00:32:29] [Server thread/INFO]: [Slimefun] Loading researches...
-[00:32:29] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
-[00:32:29] [Server thread/INFO]: [Slimefun] Registering listeners...
-[00:32:29] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
-[00:32:29] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 2.13s
-[00:32:29] [Server thread/INFO]: [EcoPower] Enabling EcoPower vDEV - 5 (git 5c1ecd68)
-[00:32:29] [Server thread/INFO]: [DankTech2] Enabling DankTech2 vDEV - 9 (git aa6c2209)
-[00:32:29] [Server thread/INFO]: [DankTech2] ########################################
-[00:32:29] [Server thread/INFO]: [DankTech2]          DankTech2 - By Sefiraat        
-[00:32:29] [Server thread/INFO]: [DankTech2] ########################################
-[00:32:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
-[00:32:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
-[00:32:29] [Server thread/INFO]: [Netheopoiesis] Enabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
-[00:32:29] [Server thread/INFO]: [Netheopoiesis] ########################################
-[00:32:29] [Server thread/INFO]: [Netheopoiesis]     Netheopoiesis by Sefiraat, J3fftw   
-[00:32:29] [Server thread/INFO]: [Netheopoiesis] ########################################
-[00:32:29] [Server thread/INFO]: [Netheopoiesis] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:32:30] [Server thread/INFO]: [EquivalencyTech] Enabling EquivalencyTech v${project.version}
-[00:32:30] [Server thread/INFO]: [EquivalencyTech] ########################################
-[00:32:30] [Server thread/INFO]: [EquivalencyTech]  EquivalencyTech - Created by Sefiraat  
-[00:32:30] [Server thread/INFO]: [EquivalencyTech] ########################################
-[00:32:56] [Server thread/INFO]: [EquivalencyTech] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:32:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.8.1
-[00:32:56] [Server thread/INFO]: [SimpleStorage] Enabling SimpleStorage vDEV - 10 (git ea5e5637)
-[00:32:56] [Server thread/INFO]: [SimpleStorage] ########################################
-[00:32:56] [Server thread/INFO]: [SimpleStorage]   SimpleStorage - Created by Sefiraat   
-[00:32:56] [Server thread/INFO]: [SimpleStorage] ########################################
-[00:32:56] [Server thread/INFO]: [GlobalWarming] Enabling GlobalWarming vDEV - 11 (git 73ff77d4)
-[00:32:56] [Server thread/INFO]: [MiniBlocks] Enabling MiniBlocks vDEV - 4 (git f7a34b6e)
-[00:32:56] [Server thread/INFO]: [MiniBlocks] ------------------------
-[00:32:56] [Server thread/INFO]: [MiniBlocks] |         MiniBlocks ~ EzCoins          |
-[00:32:56] [Server thread/INFO]: [MiniBlocks] ------------------------
-[00:32:56] [Server thread/INFO]: [SfChunkInfo] Enabling SfChunkInfo vDEV - 8 (git b1b94abb)
-[00:32:56] [Server thread/INFO]: [SfChunkInfo] ******************************************************
-[00:32:56] [Server thread/INFO]: [SfChunkInfo] *         SfChunkInfo - Created by FN_FAL113         *
-[00:32:56] [Server thread/INFO]: [SfChunkInfo] *                 Addon for Slimefun                 *
-[00:32:56] [Server thread/INFO]: [SfChunkInfo] *         Scan your chunk for # of sf blocks         *
-[00:32:56] [Server thread/INFO]: [SfChunkInfo] ******************************************************
-[00:32:56] [Server thread/INFO]: [ExtraGear] Enabling ExtraGear vDEV - 13 (git c62047e2)
-[00:32:56] [Server thread/INFO]: [SlimeHUD] Enabling SlimeHUD vDEV - 11 (git b6dc2d53)
-[00:32:56] [Server thread/INFO]: [SlimeHUD] #=================================#
-[00:32:56] [Server thread/INFO]: [SlimeHUD] #    SlimeHUD by SchnTgaiSpock    #
-[00:32:56] [Server thread/INFO]: [SlimeHUD] #=================================#
-[00:32:56] [Server thread/INFO]: [SlimeHUD] PlaceholderAPI is not installed and has been ignored.
-[00:32:56] [Server thread/INFO]: [SFCalc] Enabling SFCalc vDEV - 37 (git dfc0fc41)
-[00:32:56] [Server thread/INFO]: [BetterReactor] Enabling BetterReactor vDEV - 11 (git 88a98d28)
-[00:32:56] [Server thread/INFO]: [MobCapturer] Enabling MobCapturer vDEV - 33 (git 6fc26c35)
-[00:32:57] [Server thread/INFO]: [TranscEndence] Enabling TranscEndence vDEV - 41 (git 98d7d47e)
-[00:32:57] [Server thread/INFO]: [HotbarPets] Enabling HotbarPets vDEV - 38 (git fa6c871d)
-[00:32:57] [Server thread/INFO]: [SlimefunLuckyBlocks] Enabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[00:32:57] [Server thread/INFO]: [SlimefunLuckyBlocks] Loaded 51 different Surprises!
-[00:32:57] [Server thread/INFO]: [ExoticGarden] Enabling ExoticGarden vDEV - 78 (git 7f9a5f63)
-[00:32:57] [Server thread/INFO]: [HeadLimiter] Enabling HeadLimiter vDEV - 15 (git 66d18f52)
-[00:32:57] [Server thread/INFO]: [Liquid] Enabling Liquid vDEV - 14 (git 0f5346bf)
-[00:32:57] [Server thread/INFO]: [SoulJars] Enabling SoulJars vDEV - 24 (git 78d1c6fa)
-[00:32:57] [Server thread/WARN]: [SoulJars] IllegalArgumentException: Possibly invalid mob type: PIG_ZOMBIE
-[00:32:57] [Server thread/INFO]: [AdvancedTech] Enabling AdvancedTech vDEV - 19 (git c133bfdd)
-[00:32:57] [Server thread/INFO]: [SlimyRepair] Enabling SlimyRepair vDEV - 4 (git 790c41cb)
-[00:32:57] [Server thread/INFO]: [FoxyMachines] Enabling FoxyMachines vDEV - 67 (git 0028aa93)
-[00:32:57] [Server thread/INFO]: [RelicsOfCthonia] Enabling RelicsOfCthonia vDEV - 10 (git 5a7cbe8d)
-[00:32:57] [Server thread/INFO]: [RelicsOfCthonia] ************************************************************
-[00:32:57] [Server thread/INFO]: [RelicsOfCthonia] *         Relics of Cthonia - Created by FN_FAL113         *
-[00:32:57] [Server thread/INFO]: [RelicsOfCthonia] *               Slimefun Addon Jam 2022 Entry              *
-[00:32:57] [Server thread/INFO]: [RelicsOfCthonia] *                     The Nether Theme                     *
-[00:32:57] [Server thread/INFO]: [RelicsOfCthonia] ************************************************************
-[00:32:57] [Server thread/INFO]: [SlimefunNetherTech2] Enabling SlimefunNetherTech2 v1.4.2.2
-[00:32:57] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] English chosen!
-[00:32:57] [Server thread/WARN]: Nag author(s): '[The_Banks]' of 'SlimefunNetherTech2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[00:32:57] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Config file loaded!
-[00:32:57] [Server thread/WARN]: [SlimefunNetherTech2] Could not save zh-CN.yml to plugins\SlimefunNetherTech2\zh-CN.yml because zh-CN.yml already exists.
-[00:32:57] [Server thread/WARN]: [SlimefunNetherTech2] Could not save en-US.yml to plugins\SlimefunNetherTech2\en-US.yml because en-US.yml already exists.
-[00:32:57] [Server thread/WARN]: [SlimefunNetherTech2] Could not save custom.yml to plugins\SlimefunNetherTech2\custom.yml because custom.yml already exists.
-[00:32:57] [Server thread/ERROR]: [SlimefunNetherTech2] Item "FREEZER_3" from SlimefunNetherTech2 v1.4.2.2 has caused an Error!
-[00:32:57] [Server thread/ERROR]: [SlimefunNetherTech2] You can report it here: xxx
-[00:32:57] [Server thread/ERROR]: [SlimefunNetherTech2] Registering Freezer3 - 'FREEZER_3' (SlimefunNetherTech2 v1.4.2.2) has failed!
+[01:11:25] [Server thread/INFO]: [LuckyPanda] Loading LuckyPanda vDEV - 1 (git c8bd8dd7)
+[01:11:25] [Server thread/INFO]: [SimpleTeleportation] Loading SimpleTeleportation v1.0
+[01:11:25] [Server thread/INFO]: [Slimefun] Loading Slimefun vDEV - 1104 (git c977454e)
+[01:11:25] [Server thread/INFO]: [EcoPower] Loading EcoPower vDEV - 5 (git 5c1ecd68)
+[01:11:25] [Server thread/INFO]: [DankTech2] Loading DankTech2 vDEV - 9 (git aa6c2209)
+[01:11:25] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.1
+[01:11:25] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
+[01:11:26] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:11:26] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:11:26] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:11:26] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:11:26] [Server thread/INFO]: [Netheopoiesis] Loading Netheopoiesis vDEV - 18 (git 9d12cc6f)
+[01:11:26] [Server thread/INFO]: [EquivalencyTech] Loading EquivalencyTech v${project.version}
+[01:11:26] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.8.1
+[01:11:26] [Server thread/INFO]: [SimpleStorage] Loading SimpleStorage vDEV - 10 (git ea5e5637)
+[01:11:26] [Server thread/INFO]: [GlobalWarming] Loading GlobalWarming vDEV - 11 (git 73ff77d4)
+[01:11:26] [Server thread/INFO]: [MiniBlocks] Loading MiniBlocks vDEV - 4 (git f7a34b6e)
+[01:11:26] [Server thread/INFO]: [SfChunkInfo] Loading SfChunkInfo vDEV - 8 (git b1b94abb)
+[01:11:26] [Server thread/INFO]: [ExtraGear] Loading ExtraGear vDEV - 13 (git c62047e2)
+[01:11:26] [Server thread/INFO]: [SlimeHUD] Loading SlimeHUD vDEV - 11 (git b6dc2d53)
+[01:11:26] [Server thread/INFO]: [SFCalc] Loading SFCalc vDEV - 37 (git dfc0fc41)
+[01:11:26] [Server thread/INFO]: [BetterReactor] Loading BetterReactor vDEV - 11 (git 88a98d28)
+[01:11:26] [Server thread/INFO]: [MobCapturer] Loading MobCapturer vDEV - 33 (git 6fc26c35)
+[01:11:26] [Server thread/INFO]: [TranscEndence] Loading TranscEndence vDEV - 41 (git 98d7d47e)
+[01:11:26] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.1-SNAPSHOT-669
+[01:11:27] [Server thread/INFO]: [HotbarPets] Loading HotbarPets vDEV - 38 (git fa6c871d)
+[01:11:27] [Server thread/INFO]: [SlimefunLuckyBlocks] Loading SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
+[01:11:27] [Server thread/INFO]: [ExoticGarden] Loading ExoticGarden vDEV - 78 (git 7f9a5f63)
+[01:11:27] [Server thread/INFO]: [HeadLimiter] Loading HeadLimiter vDEV - 15 (git 66d18f52)
+[01:11:27] [Server thread/INFO]: [Liquid] Loading Liquid vDEV - 14 (git 0f5346bf)
+[01:11:27] [Server thread/INFO]: [SoulJars] Loading SoulJars vDEV - 24 (git 78d1c6fa)
+[01:11:27] [Server thread/INFO]: [AdvancedTech] Loading AdvancedTech vDEV - 19 (git c133bfdd)
+[01:11:27] [Server thread/INFO]: [SlimyRepair] Loading SlimyRepair vDEV - 4 (git 790c41cb)
+[01:11:27] [Server thread/INFO]: [FoxyMachines] Loading FoxyMachines vDEV - 67 (git 0028aa93)
+[01:11:27] [Server thread/INFO]: [RelicsOfCthonia] Loading RelicsOfCthonia vDEV - 10 (git 5a7cbe8d)
+[01:11:27] [Server thread/INFO]: [SlimefunNetherTech2] Loading SlimefunNetherTech2 v1.4.2.2
+[01:11:27] [Server thread/INFO]: [SlimefunOreChunks] Loading SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[01:11:27] [Server thread/INFO]: [SimpleMaterialGenerators] Loading SimpleMaterialGenerators vDEV - 4 (git 5543cc8f)
+[01:11:27] [Server thread/INFO]: [VillagerTrade] Loading VillagerTrade vDEV - 4 (git bcce2a41)
+[01:11:27] [Server thread/INFO]: [DyeBench] Loading DyeBench vDEV - 6 (git ae841c2d)
+[01:11:27] [Server thread/INFO]: [Supreme] Loading Supreme vDEV - 29 (git f9e70053)
+[01:11:27] [Server thread/INFO]: [ElectricSpawners] Loading ElectricSpawners vDEV - 23 (git 6ec96773)
+[01:11:27] [Server thread/INFO]: [Wildernether] Loading Wildernether vDEV - 5 (git 5be3da69)
+[01:11:27] [Server thread/INFO]: [CompressionCraft] Loading CompressionCraft vDEV - 25 (git dbca94b8)
+[01:11:27] [Server thread/INFO]: [ExtraHeads] Loading ExtraHeads vDEV - 25 (git 8c29f73a)
+[01:11:27] [Server thread/INFO]: [SlimyTreeTaps] Loading SlimyTreeTaps vDEV - 20 (git 963f0383)
+[01:11:27] [Server thread/INFO]: [FlowerPower] Loading FlowerPower vDEV - 16 (git 5a38d1c6)
+[01:11:27] [Server thread/INFO]: [PrivateStorage] Loading PrivateStorage vDEV - 18 (git 5832db21)
+[01:11:27] [Server thread/INFO]: [ColoredEnderChests] Loading ColoredEnderChests vDEV - 23 (git 4d041832)
+[01:11:27] [Server thread/INFO]: [Galactifun] Loading Galactifun vDEV - 76 (git aa6414a8)
+[01:11:27] [Server thread/INFO]: [FluffyMachines] Loading FluffyMachines vDEV - 132 (git ccf029ba)
+[01:11:27] [Server thread/INFO]: [DyedBackpacks] Loading DyedBackpacks vDEV - 17 (git 8b329e96)
+[01:11:27] [Server thread/INFO]: [Gastronomicon] Loading Gastronomicon vDEV - 8 (git 76336191)
+[01:11:27] [Server thread/INFO]: [FastMachines] Loading FastMachines vBuild 9 (git 00f7d11)
+[01:11:27] [Server thread/INFO]: [SoundMuffler] Loading SoundMuffler vDEV - 24 (git ae8e2bf7)
+[01:11:27] [Server thread/INFO]: [SmallSpace] Loading SmallSpace vDEV - 13 (git dcf995c3)
+[01:11:27] [Server thread/INFO]: [GSit] Loading GSit v1.5.5
+[01:11:27] [Server thread/INFO]: [LiteXpansion] Loading LiteXpansion vDEV - 192 (git 661862ed)
+[01:11:27] [Server thread/INFO]: [FNAmplifications] Loading FNAmplifications vDEV - 93 (git 7bc01100)
+[01:11:27] [Server thread/INFO]: [ElementManipulation] Loading ElementManipulation vDEV - 28 (git 2b469991)
+[01:11:27] [Server thread/INFO]: [InfinityExpansion] Loading InfinityExpansion vDEV - 144 (git 9da37202)
+[01:11:27] [Server thread/INFO]: [SlimefunWarfare] Loading SlimefunWarfare vDEV - 82 (git 0bb3ff87)
+[01:11:27] [Server thread/INFO]: [Networks] Loading Networks vDEV - 50 (git 3de3c9d6)
+[01:11:27] [Server thread/INFO]: [SimpleUtils] Loading SimpleUtils vDEV - 15 (git 4250fd5e)
+[01:11:27] [Server thread/INFO]: [SlimeTinker] Loading SlimeTinker vDEV - 84 (git 2c9f6155)
+[01:11:27] [Server thread/INFO]: [CrystamaeHistoria] Loading CrystamaeHistoria vDEV - 81 (git 0c0efa95)
+[01:11:27] [Server thread/INFO]: [EMCTech] Loading EMCTech vDEV - 5 (git c61222fb)
+[01:11:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:11:27] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.1-SNAPSHOT-669
+[01:11:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:11:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:11:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:11:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:11:27] [Server thread/INFO]: Preparing level "world"
+[01:11:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:11:29] [Server thread/INFO]: Time elapsed: 277 ms
+[01:11:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:11:29] [Server thread/INFO]: Time elapsed: 96 ms
+[01:11:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:11:29] [Server thread/INFO]: Time elapsed: 72 ms
+[01:11:29] [Server thread/INFO]: [LuckyPanda] Enabling LuckyPanda vDEV - 1 (git c8bd8dd7)
+[01:11:29] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[01:11:29] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[01:11:29] [Server thread/INFO]: [SimpleTeleportation] Enabling SimpleTeleportation v1.0*
+[01:11:29] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDEV - 1104 (git c977454e)
+[01:11:29] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
+[01:11:29] [Server thread/INFO]: [Slimefun] Creating directories...
+[01:11:29] [Server thread/INFO]: [Slimefun] Loading language files...
+[01:11:29] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[01:11:29] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[01:11:29] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[01:11:29] [Slimefun Metrics/INFO]: [Slimefun] MetricsModule does not exist, downloading...
+[01:11:29] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[01:11:30] [Server thread/INFO]: [Slimefun] Loading Tags...
+[01:11:30] [Server thread/INFO]: [Slimefun] Loading items...
+[01:11:30] [Slimefun Metrics/INFO]: [Slimefun] # Starting download of MetricsModule build: #29
+[01:11:30] [Server thread/INFO]: [Slimefun] Loading researches...
+[01:11:30] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[01:11:30] [Server thread/INFO]: [Slimefun] Registering listeners...
+[01:11:30] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[01:11:30] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 1.5s
+[01:11:30] [Server thread/INFO]: [EcoPower] Enabling EcoPower vDEV - 5 (git 5c1ecd68)
+[01:11:30] [Server thread/INFO]: [DankTech2] Enabling DankTech2 vDEV - 9 (git aa6c2209)
+[01:11:30] [Server thread/INFO]: [DankTech2] ########################################
+[01:11:30] [Server thread/INFO]: [DankTech2]          DankTech2 - By Sefiraat        
+[01:11:30] [Server thread/INFO]: [DankTech2] ########################################
+[01:11:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
+[01:11:30] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
+[01:11:31] [Server thread/INFO]: [Netheopoiesis] Enabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
+[01:11:31] [Server thread/INFO]: [Netheopoiesis] ########################################
+[01:11:31] [Server thread/INFO]: [Netheopoiesis]     Netheopoiesis by Sefiraat, J3fftw   
+[01:11:31] [Server thread/INFO]: [Netheopoiesis] ########################################
+[01:11:31] [Server thread/INFO]: [Netheopoiesis] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:11:31] [Slimefun Metrics/INFO]: [Slimefun] # Downloading... 20% (6890/59681 bytes)
+[01:11:31] [Slimefun Metrics/INFO]: [Slimefun] # Downloading... 40% (17914/59681 bytes)
+[01:11:31] [Slimefun Metrics/INFO]: [Slimefun] # Downloading... 60% (30316/59681 bytes)
+[01:11:31] [Slimefun Metrics/INFO]: [Slimefun] # Downloading... 80% (42718/59681 bytes)
+[01:11:31] [Slimefun Metrics/INFO]: [Slimefun] # Downloading... 100% (53742/59681 bytes)
+[01:11:31] [Slimefun Metrics/INFO]: [Slimefun] Successfully downloaded MetricsModule build: #29
+[01:11:31] [Server thread/INFO]: [EquivalencyTech] Enabling EquivalencyTech v${project.version}
+[01:11:31] [Server thread/INFO]: [EquivalencyTech] ########################################
+[01:11:31] [Server thread/INFO]: [EquivalencyTech]  EquivalencyTech - Created by Sefiraat  
+[01:11:31] [Server thread/INFO]: [EquivalencyTech] ########################################
+[01:11:58] [Server thread/INFO]: [EquivalencyTech] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:11:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.8.1
+[01:11:58] [Server thread/INFO]: [SimpleStorage] Enabling SimpleStorage vDEV - 10 (git ea5e5637)
+[01:11:58] [Server thread/INFO]: [SimpleStorage] ########################################
+[01:11:58] [Server thread/INFO]: [SimpleStorage]   SimpleStorage - Created by Sefiraat   
+[01:11:58] [Server thread/INFO]: [SimpleStorage] ########################################
+[01:11:58] [Server thread/INFO]: [GlobalWarming] Enabling GlobalWarming vDEV - 11 (git 73ff77d4)
+[01:11:58] [Server thread/INFO]: [MiniBlocks] Enabling MiniBlocks vDEV - 4 (git f7a34b6e)
+[01:11:58] [Server thread/INFO]: [MiniBlocks] ------------------------
+[01:11:58] [Server thread/INFO]: [MiniBlocks] |         MiniBlocks ~ EzCoins          |
+[01:11:58] [Server thread/INFO]: [MiniBlocks] ------------------------
+[01:11:58] [Server thread/INFO]: [SfChunkInfo] Enabling SfChunkInfo vDEV - 8 (git b1b94abb)
+[01:11:58] [Server thread/INFO]: [SfChunkInfo] ******************************************************
+[01:11:58] [Server thread/INFO]: [SfChunkInfo] *         SfChunkInfo - Created by FN_FAL113         *
+[01:11:58] [Server thread/INFO]: [SfChunkInfo] *                 Addon for Slimefun                 *
+[01:11:58] [Server thread/INFO]: [SfChunkInfo] *         Scan your chunk for # of sf blocks         *
+[01:11:58] [Server thread/INFO]: [SfChunkInfo] ******************************************************
+[01:11:58] [Server thread/INFO]: [ExtraGear] Enabling ExtraGear vDEV - 13 (git c62047e2)
+[01:11:58] [Server thread/INFO]: [SlimeHUD] Enabling SlimeHUD vDEV - 11 (git b6dc2d53)
+[01:11:58] [Server thread/INFO]: [SlimeHUD] #=================================#
+[01:11:58] [Server thread/INFO]: [SlimeHUD] #    SlimeHUD by SchnTgaiSpock    #
+[01:11:58] [Server thread/INFO]: [SlimeHUD] #=================================#
+[01:11:58] [Server thread/INFO]: [SlimeHUD] PlaceholderAPI is not installed and has been ignored.
+[01:11:58] [Server thread/INFO]: [SFCalc] Enabling SFCalc vDEV - 37 (git dfc0fc41)
+[01:11:58] [Server thread/INFO]: [BetterReactor] Enabling BetterReactor vDEV - 11 (git 88a98d28)
+[01:11:58] [Server thread/INFO]: [MobCapturer] Enabling MobCapturer vDEV - 33 (git 6fc26c35)
+[01:11:58] [Server thread/INFO]: [TranscEndence] Enabling TranscEndence vDEV - 41 (git 98d7d47e)
+[01:11:58] [Server thread/INFO]: [HotbarPets] Enabling HotbarPets vDEV - 38 (git fa6c871d)
+[01:11:58] [Server thread/INFO]: [SlimefunLuckyBlocks] Enabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
+[01:11:58] [Server thread/INFO]: [SlimefunLuckyBlocks] Loaded 51 different Surprises!
+[01:11:58] [Server thread/INFO]: [ExoticGarden] Enabling ExoticGarden vDEV - 78 (git 7f9a5f63)
+[01:11:59] [Server thread/INFO]: [HeadLimiter] Enabling HeadLimiter vDEV - 15 (git 66d18f52)
+[01:11:59] [Server thread/INFO]: [Liquid] Enabling Liquid vDEV - 14 (git 0f5346bf)
+[01:11:59] [Server thread/INFO]: [SoulJars] Enabling SoulJars vDEV - 24 (git 78d1c6fa)
+[01:11:59] [Server thread/WARN]: [SoulJars] IllegalArgumentException: Possibly invalid mob type: PIG_ZOMBIE
+[01:11:59] [Server thread/INFO]: [AdvancedTech] Enabling AdvancedTech vDEV - 19 (git c133bfdd)
+[01:11:59] [Server thread/INFO]: [SlimyRepair] Enabling SlimyRepair vDEV - 4 (git 790c41cb)
+[01:11:59] [Server thread/INFO]: [FoxyMachines] Enabling FoxyMachines vDEV - 67 (git 0028aa93)
+[01:11:59] [Server thread/INFO]: [RelicsOfCthonia] Enabling RelicsOfCthonia vDEV - 10 (git 5a7cbe8d)
+[01:11:59] [Server thread/INFO]: [RelicsOfCthonia] ************************************************************
+[01:11:59] [Server thread/INFO]: [RelicsOfCthonia] *         Relics of Cthonia - Created by FN_FAL113         *
+[01:11:59] [Server thread/INFO]: [RelicsOfCthonia] *               Slimefun Addon Jam 2022 Entry              *
+[01:11:59] [Server thread/INFO]: [RelicsOfCthonia] *                     The Nether Theme                     *
+[01:11:59] [Server thread/INFO]: [RelicsOfCthonia] ************************************************************
+[01:11:59] [Server thread/INFO]: [SlimefunNetherTech2] Enabling SlimefunNetherTech2 v1.4.2.2
+[01:11:59] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] English chosen!
+[01:11:59] [Server thread/WARN]: Nag author(s): '[The_Banks]' of 'SlimefunNetherTech2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[01:11:59] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Config file loaded!
+[01:11:59] [Server thread/WARN]: [SlimefunNetherTech2] Could not save zh-CN.yml to plugins\SlimefunNetherTech2\zh-CN.yml because zh-CN.yml already exists.
+[01:11:59] [Server thread/WARN]: [SlimefunNetherTech2] Could not save en-US.yml to plugins\SlimefunNetherTech2\en-US.yml because en-US.yml already exists.
+[01:11:59] [Server thread/WARN]: [SlimefunNetherTech2] Could not save custom.yml to plugins\SlimefunNetherTech2\custom.yml because custom.yml already exists.
+[01:11:59] [Server thread/ERROR]: [SlimefunNetherTech2] Item "FREEZER_3" from SlimefunNetherTech2 v1.4.2.2 has caused an Error!
+[01:11:59] [Server thread/ERROR]: [SlimefunNetherTech2] You can report it here: xxx
+[01:11:59] [Server thread/ERROR]: [SlimefunNetherTech2] Registering Freezer3 - 'FREEZER_3' (SlimefunNetherTech2 v1.4.2.2) has failed!
 io.github.thebusybiscuit.slimefun4.api.exceptions.IdConflictException: Two items have conflicting ids: Freezer3 - 'FREEZER_3' (SlimefunNetherTech2 v1.4.2.2) and Freezer - 'FREEZER_3' (Slimefun vDEV - 1104 (git c977454e))
 	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.checkForConflicts(SlimefunItem.java:601) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
 	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.register(SlimefunItem.java:422) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
@@ -227,143 +235,170 @@ io.github.thebusybiscuit.slimefun4.api.exceptions.IdConflictException: Two items
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.18.2.jar:git-Paper-388]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.18.2.jar:git-Paper-388]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:32:57] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Successfully loaded this plugin!
-[00:32:57] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Using English!
-[00:32:57] [Server thread/INFO]: [SlimefunOreChunks] Enabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
-[00:32:57] [Server thread/INFO]: [SimpleMaterialGenerators] Enabling SimpleMaterialGenerators vDEV - 4 (git 5543cc8f)
-[00:32:57] [Server thread/INFO]: [VillagerTrade] Enabling VillagerTrade vDEV - 4 (git bcce2a41)
-[00:32:57] [Server thread/INFO]: [VillagerTrade] ====================
-[00:32:57] [Server thread/INFO]: [VillagerTrade]    VillagerTrade    
-[00:32:57] [Server thread/INFO]: [VillagerTrade]      by ybw0014     
-[00:32:57] [Server thread/INFO]: [VillagerTrade] ====================
-[00:32:57] [Server thread/INFO]: [DyeBench] Enabling DyeBench vDEV - 6 (git ae841c2d)
-[00:32:57] [Server thread/INFO]: [Supreme] Enabling Supreme vDEV - 29 (git f9e70053)
-[00:32:57] [Server thread/INFO]: [Supreme] ########################################
-[00:32:57] [Server thread/INFO]: [Supreme]       Supreme 2.0  - By RelativoBR      
-[00:32:57] [Server thread/INFO]: [Supreme] ########################################
-[00:32:57] [Server thread/INFO]: [Supreme] Auto Update: enable
-[00:32:57] [Server thread/INFO]: [Supreme] Loaded language Supreme: en-US
-[00:32:57] [Server thread/INFO]: [Supreme] Legacy SupremeExpansion IDs: disable
-[00:32:58] [Server thread/INFO]: [ElectricSpawners] Enabling ElectricSpawners vDEV - 23 (git 6ec96773)
-[00:32:58] [Server thread/INFO]: [Wildernether] Enabling Wildernether vDEV - 5 (git 5be3da69)
-[00:32:58] [Server thread/INFO]: [Wildernether] #=======================================#
-[00:32:58] [Server thread/INFO]: [Wildernether] #    Wildernether - By SchnTgaiSpock    #
-[00:32:58] [Server thread/INFO]: [Wildernether] #=======================================#
-[00:32:58] [Server thread/INFO]: [Wildernether] SlimeHUD was found on this server!
-[00:32:58] [Server thread/INFO]: [Wildernether] Setting up Wildernether for SlimeHUD...
-[00:32:58] [Server thread/WARN]: [Wildernether] Loaded class io.github.schntgaispock.slimehud.SlimeHUD from SlimeHUD vDEV - 11 (git b6dc2d53) which is not a depend or softdepend of this plugin.
-[00:32:58] [Server thread/INFO]: [CompressionCraft] Enabling CompressionCraft vDEV - 25 (git dbca94b8)
-[00:32:58] [Server thread/INFO]: [ExtraHeads] Enabling ExtraHeads vDEV - 25 (git 8c29f73a)
-[00:32:58] [Server thread/INFO]: [SlimyTreeTaps] Enabling SlimyTreeTaps vDEV - 20 (git 963f0383)
-[00:32:58] [Server thread/INFO]: [FlowerPower] Enabling FlowerPower vDEV - 16 (git 5a38d1c6)
-[00:32:58] [Server thread/INFO]: [PrivateStorage] Enabling PrivateStorage vDEV - 18 (git 5832db21)
-[00:32:58] [Server thread/INFO]: [ColoredEnderChests] Enabling ColoredEnderChests vDEV - 23 (git 4d041832)
-[00:32:59] [Server thread/INFO]: [Galactifun] Enabling Galactifun vDEV - 76 (git aa6414a8)
-[00:32:59] [Server thread/INFO]: [Galactifun] Loading planet Venus
-[00:32:59] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_venus
-[00:32:59] [Server thread/INFO]: Preparing spawn area: 0%
-[00:32:59] [Server thread/INFO]: Time elapsed: 440 ms
-[00:32:59] [Server thread/INFO]: [Galactifun] Loading planet Io
-[00:33:00] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_io
-[00:33:00] [Server thread/INFO]: Preparing spawn area: 0%
-[00:33:00] [Server thread/INFO]: Time elapsed: 425 ms
-[00:33:00] [Server thread/INFO]: [Galactifun] Loading planet Earth Orbit
-[00:33:00] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_earth_orbit
-[00:33:00] [Server thread/INFO]: Time elapsed: 67 ms
-[00:33:01] [Server thread/INFO]: [Galactifun] Loading planet Enceladus
-[00:33:01] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_enceladus
-[00:33:01] [Server thread/INFO]: Time elapsed: 122 ms
-[00:33:01] [Server thread/INFO]: [Galactifun] Loading planet Titan
-[00:33:01] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_titan
-[00:33:01] [Server thread/INFO]: Time elapsed: 86 ms
-[00:33:01] [Server thread/INFO]: [Galactifun] Loading planet Mars
-[00:33:01] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_mars
-[00:33:02] [Server thread/INFO]: Time elapsed: 121 ms
-[00:33:02] [Server thread/INFO]: [Galactifun] Loading planet The Moon
-[00:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_the_moon
-[00:33:02] [Server thread/INFO]: Time elapsed: 107 ms
-[00:33:02] [Server thread/INFO]: [FluffyMachines] Enabling FluffyMachines vDEV - 132 (git ccf029ba)
-[00:33:02] [Server thread/INFO]: [FluffyMachines] §aHi there! Want to share your server with the Slimefun community?
-[00:33:02] [Server thread/INFO]: [FluffyMachines] §aJoin the official Slimefun Discord server at https://discord.gg/slimefun
-[00:33:02] [Server thread/INFO]: [DyedBackpacks] Enabling DyedBackpacks vDEV - 17 (git 8b329e96)
-[00:33:02] [Server thread/INFO]: [Gastronomicon] Enabling Gastronomicon vDEV - 8 (git 76336191)
-[00:33:02] [Server thread/INFO]: [Gastronomicon] #======================================#
-[00:33:02] [Server thread/INFO]: [Gastronomicon] #    Gastronomicon by SchnTgaiSpock    #
-[00:33:02] [Server thread/INFO]: [Gastronomicon] #======================================#
-[00:33:02] [Server thread/INFO]: [Gastronomicon] SlimeHUD was found on this server!
-[00:33:02] [Server thread/INFO]: [Gastronomicon] Setting up Gastronomicon for SlimeHUD...
-[00:33:03] [Server thread/INFO]: [Gastronomicon] Loaded all trees
-[00:33:03] [Server thread/INFO]: [FastMachines] Enabling FastMachines vBuild 9 (git 00f7d11)
-[00:33:03] [Server thread/INFO]: [FastMachines] ====================
-[00:33:03] [Server thread/INFO]: [FastMachines]      FastMachines   
-[00:33:03] [Server thread/INFO]: [FastMachines]      by ybw0014     
-[00:33:03] [Server thread/INFO]: [FastMachines] ====================
-[00:33:03] [Server thread/INFO]: [FastMachines] Loading language...
-[00:33:03] [Server thread/INFO]: [FastMachines] Loaded language: en-US
-[00:33:03] [Server thread/INFO]: [FastMachines] Loading items...
-[00:33:03] [Server thread/INFO]: [FastMachines] Loading researches...
-[00:33:03] [Server thread/INFO]: [SoundMuffler] Enabling SoundMuffler vDEV - 24 (git ae8e2bf7)
-[00:33:03] [Server thread/INFO]: [SmallSpace] Enabling SmallSpace vDEV - 13 (git dcf995c3)
-[00:33:03] [Server thread/INFO]: Preparing start region for dimension minecraft:smallspace
-[00:33:03] [Server thread/INFO]: Time elapsed: 361 ms
-[00:33:03] [Server thread/INFO]: [GSit] Enabling GSit v1.5.5
-[00:33:03] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[00:33:03] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
-[00:33:03] [Server thread/INFO]: [LiteXpansion] Enabling LiteXpansion vDEV - 192 (git 661862ed)
-[00:33:03] [Server thread/INFO]: [LiteXpansion] Loaded 35 UU-Matter recipes
-[00:33:03] [Server thread/INFO]: [FNAmplifications] Enabling FNAmplifications vDEV - 93 (git 7bc01100)
-[00:33:03] [Server thread/INFO]: [FNAmplifications] ************************************************************
-[00:33:03] [Server thread/INFO]: [FNAmplifications] *         FN Amplifications - Created by FN_FAL113         *
-[00:33:03] [Server thread/INFO]: [FNAmplifications] *         Add me on discord if there are any issues        *
-[00:33:03] [Server thread/INFO]: [FNAmplifications] *          FN_FAL#7779 or join SF Addon Community          *
-[00:33:03] [Server thread/INFO]: [FNAmplifications] *                https://discord.gg/SqD3gg5SAU             *
-[00:33:03] [Server thread/INFO]: [FNAmplifications] ************************************************************
-[00:33:03] [Server thread/INFO]: [FNAmplifications] Vault API not detected! Loot Gem will not be registered.
-[00:33:04] [Server thread/INFO]: [ElementManipulation] Enabling ElementManipulation vDEV - 28 (git 2b469991)
-[00:33:04] [Server thread/INFO]: [InfinityExpansion] Enabling InfinityExpansion vDEV - 144 (git 9da37202)
-[00:33:04] [Server thread/INFO]: [SlimefunWarfare] Enabling SlimefunWarfare vDEV - 82 (git 0bb3ff87)
-[00:33:04] [Server thread/INFO]: [Networks] Enabling Networks vDEV - 50 (git 3de3c9d6)
-[00:33:04] [Server thread/INFO]: [Networks] ########################################
-[00:33:04] [Server thread/INFO]: [Networks]          Networks - By Sefiraat         
-[00:33:04] [Server thread/INFO]: [Networks] ########################################
-[00:33:04] [Server thread/INFO]: [SimpleUtils] Enabling SimpleUtils vDEV - 15 (git 4250fd5e)
-[00:33:04] [Server thread/INFO]: [SlimeTinker] Enabling SlimeTinker vDEV - 84 (git 2c9f6155)
-[00:33:04] [Server thread/INFO]: [SlimeTinker] ########################################
-[00:33:04] [Server thread/INFO]: [SlimeTinker]    Slime Tinker - Created by Sefiraat   
-[00:33:04] [Server thread/INFO]: [SlimeTinker] ########################################
-[00:33:05] [Server thread/INFO]: [SlimeTinker] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:33:05] [Server thread/INFO]: [CrystamaeHistoria] Enabling CrystamaeHistoria vDEV - 81 (git 0c0efa95)
-[00:33:05] [Server thread/INFO]: [CrystamaeHistoria] ########################################
-[00:33:05] [Server thread/INFO]: [CrystamaeHistoria]     Crystamae Historia - By Sefiraat    
-[00:33:05] [Server thread/INFO]: [CrystamaeHistoria] ########################################
-[00:33:05] [Server thread/INFO]: [CrystamaeHistoria] Loaded: 995 unique (block) stories.
-[00:33:06] [Server thread/INFO]: [EMCTech] Enabling EMCTech vDEV - 5 (git c61222fb)
-[00:33:06] [Server thread/INFO]: [EMCTech] ########################################
-[00:33:06] [Server thread/INFO]: [EMCTech]            EMCTech by Sefiraat          
-[00:33:06] [Server thread/INFO]: [EMCTech] ########################################
-[00:33:06] [Server thread/INFO]: [EMCTech] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:33:09] [Server thread/INFO]: [EMCTech] Adding extended recipes for DankTech2
-[00:33:09] [Server thread/INFO]: [EMCTech] Adding extended recipes for Infinity Expansion
-[00:33:09] [Server thread/INFO]: Running delayed init tasks
-[00:33:09] [Craft Scheduler Thread - 13 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[00:33:09] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
-[00:33:09] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
-[00:33:09] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
-[00:33:10] [User Authenticator #1/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:33:10] [Craft Scheduler Thread - 15 - SimpleStorage/WARN]: [SimpleStorage] Could not connect to the updating site, is it down?
-java.io.FileNotFoundException: https://thebusybiscuit.github.io/builds/Sefiraat/SimpleStorage/master/builds.json
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994) ~[?:?]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
-	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.getLatestVersion(UpdaterTask.java:64) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
-	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.run(UpdaterTask.java:45) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:33:10] [Craft Scheduler Thread - 4 - LuckyPanda/WARN]: [LuckyPanda] Could not connect to the updating site, is it down?
+[01:11:59] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Successfully loaded this plugin!
+[01:11:59] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Using English!
+[01:11:59] [Server thread/INFO]: [SlimefunOreChunks] Enabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[01:11:59] [Server thread/INFO]: [SimpleMaterialGenerators] Enabling SimpleMaterialGenerators vDEV - 4 (git 5543cc8f)
+[01:11:59] [Server thread/INFO]: [VillagerTrade] Enabling VillagerTrade vDEV - 4 (git bcce2a41)
+[01:11:59] [Server thread/INFO]: [VillagerTrade] ====================
+[01:11:59] [Server thread/INFO]: [VillagerTrade]    VillagerTrade    
+[01:11:59] [Server thread/INFO]: [VillagerTrade]      by ybw0014     
+[01:11:59] [Server thread/INFO]: [VillagerTrade] ====================
+[01:11:59] [Server thread/INFO]: [DyeBench] Enabling DyeBench vDEV - 6 (git ae841c2d)
+[01:11:59] [Server thread/INFO]: [Supreme] Enabling Supreme vDEV - 29 (git f9e70053)
+[01:11:59] [Server thread/INFO]: [Supreme] ########################################
+[01:11:59] [Server thread/INFO]: [Supreme]       Supreme 2.0  - By RelativoBR      
+[01:11:59] [Server thread/INFO]: [Supreme] ########################################
+[01:11:59] [Server thread/INFO]: [Supreme] Auto Update: enable
+[01:11:59] [Server thread/INFO]: [Supreme] Loaded language Supreme: en-US
+[01:11:59] [Server thread/INFO]: [Supreme] Legacy SupremeExpansion IDs: disable
+[01:11:59] [Server thread/INFO]: [ElectricSpawners] Enabling ElectricSpawners vDEV - 23 (git 6ec96773)
+[01:11:59] [Server thread/INFO]: [Wildernether] Enabling Wildernether vDEV - 5 (git 5be3da69)
+[01:11:59] [Server thread/INFO]: [Wildernether] #=======================================#
+[01:11:59] [Server thread/INFO]: [Wildernether] #    Wildernether - By SchnTgaiSpock    #
+[01:11:59] [Server thread/INFO]: [Wildernether] #=======================================#
+[01:11:59] [Server thread/INFO]: [Wildernether] SlimeHUD was found on this server!
+[01:11:59] [Server thread/INFO]: [Wildernether] Setting up Wildernether for SlimeHUD...
+[01:11:59] [Server thread/WARN]: [Wildernether] Loaded class io.github.schntgaispock.slimehud.SlimeHUD from SlimeHUD vDEV - 11 (git b6dc2d53) which is not a depend or softdepend of this plugin.
+[01:11:59] [Server thread/INFO]: [CompressionCraft] Enabling CompressionCraft vDEV - 25 (git dbca94b8)
+[01:11:59] [Server thread/INFO]: [ExtraHeads] Enabling ExtraHeads vDEV - 25 (git 8c29f73a)
+[01:12:00] [Server thread/INFO]: [SlimyTreeTaps] Enabling SlimyTreeTaps vDEV - 20 (git 963f0383)
+[01:12:00] [Server thread/INFO]: [FlowerPower] Enabling FlowerPower vDEV - 16 (git 5a38d1c6)
+[01:12:00] [Server thread/INFO]: [PrivateStorage] Enabling PrivateStorage vDEV - 18 (git 5832db21)
+[01:12:00] [Server thread/INFO]: [ColoredEnderChests] Enabling ColoredEnderChests vDEV - 23 (git 4d041832)
+[01:12:00] [Server thread/INFO]: [Galactifun] Enabling Galactifun vDEV - 76 (git aa6414a8)
+[01:12:00] [Server thread/INFO]: [Galactifun] Loading planet Venus
+[01:12:00] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_venus
+[01:12:01] [Server thread/INFO]: Preparing spawn area: 0%
+[01:12:01] [Server thread/INFO]: Preparing spawn area: 0%
+[01:12:01] [Server thread/INFO]: Preparing spawn area: 1%
+[01:12:02] [Server thread/INFO]: Preparing spawn area: 1%
+[01:12:02] [Server thread/INFO]: Time elapsed: 1799 ms
+[01:12:02] [Server thread/INFO]: [Galactifun] Loading planet Io
+[01:12:03] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_io
+[01:12:03] [Server thread/INFO]: Time elapsed: 110 ms
+[01:12:03] [Server thread/INFO]: [Galactifun] Loading planet Earth Orbit
+[01:12:03] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_earth_orbit
+[01:12:03] [Server thread/INFO]: Time elapsed: 161 ms
+[01:12:05] [Server thread/INFO]: [Galactifun] Loading planet Enceladus
+[01:12:05] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_enceladus
+[01:12:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:12:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:12:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:12:07] [Server thread/INFO]: Time elapsed: 1548 ms
+[01:12:10] [Server thread/INFO]: [Galactifun] Loading planet Titan
+[01:12:10] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_titan
+[01:12:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:12:11] [Server thread/INFO]: Time elapsed: 507 ms
+[01:12:11] [Server thread/INFO]: [Galactifun] Loading planet Mars
+[01:12:11] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_mars
+[01:12:11] [Server thread/INFO]: Time elapsed: 85 ms
+[01:12:11] [Server thread/INFO]: [Galactifun] Loading planet The Moon
+[01:12:11] [Server thread/INFO]: Preparing start region for dimension minecraft:world_galactifun_the_moon
+[01:12:11] [Server thread/INFO]: Time elapsed: 63 ms
+[01:12:17] [Server thread/INFO]: [FluffyMachines] Enabling FluffyMachines vDEV - 132 (git ccf029ba)
+[01:12:17] [Server thread/INFO]: [FluffyMachines] §aHi there! Want to share your server with the Slimefun community?
+[01:12:17] [Server thread/INFO]: [FluffyMachines] §aJoin the official Slimefun Discord server at https://discord.gg/slimefun
+[01:12:17] [Server thread/INFO]: [DyedBackpacks] Enabling DyedBackpacks vDEV - 17 (git 8b329e96)
+[01:12:17] [Server thread/INFO]: [Gastronomicon] Enabling Gastronomicon vDEV - 8 (git 76336191)
+[01:12:17] [Server thread/INFO]: [Gastronomicon] #======================================#
+[01:12:17] [Server thread/INFO]: [Gastronomicon] #    Gastronomicon by SchnTgaiSpock    #
+[01:12:17] [Server thread/INFO]: [Gastronomicon] #======================================#
+[01:12:17] [Server thread/INFO]: [Gastronomicon] SlimeHUD was found on this server!
+[01:12:17] [Server thread/INFO]: [Gastronomicon] Setting up Gastronomicon for SlimeHUD...
+[01:12:18] [Server thread/INFO]: [Gastronomicon] Loaded all trees
+[01:12:18] [Server thread/INFO]: [FastMachines] Enabling FastMachines vBuild 9 (git 00f7d11)
+[01:12:18] [Server thread/INFO]: [FastMachines] ====================
+[01:12:18] [Server thread/INFO]: [FastMachines]      FastMachines   
+[01:12:18] [Server thread/INFO]: [FastMachines]      by ybw0014     
+[01:12:18] [Server thread/INFO]: [FastMachines] ====================
+[01:12:18] [Server thread/INFO]: [FastMachines] Loading language...
+[01:12:18] [Server thread/INFO]: [FastMachines] Loaded language: en-US
+[01:12:18] [Server thread/INFO]: [FastMachines] Loading items...
+[01:12:18] [Server thread/INFO]: [FastMachines] Loading researches...
+[01:12:18] [Server thread/INFO]: [SoundMuffler] Enabling SoundMuffler vDEV - 24 (git ae8e2bf7)
+[01:12:18] [Server thread/INFO]: [SmallSpace] Enabling SmallSpace vDEV - 13 (git dcf995c3)
+[01:12:18] [Server thread/INFO]: Preparing start region for dimension minecraft:smallspace
+[01:12:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:12:18] [Server thread/INFO]: Preparing spawn area: 0%
+[01:12:19] [Server thread/INFO]: Time elapsed: 1153 ms
+[01:12:19] [Server thread/INFO]: [GSit] Enabling GSit v1.5.5
+[01:12:19] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[01:12:19] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
+[01:12:19] [Server thread/INFO]: [LiteXpansion] Enabling LiteXpansion vDEV - 192 (git 661862ed)
+[01:12:19] [Server thread/INFO]: [LiteXpansion] Loaded 35 UU-Matter recipes
+[01:12:19] [Server thread/INFO]: [FNAmplifications] Enabling FNAmplifications vDEV - 93 (git 7bc01100)
+[01:12:19] [Server thread/INFO]: [FNAmplifications] ************************************************************
+[01:12:19] [Server thread/INFO]: [FNAmplifications] *         FN Amplifications - Created by FN_FAL113         *
+[01:12:19] [Server thread/INFO]: [FNAmplifications] *         Add me on discord if there are any issues        *
+[01:12:19] [Server thread/INFO]: [FNAmplifications] *          FN_FAL#7779 or join SF Addon Community          *
+[01:12:19] [Server thread/INFO]: [FNAmplifications] *                https://discord.gg/SqD3gg5SAU             *
+[01:12:19] [Server thread/INFO]: [FNAmplifications] ************************************************************
+[01:12:19] [Server thread/INFO]: [FNAmplifications] Vault API not detected! Loot Gem will not be registered.
+[01:12:19] [Server thread/INFO]: [ElementManipulation] Enabling ElementManipulation vDEV - 28 (git 2b469991)
+[01:12:20] [Server thread/INFO]: [InfinityExpansion] Enabling InfinityExpansion vDEV - 144 (git 9da37202)
+[01:12:20] [Server thread/INFO]: [SlimefunWarfare] Enabling SlimefunWarfare vDEV - 82 (git 0bb3ff87)
+[01:12:20] [Server thread/INFO]: [Networks] Enabling Networks vDEV - 50 (git 3de3c9d6)
+[01:12:20] [Server thread/INFO]: [Networks] ########################################
+[01:12:20] [Server thread/INFO]: [Networks]          Networks - By Sefiraat         
+[01:12:20] [Server thread/INFO]: [Networks] ########################################
+[01:12:20] [Server thread/INFO]: [SimpleUtils] Enabling SimpleUtils vDEV - 15 (git 4250fd5e)
+[01:12:20] [Server thread/INFO]: [SlimeTinker] Enabling SlimeTinker vDEV - 84 (git 2c9f6155)
+[01:12:20] [Server thread/INFO]: [SlimeTinker] ########################################
+[01:12:20] [Server thread/INFO]: [SlimeTinker]    Slime Tinker - Created by Sefiraat   
+[01:12:20] [Server thread/INFO]: [SlimeTinker] ########################################
+[01:12:21] [Server thread/INFO]: [SlimeTinker] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:12:21] [Server thread/INFO]: [CrystamaeHistoria] Enabling CrystamaeHistoria vDEV - 81 (git 0c0efa95)
+[01:12:21] [Server thread/INFO]: [CrystamaeHistoria] ########################################
+[01:12:21] [Server thread/INFO]: [CrystamaeHistoria]     Crystamae Historia - By Sefiraat    
+[01:12:21] [Server thread/INFO]: [CrystamaeHistoria] ########################################
+[01:12:21] [Server thread/INFO]: [CrystamaeHistoria] Loaded: 995 unique (block) stories.
+[01:12:22] [Server thread/INFO]: [EMCTech] Enabling EMCTech vDEV - 5 (git c61222fb)
+[01:12:22] [Server thread/INFO]: [EMCTech] ########################################
+[01:12:22] [Server thread/INFO]: [EMCTech]            EMCTech by Sefiraat          
+[01:12:22] [Server thread/INFO]: [EMCTech] ########################################
+[01:12:22] [Server thread/INFO]: [EMCTech] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:12:25] [Server thread/INFO]: [EMCTech] Adding extended recipes for DankTech2
+[01:12:25] [Server thread/INFO]: [EMCTech] Adding extended recipes for Infinity Expansion
+[01:12:25] [Server thread/INFO]: Running delayed init tasks
+[01:12:25] [Craft Scheduler Thread - 13 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[01:12:26] [Craft Scheduler Thread - 19 - MobCapturer/INFO]: [MobCapturer] MobCapturer is already up to date!
+[01:12:26] [Craft Scheduler Thread - 29 - AdvancedTech/INFO]: [AdvancedTech] AdvancedTech is already up to date!
+[01:12:26] [Craft Scheduler Thread - 10 - EcoPower/INFO]: [EcoPower] EcoPower is already up to date!
+[01:12:26] [Craft Scheduler Thread - 18 - BetterReactor/INFO]: [BetterReactor] BetterReactor is already up to date!
+[01:12:26] [Craft Scheduler Thread - 32 - SlimefunOreChunks/INFO]: [SlimefunOreChunks] SlimefunOreChunks is already up to date!
+[01:12:26] [Craft Scheduler Thread - 56 - SlimefunWarfare/INFO]: [SlimefunWarfare] SlimefunWarfare is already up to date!
+[01:12:26] [Craft Scheduler Thread - 54 - ElementManipulation/INFO]: [ElementManipulation] ElementManipulation is already up to date!
+[01:12:26] [Craft Scheduler Thread - 7 - SFCalc/INFO]: [SFCalc] SFCalc is already up to date!
+[01:12:26] [Craft Scheduler Thread - 37 - ElectricSpawners/INFO]: [ElectricSpawners] ElectricSpawners is already up to date!
+[01:12:26] [Craft Scheduler Thread - 38 - Wildernether/INFO]: [Wildernether] Wildernether is already up to date!
+[01:12:26] [Craft Scheduler Thread - 17 - ExtraGear/INFO]: [ExtraGear] ExtraGear is already up to date!
+[01:12:26] [Craft Scheduler Thread - 35 - DyeBench/INFO]: [DyeBench] DyeBench is already up to date!
+[01:12:26] [Craft Scheduler Thread - 58 - SimpleUtils/INFO]: [SimpleUtils] SimpleUtils is already up to date!
+[01:12:26] [Craft Scheduler Thread - 41 - SlimyTreeTaps/INFO]: [SlimyTreeTaps] SlimyTreeTaps is already up to date!
+[01:12:26] [Craft Scheduler Thread - 36 - Supreme/INFO]: [Supreme] Supreme is already up to date!
+[01:12:26] [Craft Scheduler Thread - 8 - SlimeHUD/INFO]: [SlimeHUD] SlimeHUD is already up to date!
+[01:12:26] [Craft Scheduler Thread - 48 - SoundMuffler/INFO]: [SoundMuffler] SoundMuffler is already up to date!
+[01:12:26] [Craft Scheduler Thread - 34 - VillagerTrade/INFO]: [VillagerTrade] VillagerTrade is already up to date!
+[01:12:26] [Craft Scheduler Thread - 49 - SmallSpace/INFO]: [SmallSpace] SmallSpace is already up to date!
+[01:12:26] [Craft Scheduler Thread - 57 - Networks/INFO]: [Networks] Networks is already up to date!
+[01:12:26] [Craft Scheduler Thread - 26 - HeadLimiter/INFO]: [HeadLimiter] HeadLimiter is already up to date!
+[01:12:26] [Craft Scheduler Thread - 9 - MiniBlocks/INFO]: [MiniBlocks] MiniBlocks is already up to date!
+[01:12:26] [Craft Scheduler Thread - 27 - Liquid/INFO]: [Liquid] Liquid is already up to date!
+[01:12:26] [Craft Scheduler Thread - 28 - SoulJars/INFO]: [SoulJars] SoulJars is already up to date!
+[01:12:26] [Craft Scheduler Thread - 11 - DankTech2/INFO]: [DankTech2] DankTech2 is already up to date!
+[01:12:26] [Craft Scheduler Thread - 43 - PrivateStorage/INFO]: [PrivateStorage] PrivateStorage is already up to date!
+[01:12:26] [Craft Scheduler Thread - 59 - SlimeTinker/INFO]: [SlimeTinker] SlimeTinker is already up to date!
+[01:12:26] [Craft Scheduler Thread - 16 - GlobalWarming/INFO]: [GlobalWarming] GlobalWarming is already up to date!
+[01:12:26] [Craft Scheduler Thread - 21 - Gastronomicon/INFO]: [Gastronomicon] Gastronomicon is already up to date!
+[01:12:26] [Craft Scheduler Thread - 40 - ExtraHeads/INFO]: [ExtraHeads] ExtraHeads is already up to date!
+[01:12:26] [Craft Scheduler Thread - 47 - DyedBackpacks/INFO]: [DyedBackpacks] DyedBackpacks is already up to date!
+[01:12:26] [Craft Scheduler Thread - 6 - SfChunkInfo/INFO]: [SfChunkInfo] SfChunkInfo is already up to date!
+[01:12:26] [Craft Scheduler Thread - 13 - SlimyRepair/INFO]: [SlimyRepair] SlimyRepair is already up to date!
+[01:12:26] [Craft Scheduler Thread - 33 - SimpleMaterialGenerators/INFO]: [SimpleMaterialGenerators] SimpleMaterialGenerators is already up to date!
+[01:12:26] [Craft Scheduler Thread - 31 - RelicsOfCthonia/INFO]: [RelicsOfCthonia] RelicsOfCthonia is already up to date!
+[01:12:26] [Craft Scheduler Thread - 39 - CompressionCraft/INFO]: [CompressionCraft] CompressionCraft is already up to date!
+[01:12:26] [Craft Scheduler Thread - 4 - LuckyPanda/WARN]: [LuckyPanda] Could not connect to the updating site, is it down?
 java.io.FileNotFoundException: https://thebusybiscuit.github.io/builds/J3fftw/LuckyPandas/master/builds.json
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994) ~[?:?]
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
@@ -376,305 +411,261 @@ java.io.FileNotFoundException: https://thebusybiscuit.github.io/builds/J3fftw/Lu
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:33:10] [Craft Scheduler Thread - 5 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
-[00:33:10] [Craft Scheduler Thread - 36 - VillagerTrade/INFO]: [VillagerTrade] VillagerTrade is already up to date!
-[00:33:10] [Craft Scheduler Thread - 44 - FlowerPower/INFO]: [FlowerPower] FlowerPower is already up to date!
-[00:33:10] [Craft Scheduler Thread - 11 - DankTech2/INFO]: [DankTech2] DankTech2 is already up to date!
-[00:33:10] [Craft Scheduler Thread - 52 - SmallSpace/INFO]: [SmallSpace] SmallSpace is already up to date!
-[00:33:10] [Craft Scheduler Thread - 61 - EMCTech/INFO]: [EMCTech] EMCTech is already up to date!
-[00:33:10] [Craft Scheduler Thread - 14 - Netheopoiesis/INFO]: [Netheopoiesis] Netheopoiesis is already up to date!
-[00:33:10] [Craft Scheduler Thread - 41 - CompressionCraft/INFO]: [CompressionCraft] CompressionCraft is already up to date!
-[00:33:10] [Craft Scheduler Thread - 38 - Supreme/INFO]: [Supreme] Supreme is already up to date!
-[00:33:10] [Craft Scheduler Thread - 6 - Liquid/INFO]: [Liquid] Liquid is already up to date!
-[00:33:10] [Craft Scheduler Thread - 26 - SimpleUtils/INFO]: [SimpleUtils] SimpleUtils is already up to date!
-[00:33:10] [Craft Scheduler Thread - 45 - PrivateStorage/INFO]: [PrivateStorage] PrivateStorage is already up to date!
-[00:33:10] [Craft Scheduler Thread - 37 - DyeBench/INFO]: [DyeBench] DyeBench is already up to date!
-[00:33:10] [Craft Scheduler Thread - 30 - HeadLimiter/INFO]: [HeadLimiter] HeadLimiter is already up to date!
-[00:33:10] [Craft Scheduler Thread - 19 - SfChunkInfo/INFO]: [SfChunkInfo] SfChunkInfo is already up to date!
-[00:33:10] [Craft Scheduler Thread - 17 - SlimefunOreChunks/INFO]: [SlimefunOreChunks] SlimefunOreChunks is already up to date!
-[00:33:10] [Craft Scheduler Thread - 31 - SoulJars/INFO]: [SoulJars] SoulJars is already up to date!
-[00:33:10] [Craft Scheduler Thread - 46 - ColoredEnderChests/INFO]: [ColoredEnderChests] ColoredEnderChests is already up to date!
-[00:33:10] [Craft Scheduler Thread - 57 - ElementManipulation/INFO]: [ElementManipulation] ElementManipulation is already up to date!
-[00:33:10] [Craft Scheduler Thread - 29 - SlimefunLuckyBlocks/INFO]: [SlimefunLuckyBlocks] SlimefunLuckyBlocks is already up to date!
-[00:33:10] [Craft Scheduler Thread - 51 - SoundMuffler/INFO]: [SoundMuffler] SoundMuffler is already up to date!
-[00:33:10] [Craft Scheduler Thread - 43 - SlimyTreeTaps/INFO]: [SlimyTreeTaps] SlimyTreeTaps is already up to date!
-[00:33:10] [Craft Scheduler Thread - 39 - ElectricSpawners/INFO]: [ElectricSpawners] ElectricSpawners is already up to date!
-[00:33:10] [Craft Scheduler Thread - 48 - DyedBackpacks/INFO]: [DyedBackpacks] DyedBackpacks is already up to date!
-[00:33:10] [Craft Scheduler Thread - 49 - Gastronomicon/INFO]: [Gastronomicon] Gastronomicon is already up to date!
-[00:33:10] [Craft Scheduler Thread - 42 - ExtraHeads/INFO]: [ExtraHeads] ExtraHeads is already up to date!
-[00:33:10] [Craft Scheduler Thread - 24 - MobCapturer/INFO]: [MobCapturer] MobCapturer is already up to date!
-[00:33:10] [Craft Scheduler Thread - 10 - EcoPower/INFO]: [EcoPower] EcoPower is already up to date!
-[00:33:10] [Craft Scheduler Thread - 22 - SFCalc/INFO]: [SFCalc] SFCalc is already up to date!
-[00:33:10] [Craft Scheduler Thread - 32 - AdvancedTech/INFO]: [AdvancedTech] AdvancedTech is already up to date!
-[00:33:10] [Craft Scheduler Thread - 18 - MiniBlocks/INFO]: [MiniBlocks] MiniBlocks is already up to date!
-[00:33:10] [Craft Scheduler Thread - 34 - RelicsOfCthonia/INFO]: [RelicsOfCthonia] RelicsOfCthonia is already up to date!
-[00:33:10] [Craft Scheduler Thread - 27 - Networks/INFO]: [Networks] Networks is already up to date!
-[00:33:10] [Craft Scheduler Thread - 23 - BetterReactor/INFO]: [BetterReactor] BetterReactor is already up to date!
-[00:33:10] [Craft Scheduler Thread - 35 - SimpleMaterialGenerators/INFO]: [SimpleMaterialGenerators] SimpleMaterialGenerators is already up to date!
-[00:33:10] [Craft Scheduler Thread - 16 - GlobalWarming/INFO]: [GlobalWarming] GlobalWarming is already up to date!
-[00:33:10] [Craft Scheduler Thread - 9 - SlimyRepair/INFO]: [SlimyRepair] SlimyRepair is already up to date!
-[00:33:10] [Craft Scheduler Thread - 40 - Wildernether/INFO]: [Wildernether] Wildernether is already up to date!
-[00:33:10] [Craft Scheduler Thread - 28 - HotbarPets/INFO]: [HotbarPets] HotbarPets is already up to date!
-[00:33:10] [Craft Scheduler Thread - 20 - ExtraGear/INFO]: [ExtraGear] ExtraGear is already up to date!
-[00:33:10] [Craft Scheduler Thread - 25 - TranscEndence/INFO]: [TranscEndence] TranscEndence is already up to date!
-[00:33:10] [Craft Scheduler Thread - 7 - ExoticGarden/INFO]: [ExoticGarden] ExoticGarden is already up to date!
-[00:33:10] [Craft Scheduler Thread - 21 - SlimeHUD/INFO]: [SlimeHUD] SlimeHUD is already up to date!
-[00:33:10] [Craft Scheduler Thread - 47 - Galactifun/INFO]: [Galactifun] Galactifun is already up to date!
-[00:33:10] [Craft Scheduler Thread - 60 - CrystamaeHistoria/INFO]: [CrystamaeHistoria] CrystamaeHistoria is already up to date!
-[00:33:10] [Craft Scheduler Thread - 8 - SlimefunWarfare/INFO]: [SlimefunWarfare] SlimefunWarfare is already up to date!
-[00:33:10] [Craft Scheduler Thread - 59 - SlimeTinker/INFO]: [SlimeTinker] SlimeTinker is already up to date!
-[00:33:10] [Craft Scheduler Thread - 33 - FoxyMachines/INFO]: [FoxyMachines] FoxyMachines is already up to date!
-[00:33:10] [Craft Scheduler Thread - 56 - FNAmplifications/INFO]: [FNAmplifications] FNAmplifications is already up to date!
-[00:33:10] [Craft Scheduler Thread - 13 - FluffyMachines/INFO]: [FluffyMachines] FluffyMachines is already up to date!
-[00:33:10] [Craft Scheduler Thread - 54 - LiteXpansion/INFO]: [LiteXpansion] LiteXpansion is already up to date!
-[00:33:10] [Craft Scheduler Thread - 58 - InfinityExpansion/INFO]: [InfinityExpansion] InfinityExpansion is already up to date!
-[00:33:10] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
-[00:33:10] [Server thread/INFO]: [Slimefun] Found 1,066 Recipes!
-[00:33:10] [Craft Scheduler Thread - 50 - FastMachines/INFO]: [FastMachines] FastMachines is up to date.
-[00:33:11] [Server thread/INFO]: 
-[00:33:11] [Server thread/INFO]: ######################### - Slimefun vDEV - 1104 (git c977454e) - #########################
-[00:33:11] [Server thread/INFO]: 
-[00:33:11] [Server thread/INFO]: Successfully loaded 14538 Items and 418 Researches
-[00:33:11] [Server thread/INFO]: ( 555 Items from Slimefun, 13983 Items from 55 Addons )
-[00:33:11] [Server thread/INFO]: 
-[00:33:11] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
-[00:33:11] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
-[00:33:11] [Server thread/INFO]: 
-[00:33:11] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
-[00:33:11] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
-[00:33:11] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
-[00:33:11] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
-[00:33:11] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
-[00:33:11] [Server thread/INFO]: 
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 5ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 109 Blocks for World "world"
-[00:33:12] [Server thread/INFO]: [Slimefun] Avg: 0.05ms/Block
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 1ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_venus"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 6 Blocks for World "world_galactifun_venus"
-[00:33:12] [Server thread/INFO]: [Slimefun] Avg: 0ms/Block
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_io"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 11 Blocks for World "world_galactifun_io"
-[00:33:12] [Server thread/INFO]: [Slimefun] Avg: 0ms/Block
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_earth_orbit"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_galactifun_earth_orbit"
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_enceladus"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 11 Blocks for World "world_galactifun_enceladus"
-[00:33:12] [Server thread/INFO]: [Slimefun] Avg: 0ms/Block
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_titan"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 4 Blocks for World "world_galactifun_titan"
-[00:33:12] [Server thread/INFO]: [Slimefun] Avg: 0ms/Block
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_mars"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 2 Blocks for World "world_galactifun_mars"
-[00:33:12] [Server thread/INFO]: [Slimefun] Avg: 0ms/Block
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_the_moon"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 1ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 5 Blocks for World "world_galactifun_the_moon"
-[00:33:12] [Server thread/INFO]: [Slimefun] Avg: 0.2ms/Block
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks for World "SmallSpace"
-[00:33:12] [Server thread/INFO]: [Slimefun] This may take a long time...
-[00:33:12] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
-[00:33:12] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "SmallSpace"
-[00:33:12] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
-[00:33:12] [Server thread/INFO]: [dough: protection] This may happen more than once.
-[00:33:12] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[00:33:12] [Server thread/WARN]: [VillagerTrade] Trades are disabled in the config!
-[00:33:12] [Server thread/WARN]: [VillagerTrade] You need to set up the trades in trades.yml,
-[00:33:12] [Server thread/WARN]: [VillagerTrade] and enable trades in config.yml.
-[00:33:12] [Server thread/INFO]: [Galactifun] ################# Galactifun DEV - 76 (git aa6414a8) #################
-[00:33:12] [Server thread/INFO]: [Galactifun] 
-[00:33:12] [Server thread/INFO]: [Galactifun] Galactifun is open source, you can contribute or report bugs at: 
-[00:33:12] [Server thread/INFO]: [Galactifun] https://github.com/Slimefun-Addon-Community/Galactifun/issues
-[00:33:12] [Server thread/INFO]: [Galactifun] Join the Slimefun Addon Community Discord: discord.gg/SqD3gg5SAU
-[00:33:12] [Server thread/INFO]: [Galactifun] 
-[00:33:12] [Server thread/INFO]: [Galactifun] ###################################################
-[00:33:12] [Server thread/WARN]: [LiteXpansion] Failed to change field energyProducedPerTick to 8192 in ElementalReactor
-[00:33:12] [Server thread/WARN]: [LiteXpansion] Failed to change field energyProducedPerTick to 8192 in FusionReactor
-[00:33:12] [Server thread/WARN]: [InfinityExpansion] ########################################################
-[00:33:12] [Server thread/WARN]: [InfinityExpansion] LiteXpansion nerfs energy generation in this addon.
-[00:33:12] [Server thread/WARN]: [InfinityExpansion] You can disable these nerfs in the LiteXpansion config.
-[00:33:12] [Server thread/WARN]: [InfinityExpansion] Under 'options:' add 'nerf-other-addons: false'
-[00:33:12] [Server thread/WARN]: [InfinityExpansion] ########################################################
-[00:33:12] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[00:33:13] [Server thread/INFO]: [CrystamaeHistoria] Crystamae saving data.
-[00:33:13] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[00:33:13] [Server thread/INFO]: Done (56.204s)! For help, type "help"
-[00:33:13] [Server thread/INFO]: Timings Reset
-[00:33:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@4e6fe506[id=d5afe94e-488e-3a4d-ac23-de54a34db972,name=DarkkDuckk,properties={},legacy=false] (/25.66.61.83:49754) lost connection: Disconnected
-[00:33:18] [User Authenticator #1/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:33:18] [Server thread/INFO]: DarkkDuckk joined the game
-[00:33:18] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49764] logged in with entity id 261 at ([world]4.505365549932755, 75.0, 8.741405766495912)
-[00:33:28] [Server thread/INFO]: TPS from last 1m, 5m, 15m: *20.0, 20.0, 20.0
-[00:33:35] [User Authenticator #1/INFO]: UUID of player DragonDirt is c969ed92-dcb2-30d9-9c6e-707695dd3e7f
-[00:33:35] [Server thread/INFO]: DragonDirt joined the game
-[00:33:35] [Server thread/INFO]: DragonDirt[/26.9.64.155:64225] logged in with entity id 274 at ([world]4.532879107209645, 75.0, 6.98547608118015)
-[00:33:46] [Server thread/INFO]: DragonDirt issued server command: /op DarkkDuckk
-[00:33:46] [Server thread/INFO]: [DragonDirt: Made DarkkDuckk a server operator]
-[00:33:54] [Craft Scheduler Thread - 8 - Slimefun/ERROR]: [dough: skins] Exception while requesting skin: https://api.mojang.com/users/profiles/minecraft/jphipps3
-[00:33:54] [Craft Scheduler Thread - 58 - Slimefun/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: ExecutionException: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/jphipps3
-[00:33:54] [Craft Scheduler Thread - 58 - Slimefun/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
-[00:34:03] [Server thread/WARN]: DarkkDuckk was kicked due to keepalive timeout!
-[00:34:03] [Server thread/INFO]: DarkkDuckk lost connection: Timed out
-[00:34:03] [Server thread/INFO]: DarkkDuckk left the game
-[00:34:04] [Server thread/INFO]: DragonDirt issued server command: /kill DarkkDuckk
-[00:35:09] [User Authenticator #2/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:35:09] [Server thread/INFO]: DarkkDuckk joined the game
-[00:35:09] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49774] logged in with entity id 438 at ([world]4.505365549932755, 75.0, 8.741405766495912)
-[00:35:19] [Server thread/INFO]: DarkkDuckk was slain by DragonDirt
-[00:35:44] [Server thread/INFO]: DragonDirt issued server command: /op DarkkDuckk
-[00:35:49] [Server thread/INFO]: DragonDirt issued server command: /tp DarkkDuckk DragonDirt
-[00:35:49] [Server thread/INFO]: Attempt to teleport removed player DarkkDuckk restricted
-[00:35:49] [Server thread/INFO]: [DragonDirt: Teleported DarkkDuckk to DragonDirt]
-[00:35:54] [Server thread/WARN]: DarkkDuckk was kicked due to keepalive timeout!
-[00:35:54] [Server thread/INFO]: DarkkDuckk lost connection: Timed out
-[00:35:54] [Server thread/INFO]: DarkkDuckk left the game
-[00:37:07] [User Authenticator #3/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:37:07] [Server thread/INFO]: DarkkDuckk joined the game
-[00:37:07] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49781] logged in with entity id 641 at ([world]4.505365549932755, 75.0, 8.741405766495912)
-[00:37:27] [Server thread/INFO]: DarkkDuckk lost connection: Disconnected
-[00:37:27] [Server thread/INFO]: DarkkDuckk left the game
-[00:37:29] [User Authenticator #3/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:37:29] [Server thread/INFO]: DarkkDuckk joined the game
-[00:37:29] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49785] logged in with entity id 686 at ([world]4.505365549932755, 75.0, 8.741405766495912)
-[00:37:59] [Server thread/INFO]: DarkkDuckk lost connection: Timed out
-[00:37:59] [Server thread/INFO]: DarkkDuckk left the game
-[00:39:07] [User Authenticator #4/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:39:07] [Server thread/INFO]: DarkkDuckk joined the game
-[00:39:07] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49789] logged in with entity id 834 at ([world]4.505365549932755, 75.0, 8.741405766495912)
-[00:39:14] [Server thread/INFO]: DarkkDuckk lost connection: Disconnected
-[00:39:14] [Server thread/INFO]: DarkkDuckk left the game
-[00:39:17] [User Authenticator #4/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:39:17] [Server thread/INFO]: DarkkDuckk joined the game
-[00:39:17] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49793] logged in with entity id 844 at ([world]4.505365549932755, 75.0, 8.741405766495912)
-[00:40:02] [Server thread/WARN]: DarkkDuckk was kicked due to keepalive timeout!
-[00:40:02] [Server thread/INFO]: DarkkDuckk lost connection: Timed out
-[00:40:02] [Server thread/INFO]: DarkkDuckk left the game
-[00:40:23] [User Authenticator #5/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:40:23] [Server thread/INFO]: DarkkDuckk joined the game
-[00:40:23] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49806] logged in with entity id 963 at ([world]-9.5, 67.02159847259522, 6.5)
-[00:40:39] [Server thread/INFO]: DarkkDuckk lost connection: Disconnected
-[00:40:39] [Server thread/INFO]: DarkkDuckk left the game
-[00:40:42] [User Authenticator #5/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:40:43] [Server thread/INFO]: DarkkDuckk joined the game
-[00:40:43] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49810] logged in with entity id 1007 at ([world]-9.5, 67.0, 6.5)
-[00:40:51] [Server thread/INFO]: DragonDirt issued server command: /tp DarkkDuckk DragonDirt
-[00:40:51] [Server thread/INFO]: [DragonDirt: Teleported DarkkDuckk to DragonDirt]
-[00:41:02] [Server thread/INFO]: DragonDirt issued server command: /weather clear
-[00:41:02] [Server thread/INFO]: [DragonDirt: Set the weather to clear]
-[00:41:07] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:41:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
-[00:41:09] [Server thread/INFO]: DarkkDuckk lost connection: Disconnected
-[00:41:09] [Server thread/INFO]: DarkkDuckk left the game
-[00:41:18] [User Authenticator #5/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
-[00:41:18] [Server thread/INFO]: DarkkDuckk joined the game
-[00:41:18] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49817] logged in with entity id 1058 at ([world]1.6477734178570105, 80.0, 13.696186114240291)
-[00:41:48] [Server thread/INFO]: DarkkDuckk lost connection: Timed out
-[00:41:48] [Server thread/INFO]: DarkkDuckk left the game
-[00:43:09] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[00:43:09] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[00:43:09] [Server thread/INFO]: [CrystamaeHistoria] Crystamae saving data.
-[00:43:09] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[00:44:14] [Server thread/INFO]: Stopping the server
-[00:44:14] [Server thread/INFO]: Stopping server
-[00:44:14] [Server thread/INFO]: [EMCTech] Disabling EMCTech vDEV - 5 (git c61222fb)
-[00:44:14] [Server thread/INFO]: [EMCTech] EMCTech saving data.
-[00:44:14] [Server thread/INFO]: [CrystamaeHistoria] Disabling CrystamaeHistoria vDEV - 81 (git 0c0efa95)
-[00:44:14] [Server thread/INFO]: [CrystamaeHistoria] Crystamae saving data.
-[00:44:14] [Server thread/INFO]: [SlimeTinker] Disabling SlimeTinker vDEV - 84 (git 2c9f6155)
-[00:44:14] [Server thread/INFO]: [SimpleUtils] Disabling SimpleUtils vDEV - 15 (git 4250fd5e)
-[00:44:14] [Server thread/INFO]: [Networks] Disabling Networks vDEV - 50 (git 3de3c9d6)
-[00:44:14] [Server thread/INFO]: [SlimefunWarfare] Disabling SlimefunWarfare vDEV - 82 (git 0bb3ff87)
-[00:44:14] [Server thread/INFO]: [InfinityExpansion] Disabling InfinityExpansion vDEV - 144 (git 9da37202)
-[00:44:14] [Server thread/INFO]: [ElementManipulation] Disabling ElementManipulation vDEV - 28 (git 2b469991)
-[00:44:14] [Server thread/INFO]: [FNAmplifications] Disabling FNAmplifications vDEV - 93 (git 7bc01100)
-[00:44:14] [Server thread/INFO]: [FNAmplifications] Cancelled any running task that exist
-[00:44:14] [Server thread/INFO]: [LiteXpansion] Disabling LiteXpansion vDEV - 192 (git 661862ed)
-[00:44:14] [Server thread/INFO]: [GSit] Disabling GSit v1.5.5
-[00:44:14] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[00:44:14] [Server thread/INFO]: [SmallSpace] Disabling SmallSpace vDEV - 13 (git dcf995c3)
-[00:44:14] [Server thread/INFO]: [SoundMuffler] Disabling SoundMuffler vDEV - 24 (git ae8e2bf7)
-[00:44:14] [Server thread/INFO]: [FastMachines] Disabling FastMachines vBuild 9 (git 00f7d11)
-[00:44:14] [Server thread/INFO]: [Gastronomicon] Disabling Gastronomicon vDEV - 8 (git 76336191)
-[00:44:14] [Server thread/INFO]: [DyedBackpacks] Disabling DyedBackpacks vDEV - 17 (git 8b329e96)
-[00:44:14] [Server thread/INFO]: [FluffyMachines] Disabling FluffyMachines vDEV - 132 (git ccf029ba)
-[00:44:14] [Server thread/INFO]: [Galactifun] Disabling Galactifun vDEV - 76 (git aa6414a8)
-[00:44:14] [Server thread/INFO]: [ColoredEnderChests] Disabling ColoredEnderChests vDEV - 23 (git 4d041832)
-[00:44:14] [Server thread/INFO]: [PrivateStorage] Disabling PrivateStorage vDEV - 18 (git 5832db21)
-[00:44:14] [Server thread/INFO]: [FlowerPower] Disabling FlowerPower vDEV - 16 (git 5a38d1c6)
-[00:44:14] [Server thread/INFO]: [SlimyTreeTaps] Disabling SlimyTreeTaps vDEV - 20 (git 963f0383)
-[00:44:14] [Server thread/INFO]: [ExtraHeads] Disabling ExtraHeads vDEV - 25 (git 8c29f73a)
-[00:44:14] [Server thread/INFO]: [CompressionCraft] Disabling CompressionCraft vDEV - 25 (git dbca94b8)
-[00:44:14] [Server thread/INFO]: [Wildernether] Disabling Wildernether vDEV - 5 (git 5be3da69)
-[00:44:14] [Server thread/INFO]: [ElectricSpawners] Disabling ElectricSpawners vDEV - 23 (git 6ec96773)
-[00:44:14] [Server thread/INFO]: [Supreme] Disabling Supreme vDEV - 29 (git f9e70053)
-[00:44:14] [Server thread/INFO]: [DyeBench] Disabling DyeBench vDEV - 6 (git ae841c2d)
-[00:44:14] [Server thread/INFO]: [VillagerTrade] Disabling VillagerTrade vDEV - 4 (git bcce2a41)
-[00:44:14] [Server thread/INFO]: [SimpleMaterialGenerators] Disabling SimpleMaterialGenerators vDEV - 4 (git 5543cc8f)
-[00:44:14] [Server thread/INFO]: [SlimefunOreChunks] Disabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
-[00:44:14] [Server thread/INFO]: [SlimefunNetherTech2] Disabling SlimefunNetherTech2 v1.4.2.2
-[00:44:14] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Successfully unloaded this plugin!
-[00:44:14] [Server thread/WARN]: Nag author(s): '[The_Banks]' of 'SlimefunNetherTech2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[00:44:14] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Thanks for using this plugin! If you think that this plugin is good, please go to my page on SpigotMC and give me a 5 STAR rating!
-[00:44:14] [Server thread/INFO]: [RelicsOfCthonia] Disabling RelicsOfCthonia vDEV - 10 (git 5a7cbe8d)
-[00:44:14] [Server thread/INFO]: [RelicsOfCthonia] Successfully disabled any running task that exist
-[00:44:14] [Server thread/INFO]: [FoxyMachines] Disabling FoxyMachines vDEV - 67 (git 0028aa93)
-[00:44:14] [Server thread/INFO]: [SlimyRepair] Disabling SlimyRepair vDEV - 4 (git 790c41cb)
-[00:44:14] [Server thread/INFO]: [AdvancedTech] Disabling AdvancedTech vDEV - 19 (git c133bfdd)
-[00:44:14] [Server thread/INFO]: [SoulJars] Disabling SoulJars vDEV - 24 (git 78d1c6fa)
-[00:44:14] [Server thread/INFO]: [Liquid] Disabling Liquid vDEV - 14 (git 0f5346bf)
-[00:44:14] [Server thread/INFO]: [HeadLimiter] Disabling HeadLimiter vDEV - 15 (git 66d18f52)
-[00:44:14] [Server thread/INFO]: [ExoticGarden] Disabling ExoticGarden vDEV - 78 (git 7f9a5f63)
-[00:44:14] [Server thread/INFO]: [SlimefunLuckyBlocks] Disabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
-[00:44:14] [Server thread/INFO]: [HotbarPets] Disabling HotbarPets vDEV - 38 (git fa6c871d)
-[00:44:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.1-SNAPSHOT-669
-[00:44:14] [Server thread/INFO]: [TranscEndence] Disabling TranscEndence vDEV - 41 (git 98d7d47e)
-[00:44:14] [Server thread/INFO]: [MobCapturer] Disabling MobCapturer vDEV - 33 (git 6fc26c35)
-[00:44:14] [Server thread/INFO]: [BetterReactor] Disabling BetterReactor vDEV - 11 (git 88a98d28)
-[00:44:14] [Server thread/INFO]: [SFCalc] Disabling SFCalc vDEV - 37 (git dfc0fc41)
-[00:44:14] [Server thread/INFO]: [SlimeHUD] Disabling SlimeHUD vDEV - 11 (git b6dc2d53)
-[00:44:14] [Server thread/INFO]: [ExtraGear] Disabling ExtraGear vDEV - 13 (git c62047e2)
-[00:44:14] [Server thread/INFO]: [SfChunkInfo] Disabling SfChunkInfo vDEV - 8 (git b1b94abb)
-[00:44:14] [Server thread/INFO]: [MiniBlocks] Disabling MiniBlocks vDEV - 4 (git f7a34b6e)
-[00:44:14] [Server thread/INFO]: [MiniBlocks] Now Shutting down...
-[00:44:14] [Server thread/INFO]: [GlobalWarming] Disabling GlobalWarming vDEV - 11 (git 73ff77d4)
-[00:44:14] [Server thread/INFO]: [SimpleStorage] Disabling SimpleStorage vDEV - 10 (git ea5e5637)
-[00:44:14] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.8.1
-[00:44:14] [Server thread/INFO]: [EquivalencyTech] Disabling EquivalencyTech v${project.version}
-[00:44:14] [Server thread/INFO]: [Netheopoiesis] Disabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
-[00:44:14] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
-[00:44:14] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.8.1
-[00:44:14] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[00:44:14] [Server thread/INFO]: [DankTech2] Disabling DankTech2 vDEV - 9 (git aa6c2209)
-[00:44:14] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
-[00:44:14] [Server thread/INFO]: [EcoPower] Disabling EcoPower vDEV - 5 (git 5c1ecd68)
-[00:44:14] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDEV - 1104 (git c977454e)
-[00:44:14] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2023-11-20-00-44.zip
-[00:44:14] [Server thread/INFO]: [SimpleTeleportation] Disabling SimpleTeleportation v1.0
-[00:44:14] [Server thread/INFO]: [LuckyPanda] Disabling LuckyPanda vDEV - 1 (git c8bd8dd7)
-[00:44:14] [Server thread/INFO]: Saving players
-[00:44:14] [Server thread/INFO]: DragonDirt lost connection: Server closed
-[00:44:14] [Server thread/INFO]: DragonDirt left the game
-[00:44:14] [Server thread/INFO]: Saving worlds
-[00:44:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:12:26] [Craft Scheduler Thread - 24 - SlimefunLuckyBlocks/INFO]: [SlimefunLuckyBlocks] SlimefunLuckyBlocks is already up to date!
+[01:12:26] [Craft Scheduler Thread - 61 - EMCTech/INFO]: [EMCTech] EMCTech is already up to date!
+[01:12:26] [Craft Scheduler Thread - 42 - FlowerPower/INFO]: [FlowerPower] FlowerPower is already up to date!
+[01:12:26] [Craft Scheduler Thread - 53 - FNAmplifications/INFO]: [FNAmplifications] FNAmplifications is already up to date!
+[01:12:26] [Craft Scheduler Thread - 55 - InfinityExpansion/INFO]: [InfinityExpansion] InfinityExpansion is already up to date!
+[01:12:26] [Craft Scheduler Thread - 45 - Galactifun/INFO]: [Galactifun] Galactifun is already up to date!
+[01:12:26] [Craft Scheduler Thread - 30 - FoxyMachines/INFO]: [FoxyMachines] FoxyMachines is already up to date!
+[01:12:26] [Craft Scheduler Thread - 15 - SimpleStorage/WARN]: [SimpleStorage] Could not connect to the updating site, is it down?
+java.io.FileNotFoundException: https://thebusybiscuit.github.io/builds/Sefiraat/SimpleStorage/master/builds.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.getLatestVersion(UpdaterTask.java:64) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
+	at io.github.thebusybiscuit.slimefun4.libraries.dough.updater.UpdaterTask.run(UpdaterTask.java:45) ~[Slimefun4 - DEV 1104 (git c9774).jar:?]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-388]
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-388]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-388]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:12:26] [Craft Scheduler Thread - 44 - ColoredEnderChests/INFO]: [ColoredEnderChests] ColoredEnderChests is already up to date!
+[01:12:26] [Craft Scheduler Thread - 23 - HotbarPets/INFO]: [HotbarPets] HotbarPets is already up to date!
+[01:12:26] [Craft Scheduler Thread - 20 - TranscEndence/INFO]: [TranscEndence] TranscEndence is already up to date!
+[01:12:26] [Craft Scheduler Thread - 14 - Netheopoiesis/INFO]: [Netheopoiesis] Netheopoiesis is already up to date!
+[01:12:26] [Craft Scheduler Thread - 25 - ExoticGarden/INFO]: [ExoticGarden] ExoticGarden is already up to date!
+[01:12:26] [Craft Scheduler Thread - 60 - CrystamaeHistoria/INFO]: [CrystamaeHistoria] CrystamaeHistoria is already up to date!
+[01:12:26] [Craft Scheduler Thread - 51 - LiteXpansion/INFO]: [LiteXpansion] LiteXpansion is already up to date!
+[01:12:26] [Craft Scheduler Thread - 46 - FluffyMachines/INFO]: [FluffyMachines] FluffyMachines is already up to date!
+[01:12:26] [Craft Scheduler Thread - 5 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
+[01:12:26] [Craft Scheduler Thread - 22 - FastMachines/INFO]: [FastMachines] FastMachines is up to date.
+[01:12:26] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[01:12:26] [Server thread/INFO]: [Slimefun] Found 1,066 Recipes!
+[01:12:27] [Server thread/INFO]: 
+[01:12:27] [Server thread/INFO]: ######################### - Slimefun vDEV - 1104 (git c977454e) - #########################
+[01:12:27] [Server thread/INFO]: 
+[01:12:27] [Server thread/INFO]: Successfully loaded 14538 Items and 418 Researches
+[01:12:27] [Server thread/INFO]: ( 555 Items from Slimefun, 13983 Items from 55 Addons )
+[01:12:27] [Server thread/INFO]: 
+[01:12:27] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
+[01:12:27] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
+[01:12:27] [Server thread/INFO]: 
+[01:12:27] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[01:12:27] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[01:12:27] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[01:12:27] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[01:12:27] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
+[01:12:27] [Server thread/INFO]: 
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 1ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 27 Blocks for World "world"
+[01:12:29] [Server thread/INFO]: [Slimefun] Avg: 0.04ms/Block
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_venus"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 1ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 10 Blocks for World "world_galactifun_venus"
+[01:12:29] [Server thread/INFO]: [Slimefun] Avg: 0.1ms/Block
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_io"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 1ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 4 Blocks for World "world_galactifun_io"
+[01:12:29] [Server thread/INFO]: [Slimefun] Avg: 0.25ms/Block
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_earth_orbit"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_galactifun_earth_orbit"
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_enceladus"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 2 Blocks for World "world_galactifun_enceladus"
+[01:12:29] [Server thread/INFO]: [Slimefun] Avg: 0ms/Block
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_titan"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 1 Blocks for World "world_galactifun_titan"
+[01:12:29] [Server thread/INFO]: [Slimefun] Avg: 0ms/Block
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_mars"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_galactifun_mars"
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_galactifun_the_moon"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_galactifun_the_moon"
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks for World "SmallSpace"
+[01:12:29] [Server thread/INFO]: [Slimefun] This may take a long time...
+[01:12:29] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[01:12:29] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "SmallSpace"
+[01:12:29] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[01:12:29] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[01:12:29] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[01:12:29] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
+[01:12:29] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
+[01:12:29] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
+[01:12:29] [Server thread/WARN]: [VillagerTrade] Trades are disabled in the config!
+[01:12:29] [Server thread/WARN]: [VillagerTrade] You need to set up the trades in trades.yml,
+[01:12:29] [Server thread/WARN]: [VillagerTrade] and enable trades in config.yml.
+[01:12:29] [Server thread/INFO]: [Galactifun] ################# Galactifun DEV - 76 (git aa6414a8) #################
+[01:12:29] [Server thread/INFO]: [Galactifun] 
+[01:12:29] [Server thread/INFO]: [Galactifun] Galactifun is open source, you can contribute or report bugs at: 
+[01:12:29] [Server thread/INFO]: [Galactifun] https://github.com/Slimefun-Addon-Community/Galactifun/issues
+[01:12:29] [Server thread/INFO]: [Galactifun] Join the Slimefun Addon Community Discord: discord.gg/SqD3gg5SAU
+[01:12:29] [Server thread/INFO]: [Galactifun] 
+[01:12:29] [Server thread/INFO]: [Galactifun] ###################################################
+[01:12:29] [Server thread/WARN]: [LiteXpansion] Failed to change field energyProducedPerTick to 8192 in ElementalReactor
+[01:12:29] [Server thread/WARN]: [LiteXpansion] Failed to change field energyProducedPerTick to 8192 in FusionReactor
+[01:12:29] [Server thread/WARN]: [InfinityExpansion] ########################################################
+[01:12:29] [Server thread/WARN]: [InfinityExpansion] LiteXpansion nerfs energy generation in this addon.
+[01:12:29] [Server thread/WARN]: [InfinityExpansion] You can disable these nerfs in the LiteXpansion config.
+[01:12:29] [Server thread/WARN]: [InfinityExpansion] Under 'options:' add 'nerf-other-addons: false'
+[01:12:29] [Server thread/WARN]: [InfinityExpansion] ########################################################
+[01:12:29] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[01:12:38] [Server thread/INFO]: [CrystamaeHistoria] Crystamae saving data.
+[01:12:38] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[01:12:38] [Server thread/INFO]: Done (78.303s)! For help, type "help"
+[01:12:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12285ms or 245 ticks behind
+[01:12:38] [Server thread/INFO]: Timings Reset
+[01:12:48] [User Authenticator #1/INFO]: UUID of player DragonDirt is c969ed92-dcb2-30d9-9c6e-707695dd3e7f
+[01:12:48] [Server thread/INFO]: DragonDirt joined the game
+[01:12:48] [Server thread/INFO]: DragonDirt[/26.9.64.155:49506] logged in with entity id 139 at ([world]-63.5, 66.0, -64.5)
+[01:12:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:13:17] [Craft Scheduler Thread - 60 - Slimefun/ERROR]: [dough: skins] Exception while requesting skin: https://api.mojang.com/users/profiles/minecraft/jphipps3
+[01:13:17] [Craft Scheduler Thread - 51 - Slimefun/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: ExecutionException: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/jphipps3
+[01:13:17] [Craft Scheduler Thread - 51 - Slimefun/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Auto-saving block data... (Next auto-save: 10m)
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Saving block data for world "world_galactifun_mars" (2 change(s) queued)
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Saving block data for world "world_galactifun_io" (3 change(s) queued)
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Saving block data for world "world_galactifun_enceladus" (2 change(s) queued)
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Saving block data for world "world_galactifun_titan" (5 change(s) queued)
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Saving block data for world "world" (3 change(s) queued)
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Saving block data for world "world_galactifun_venus" (2 change(s) queued)
+[01:14:18] [Craft Scheduler Thread - 51 - Slimefun/INFO]: [Slimefun] Saving block data for world "world_galactifun_the_moon" (2 change(s) queued)
+[01:14:28] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:15:57] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:15:57] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:16:00] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:16:02] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:16:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:16:12] [Server thread/INFO]: Set DragonDirt's game mode to Creative Mode
+[01:16:23] [User Authenticator #2/INFO]: UUID of player DarkkDuckk is d5afe94e-488e-3a4d-ac23-de54a34db972
+[01:16:23] [Server thread/INFO]: DarkkDuckk joined the game
+[01:16:23] [Server thread/INFO]: DarkkDuckk[/25.66.61.83:49940] logged in with entity id 746 at ([world]-71.5, 68.0, -60.5)
+[01:16:50] [Server thread/INFO]: DarkkDuckk lost connection: Disconnected
+[01:16:50] [Server thread/INFO]: DarkkDuckk left the game
+[01:16:53] [Server thread/INFO]: DragonDirt lost connection: Disconnected
+[01:16:53] [Server thread/INFO]: DragonDirt left the game
+[01:16:58] [Server thread/INFO]: Stopping the server
+[01:16:58] [Server thread/INFO]: Stopping server
+[01:16:58] [Server thread/INFO]: [EMCTech] Disabling EMCTech vDEV - 5 (git c61222fb)
+[01:16:58] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[01:16:58] [Server thread/INFO]: [CrystamaeHistoria] Disabling CrystamaeHistoria vDEV - 81 (git 0c0efa95)
+[01:16:58] [Server thread/INFO]: [CrystamaeHistoria] Crystamae saving data.
+[01:16:58] [Server thread/INFO]: [SlimeTinker] Disabling SlimeTinker vDEV - 84 (git 2c9f6155)
+[01:16:58] [Server thread/INFO]: [SimpleUtils] Disabling SimpleUtils vDEV - 15 (git 4250fd5e)
+[01:16:58] [Server thread/INFO]: [Networks] Disabling Networks vDEV - 50 (git 3de3c9d6)
+[01:16:58] [Server thread/INFO]: [SlimefunWarfare] Disabling SlimefunWarfare vDEV - 82 (git 0bb3ff87)
+[01:16:58] [Server thread/INFO]: [InfinityExpansion] Disabling InfinityExpansion vDEV - 144 (git 9da37202)
+[01:16:58] [Server thread/INFO]: [ElementManipulation] Disabling ElementManipulation vDEV - 28 (git 2b469991)
+[01:16:58] [Server thread/INFO]: [FNAmplifications] Disabling FNAmplifications vDEV - 93 (git 7bc01100)
+[01:16:58] [Server thread/INFO]: [FNAmplifications] Cancelled any running task that exist
+[01:16:58] [Server thread/INFO]: [LiteXpansion] Disabling LiteXpansion vDEV - 192 (git 661862ed)
+[01:16:58] [Server thread/INFO]: [GSit] Disabling GSit v1.5.5
+[01:16:58] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[01:16:58] [Server thread/INFO]: [SmallSpace] Disabling SmallSpace vDEV - 13 (git dcf995c3)
+[01:16:58] [Server thread/INFO]: [SoundMuffler] Disabling SoundMuffler vDEV - 24 (git ae8e2bf7)
+[01:16:58] [Server thread/INFO]: [FastMachines] Disabling FastMachines vBuild 9 (git 00f7d11)
+[01:16:58] [Server thread/INFO]: [Gastronomicon] Disabling Gastronomicon vDEV - 8 (git 76336191)
+[01:16:58] [Server thread/INFO]: [DyedBackpacks] Disabling DyedBackpacks vDEV - 17 (git 8b329e96)
+[01:16:58] [Server thread/INFO]: [FluffyMachines] Disabling FluffyMachines vDEV - 132 (git ccf029ba)
+[01:16:58] [Server thread/INFO]: [Galactifun] Disabling Galactifun vDEV - 76 (git aa6414a8)
+[01:16:58] [Server thread/INFO]: [ColoredEnderChests] Disabling ColoredEnderChests vDEV - 23 (git 4d041832)
+[01:16:58] [Server thread/INFO]: [PrivateStorage] Disabling PrivateStorage vDEV - 18 (git 5832db21)
+[01:16:58] [Server thread/INFO]: [FlowerPower] Disabling FlowerPower vDEV - 16 (git 5a38d1c6)
+[01:16:58] [Server thread/INFO]: [SlimyTreeTaps] Disabling SlimyTreeTaps vDEV - 20 (git 963f0383)
+[01:16:58] [Server thread/INFO]: [ExtraHeads] Disabling ExtraHeads vDEV - 25 (git 8c29f73a)
+[01:16:58] [Server thread/INFO]: [CompressionCraft] Disabling CompressionCraft vDEV - 25 (git dbca94b8)
+[01:16:58] [Server thread/INFO]: [Wildernether] Disabling Wildernether vDEV - 5 (git 5be3da69)
+[01:16:58] [Server thread/INFO]: [ElectricSpawners] Disabling ElectricSpawners vDEV - 23 (git 6ec96773)
+[01:16:58] [Server thread/INFO]: [Supreme] Disabling Supreme vDEV - 29 (git f9e70053)
+[01:16:58] [Server thread/INFO]: [DyeBench] Disabling DyeBench vDEV - 6 (git ae841c2d)
+[01:16:58] [Server thread/INFO]: [VillagerTrade] Disabling VillagerTrade vDEV - 4 (git bcce2a41)
+[01:16:58] [Server thread/INFO]: [SimpleMaterialGenerators] Disabling SimpleMaterialGenerators vDEV - 4 (git 5543cc8f)
+[01:16:58] [Server thread/INFO]: [SlimefunOreChunks] Disabling SlimefunOreChunks vDEV - 15 (git 2520cb23)
+[01:16:58] [Server thread/INFO]: [SlimefunNetherTech2] Disabling SlimefunNetherTech2 v1.4.2.2
+[01:16:58] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Successfully unloaded this plugin!
+[01:16:58] [Server thread/INFO]: [SlimefunNetherTech2] [STDOUT] [SlimefunNetherTech2] Thanks for using this plugin! If you think that this plugin is good, please go to my page on SpigotMC and give me a 5 STAR rating!
+[01:16:58] [Server thread/INFO]: [RelicsOfCthonia] Disabling RelicsOfCthonia vDEV - 10 (git 5a7cbe8d)
+[01:16:58] [Server thread/INFO]: [RelicsOfCthonia] Successfully disabled any running task that exist
+[01:16:58] [Server thread/INFO]: [FoxyMachines] Disabling FoxyMachines vDEV - 67 (git 0028aa93)
+[01:16:58] [Server thread/INFO]: [SlimyRepair] Disabling SlimyRepair vDEV - 4 (git 790c41cb)
+[01:16:58] [Server thread/INFO]: [AdvancedTech] Disabling AdvancedTech vDEV - 19 (git c133bfdd)
+[01:16:58] [Server thread/INFO]: [SoulJars] Disabling SoulJars vDEV - 24 (git 78d1c6fa)
+[01:16:58] [Server thread/INFO]: [Liquid] Disabling Liquid vDEV - 14 (git 0f5346bf)
+[01:16:58] [Server thread/INFO]: [HeadLimiter] Disabling HeadLimiter vDEV - 15 (git 66d18f52)
+[01:16:58] [Server thread/INFO]: [ExoticGarden] Disabling ExoticGarden vDEV - 78 (git 7f9a5f63)
+[01:16:58] [Server thread/INFO]: [SlimefunLuckyBlocks] Disabling SlimefunLuckyBlocks vDEV - 36 (git 60f0c8dc)
+[01:16:58] [Server thread/INFO]: [HotbarPets] Disabling HotbarPets vDEV - 38 (git fa6c871d)
+[01:16:58] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.1-SNAPSHOT-669
+[01:16:58] [Server thread/INFO]: [TranscEndence] Disabling TranscEndence vDEV - 41 (git 98d7d47e)
+[01:16:58] [Server thread/INFO]: [MobCapturer] Disabling MobCapturer vDEV - 33 (git 6fc26c35)
+[01:16:58] [Server thread/INFO]: [BetterReactor] Disabling BetterReactor vDEV - 11 (git 88a98d28)
+[01:16:58] [Server thread/INFO]: [SFCalc] Disabling SFCalc vDEV - 37 (git dfc0fc41)
+[01:16:58] [Server thread/INFO]: [SlimeHUD] Disabling SlimeHUD vDEV - 11 (git b6dc2d53)
+[01:16:58] [Server thread/INFO]: [ExtraGear] Disabling ExtraGear vDEV - 13 (git c62047e2)
+[01:16:58] [Server thread/INFO]: [SfChunkInfo] Disabling SfChunkInfo vDEV - 8 (git b1b94abb)
+[01:16:58] [Server thread/INFO]: [MiniBlocks] Disabling MiniBlocks vDEV - 4 (git f7a34b6e)
+[01:16:58] [Server thread/INFO]: [MiniBlocks] Now Shutting down...
+[01:16:58] [Server thread/INFO]: [GlobalWarming] Disabling GlobalWarming vDEV - 11 (git 73ff77d4)
+[01:16:58] [Server thread/INFO]: [SimpleStorage] Disabling SimpleStorage vDEV - 10 (git ea5e5637)
+[01:16:58] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.8.1
+[01:16:58] [Server thread/INFO]: [EquivalencyTech] Disabling EquivalencyTech v${project.version}
+[01:16:58] [Server thread/INFO]: [Netheopoiesis] Disabling Netheopoiesis vDEV - 18 (git 9d12cc6f)
+[01:16:58] [Server thread/INFO]: [Netheopoiesis] Netheopoiesis saving data.
+[01:16:58] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.8.1
+[01:16:58] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[01:16:58] [Server thread/INFO]: [DankTech2] Disabling DankTech2 vDEV - 9 (git aa6c2209)
+[01:16:58] [Server thread/INFO]: [DankTech2] DankTech2 saving data.
+[01:16:58] [Server thread/INFO]: [EcoPower] Disabling EcoPower vDEV - 5 (git 5c1ecd68)
+[01:16:58] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDEV - 1104 (git c977454e)
+[01:16:58] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2023-11-20-01-16.zip
+[01:16:58] [Server thread/INFO]: [SimpleTeleportation] Disabling SimpleTeleportation v1.0
+[01:16:58] [Server thread/INFO]: [LuckyPanda] Disabling LuckyPanda vDEV - 1 (git c8bd8dd7)
+[01:16:58] [Server thread/INFO]: Saving players
+[01:16:58] [Server thread/INFO]: Saving worlds
+[01:16:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_venus]'/minecraft:world_galactifun_venus
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_io]'/minecraft:world_galactifun_io
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_earth_orbit]'/minecraft:world_galactifun_earth_orbit
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_enceladus]'/minecraft:world_galactifun_enceladus
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_titan]'/minecraft:world_galactifun_titan
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_mars]'/minecraft:world_galactifun_mars
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_galactifun_the_moon]'/minecraft:world_galactifun_the_moon
+[01:17:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SmallSpace]'/minecraft:smallspace
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_galactifun_io): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_galactifun_titan): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_galactifun_mars): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (SmallSpace): All chunks are saved
+[01:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:17:07] [Server thread/INFO]: Flushing Chunk IO
+[01:17:07] [Server thread/INFO]: Closing Thread Pool
+[01:17:07] [Server thread/INFO]: Closing Server

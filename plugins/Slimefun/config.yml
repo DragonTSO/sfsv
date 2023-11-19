@@ -34,7 +34,7 @@ URID:
   custom-ticker-delay: 10
   enable-tickers: true
 networks:
-  max-size: 5000
+  max-size: 200
   cargo-ticker-delay: 0
   enable-visualizer: true
   delete-excess-items: false
