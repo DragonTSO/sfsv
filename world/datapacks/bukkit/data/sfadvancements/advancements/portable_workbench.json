@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§aPortable Crafting"
+    },
+    "description": {
+      "text": "Use a portable crafting table"
+    },
+    "icon": {
+      "item": "minecraft:crafting_table",
+      "nbt": "{display:{Lore:[\u0027{\"extra\":[{\"text\":\"Use a portable crafting table\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Portable Crafting\"}],\"text\":\"\"}\u0027}}"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "sfadvancements:basic"
+}

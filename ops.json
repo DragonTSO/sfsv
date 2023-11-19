@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "c969ed92-dcb2-30d9-9c6e-707695dd3e7f",
+    "name": "DragonDirt",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d5afe94e-488e-3a4d-ac23-de54a34db972",
+    "name": "DarkkDuckk",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

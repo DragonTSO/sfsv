@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§aInto dust it turns"
+    },
+    "description": {
+      "text": "Crush an ore using an ore crusher"
+    },
+    "icon": {
+      "item": "minecraft:gunpowder",
+      "nbt": "{display:{Lore:[\u0027{\"extra\":[{\"text\":\"Crush an ore using an ore crusher\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Into dust it turns\"}],\"text\":\"\"}\u0027}}"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "sfadvancements:basic"
+}

@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§aExploding Tools"
+    },
+    "description": {
+      "text": "Obtain an explosive pickaxe and shovel"
+    },
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": "{Damage:0,PublicBukkitValues:{\"slimefun:slimefun_item\":\"EXPLOSIVE_PICKAXE\"},display:{Lore:[\u0027{\"extra\":[{\"text\":\"Obtain an explosive pickaxe and shovel\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Exploding Tools\"}],\"text\":\"\"}\u0027}}"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "sfadvancements:other"
+}

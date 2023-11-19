@@ -1,0 +1,172 @@
+
+Error Generated: 2023-11-20-02-26
+
+Java Environment:
+  Operating System: Windows 10
+  Java Version: 17.0.8
+
+Server Software: Paper
+  Build: git-Paper-388 (MC: 1.18.2)
+  Minecraft v1.18.2-R0.1-SNAPSHOT
+
+Slimefun Environment:
+  Slimefun vDEV - 1104 (git c977454e)
+  Caused by: FastMachines vBuild 9 (git 00f7d11)
+
+Installed Addons (55)
+  + EcoPower DEV - 5 (git 5c1ecd68)
+  + DankTech2 DEV - 9 (git aa6c2209)
+  + Netheopoiesis DEV - 18 (git 9d12cc6f)
+  + EquivalencyTech ${project.version}
+  + SimpleStorage DEV - 10 (git ea5e5637)
+  + GlobalWarming DEV - 11 (git 73ff77d4)
+  + MiniBlocks DEV - 4 (git f7a34b6e)
+  + SfChunkInfo DEV - 8 (git b1b94abb)
+  + ExtraGear DEV - 13 (git c62047e2)
+  + SlimeHUD DEV - 11 (git b6dc2d53)
+  + SFCalc DEV - 37 (git dfc0fc41)
+  + BetterReactor DEV - 11 (git 88a98d28)
+  + MobCapturer DEV - 33 (git 6fc26c35)
+  + TranscEndence DEV - 41 (git 98d7d47e)
+  + HotbarPets DEV - 38 (git fa6c871d)
+  + SlimefunLuckyBlocks DEV - 36 (git 60f0c8dc)
+  + ExoticGarden DEV - 78 (git 7f9a5f63)
+  + HeadLimiter DEV - 15 (git 66d18f52)
+  + Liquid DEV - 14 (git 0f5346bf)
+  + SoulJars DEV - 24 (git 78d1c6fa)
+  + AdvancedTech DEV - 19 (git c133bfdd)
+  + SlimyRepair DEV - 4 (git 790c41cb)
+  + FoxyMachines DEV - 67 (git 0028aa93)
+  + RelicsOfCthonia DEV - 10 (git 5a7cbe8d)
+  + SlimefunNetherTech2 1.4.2.2
+  + SlimefunOreChunks DEV - 15 (git 2520cb23)
+  + SimpleMaterialGenerators DEV - 4 (git 5543cc8f)
+  + VillagerTrade DEV - 4 (git bcce2a41)
+  + DyeBench DEV - 6 (git ae841c2d)
+  + Supreme DEV - 29 (git f9e70053)
+  + ElectricSpawners DEV - 23 (git 6ec96773)
+  + Wildernether DEV - 5 (git 5be3da69)
+  + CompressionCraft DEV - 25 (git dbca94b8)
+  + ExtraHeads DEV - 25 (git 8c29f73a)
+  + SlimyTreeTaps DEV - 20 (git 963f0383)
+  + FlowerPower DEV - 16 (git 5a38d1c6)
+  + PrivateStorage DEV - 18 (git 5832db21)
+  + ColoredEnderChests DEV - 23 (git 4d041832)
+  + Galactifun DEV - 76 (git aa6414a8)
+  + FluffyMachines DEV - 132 (git ccf029ba)
+  + DyedBackpacks DEV - 17 (git 8b329e96)
+  + Gastronomicon DEV - 8 (git 76336191)
+  + FastMachines Build 9 (git 00f7d11)
+  + SoundMuffler DEV - 24 (git ae8e2bf7)
+  + SmallSpace DEV - 13 (git dcf995c3)
+  + LiteXpansion DEV - 192 (git 661862ed)
+  + FNAmplifications DEV - 93 (git 7bc01100)
+  + ElementManipulation DEV - 28 (git 2b469991)
+  + InfinityExpansion DEV - 144 (git 9da37202)
+  + SlimefunWarfare DEV - 82 (git 0bb3ff87)
+  + Networks DEV - 50 (git 3de3c9d6)
+  + SimpleUtils DEV - 15 (git 4250fd5e)
+  + SlimeTinker DEV - 84 (git 2c9f6155)
+  + CrystamaeHistoria DEV - 81 (git 0c0efa95)
+  + EMCTech DEV - 5 (git c61222fb)
+
+Installed Plugins (62):
+  + LuckyPanda DEV - 1 (git c8bd8dd7)
+  + SimpleTeleportation 1.0
+  + Slimefun DEV - 1104 (git c977454e)
+  + EcoPower DEV - 5 (git 5c1ecd68)
+  + DankTech2 DEV - 9 (git aa6c2209)
+  + ViaVersion 4.8.1
+  + Netheopoiesis DEV - 18 (git 9d12cc6f)
+  + EquivalencyTech ${project.version}
+  + ViaBackwards 4.8.1
+  + SimpleStorage DEV - 10 (git ea5e5637)
+  + GlobalWarming DEV - 11 (git 73ff77d4)
+  + MiniBlocks DEV - 4 (git f7a34b6e)
+  + SfChunkInfo DEV - 8 (git b1b94abb)
+  + ExtraGear DEV - 13 (git c62047e2)
+  + SlimeHUD DEV - 11 (git b6dc2d53)
+  + SFCalc DEV - 37 (git dfc0fc41)
+  + BetterReactor DEV - 11 (git 88a98d28)
+  + MobCapturer DEV - 33 (git 6fc26c35)
+  + TranscEndence DEV - 41 (git 98d7d47e)
+  + ProtocolLib 5.1.1-SNAPSHOT-669
+  + HotbarPets DEV - 38 (git fa6c871d)
+  + SlimefunLuckyBlocks DEV - 36 (git 60f0c8dc)
+  + ExoticGarden DEV - 78 (git 7f9a5f63)
+  + HeadLimiter DEV - 15 (git 66d18f52)
+  + Liquid DEV - 14 (git 0f5346bf)
+  + SoulJars DEV - 24 (git 78d1c6fa)
+  + AdvancedTech DEV - 19 (git c133bfdd)
+  + SlimyRepair DEV - 4 (git 790c41cb)
+  + FoxyMachines DEV - 67 (git 0028aa93)
+  + RelicsOfCthonia DEV - 10 (git 5a7cbe8d)
+  + SlimefunNetherTech2 1.4.2.2
+  + SlimefunOreChunks DEV - 15 (git 2520cb23)
+  + SimpleMaterialGenerators DEV - 4 (git 5543cc8f)
+  + VillagerTrade DEV - 4 (git bcce2a41)
+  + DyeBench DEV - 6 (git ae841c2d)
+  + Supreme DEV - 29 (git f9e70053)
+  + ElectricSpawners DEV - 23 (git 6ec96773)
+  + Wildernether DEV - 5 (git 5be3da69)
+  + CompressionCraft DEV - 25 (git dbca94b8)
+  + ExtraHeads DEV - 25 (git 8c29f73a)
+  + SlimyTreeTaps DEV - 20 (git 963f0383)
+  + FlowerPower DEV - 16 (git 5a38d1c6)
+  + PrivateStorage DEV - 18 (git 5832db21)
+  + ColoredEnderChests DEV - 23 (git 4d041832)
+  + Galactifun DEV - 76 (git aa6414a8)
+  + FluffyMachines DEV - 132 (git ccf029ba)
+  + DyedBackpacks DEV - 17 (git 8b329e96)
+  + Gastronomicon DEV - 8 (git 76336191)
+  + FastMachines Build 9 (git 00f7d11)
+  + SoundMuffler DEV - 24 (git ae8e2bf7)
+  + SmallSpace DEV - 13 (git dcf995c3)
+  + GSit 1.5.5
+  + LiteXpansion DEV - 192 (git 661862ed)
+  + FNAmplifications DEV - 93 (git 7bc01100)
+  + ElementManipulation DEV - 28 (git 2b469991)
+  + InfinityExpansion DEV - 144 (git 9da37202)
+  + SlimefunWarfare DEV - 82 (git 0bb3ff87)
+  + Networks DEV - 50 (git 3de3c9d6)
+  + SimpleUtils DEV - 15 (git 4250fd5e)
+  + SlimeTinker DEV - 84 (git 2c9f6155)
+  + CrystamaeHistoria DEV - 81 (git 0c0efa95)
+  + EMCTech DEV - 5 (git c61222fb)
+
+Block Info:
+  World: world
+  X: -132
+  Y: 72
+  Z: -49
+  Material: CRAFTING_TABLE
+  Block Data: org.bukkit.craftbukkit.v1_18_R2.block.data.CraftBlockData
+  State: org.bukkit.craftbukkit.v1_18_R2.block.CraftBlockState
+
+Ticker-Info:
+  Type: Asynchronous
+
+Slimefun Data:
+  ID: FM_FAST_ENHANCED_CRAFTING_TABLE
+  Inventory: true
+  Data: {"id":"FM_FAST_ENHANCED_CRAFTING_TABLE","page":"0"}
+
+Stacktrace:
+
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.hashCode()" because "this.input" is null
+	at FastMachines-Build 9 (git 00f7d11).jar//net.guizhanss.fastmachines.core.recipes.RandomRecipe.hashCode(RandomRecipe.java:48)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.put(HashMap.java:610)
+	at FastMachines-Build 9 (git 00f7d11).jar//net.guizhanss.fastmachines.items.machines.AbstractFastMachine.findAvailableOutputs(AbstractFastMachine.java:274)
+	at FastMachines-Build 9 (git 00f7d11).jar//net.guizhanss.fastmachines.items.machines.AbstractFastMachine.tick(AbstractFastMachine.java:181)
+	at FastMachines-Build 9 (git 00f7d11).jar//net.guizhanss.fastmachines.guizhanlib.slimefun.machines.TickingMenuBlock$1.tick(TickingMenuBlock.java:40)
+	at Slimefun4 - DEV 1104 (git c9774).jar//io.github.thebusybiscuit.slimefun4.implementation.tasks.TickerTask.tickBlock(TickerTask.java:184)
+	at Slimefun4 - DEV 1104 (git c9774).jar//io.github.thebusybiscuit.slimefun4.implementation.tasks.TickerTask.tickLocation(TickerTask.java:171)
+	at Slimefun4 - DEV 1104 (git c9774).jar//io.github.thebusybiscuit.slimefun4.implementation.tasks.TickerTask.tickChunk(TickerTask.java:141)
+	at Slimefun4 - DEV 1104 (git c9774).jar//io.github.thebusybiscuit.slimefun4.implementation.tasks.TickerTask.run(TickerTask.java:110)
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

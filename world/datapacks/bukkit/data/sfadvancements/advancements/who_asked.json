@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§aWho Asked?"
+    },
+    "description": {
+      "text": "Search for who asked"
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "nbt": "{display:{Lore:[\u0027{\"extra\":[{\"text\":\"Search for who asked\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Who Asked?\"}],\"text\":\"\"}\u0027}}"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "sfadvancements:other"
+}

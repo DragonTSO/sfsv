@@ -1,0 +1,17 @@
+preset: FM_FAST_CRAFTING_TABLE
+'0':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: GOLD_NUGGET
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Magical
+      Lump "},{"italic":false,"color":"gray","text":"- "},{"italic":false,"color":"yellow","text":"I"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Tier:
+      I"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: MAGIC_LUMP_1

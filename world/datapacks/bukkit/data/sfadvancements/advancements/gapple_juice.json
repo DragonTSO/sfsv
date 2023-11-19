@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§aTastes like aged wine"
+    },
+    "description": {
+      "text": "Drink golden apple juice"
+    },
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:16776960,CustomPotionEffects:[{Ambient:1b,Amplifier:0b,Duration:400,Id:22b,ShowIcon:1b,ShowParticles:1b}],Potion:\"minecraft:empty\",PublicBukkitValues:{\"slimefun:slimefun_item\":\"GOLDEN_APPLE_JUICE\"},display:{Lore:[\u0027{\"extra\":[{\"text\":\"Drink golden apple juice\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Tastes like aged wine\"}],\"text\":\"\"}\u0027}}"
+    },
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "sfadvancements:other"
+}

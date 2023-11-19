@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§fBasic"
+    },
+    "description": {
+      "text": "§7§oThe core spirit of Slimefun."
+    },
+    "icon": {
+      "item": "minecraft:slime_ball",
+      "nbt": "{display:{Lore:[\u0027{\"extra\":[{\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gray\",\"text\":\"The core spirit of Slimefun.\"}],\"text\":\"\"}\u0027],Name:\u0027{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Basic\"}],\"text\":\"\"}\u0027}}"
+    },
+    "background": "minecraft:textures/block/bedrock.png",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  }
+}
