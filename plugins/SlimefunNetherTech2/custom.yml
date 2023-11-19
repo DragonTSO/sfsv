@@ -1,0 +1,142 @@
+##Language: custom
+##If you choose custom language, then you can edit this file freely!
+##If you have time, please send me a private conversation on SpigotMC to provide me with your version of translation!
+##I hope that I can have more language supports!
+
+#####WARN: DO NOT delete the "space" after the color code
+#####Example: "§4 " is correct, but "§4" will cause bug
+
+##When upgrading or demoting a plug-in, please remove the entire configuration folder first,
+##and then overwrite it after a new configuration file is generated,
+##or it will cause a bug.
+
+##配方名称 (Recipe Type)
+RT_NETHER_ENERGY_DUST_CREATOR: "§cMake it in Nether Energy Dust Creator"
+RT_NETHER_ENERGY_INJECTOR: "§8Make it in Nether Energy Injector"
+RT_ENHANCED_PRESS: "§fMake it in Enhanced Press"
+RT_EASTER_EGG: "§bEaster Egg. Explore this recipe yourself!"
+RT_ENHANCED_ELECTRIC_SMELTERY: "§7Make it in Enhanced Electric Smeltery"
+RT_FREEZER_3: "§bMake it in Freezer 3"
+
+##组别名称 (Items/Machine Group)
+CRAZY_STUFF: "§bSouvenirs"
+NETHER_TECH_MACHINE: "§bNether Tech --Machines"
+NETHER_TECH_ITEMS: "§bNether Tech --Items"
+ENHANCED_SLIMEFUN: "§bNether Tech --Enhanced Slimefun"
+
+##物品/机器 名称 + 描述行 (Items/Machines [Name + Lore])
+ENHANCED_CAPACITOR_1: "§4Super Energy Capacitor"
+ENHANCED_CAPACITOR_1_lore1: "§7Range: §c6 blocks"
+ENHANCED_CAPACITOR_1_lore2: "§4 "
+ENHANCED_CAPACITOR_1_lore3: "§4End-Game Capacitor"
+ENHANCED_CAPACITOR_1_lore4: "Capacity"
+
+CRAZY_DIAMOND: "§cDiamond of mark"
+CRAZY_DIAMOND_lore1: "§bThe_Banks created the first addon! Congratulations!"
+NETHER_ENERGY_DUST: "§dNether Energy Dust"
+NETHER_ENERGY_DUST_lore1: "§fIt can be extracted from the nether items"
+NETHER_ENERGY_DUST_lore2: "§fIt has wide uses"
+ENHANCED_WITHER_SKELETON_SKULL: "§bEnhanced Wither Skeleton Skull"
+ENHANCED_WITHER_SKELETON_SKULL_lore1: "§fUse it to summon a wither in the machine"
+NETHER_ENERGY_DUST_2: "§dNether Intermediate Energy Dust"
+NETHER_ENERGY_DUST_2_lore1: "§fCondensed from Nether Energy Dust"
+NETHER_ENERGY_DUST_2_lore2: "§fIt can be used as fuel for generator"
+NETHER_ENERGY_DUST_2_lore3: "§fBut its reaction is not fully used"
+NETHER_ENERGY_DUST_3: "§dNether Advanced Energy Dust"
+NETHER_ENERGY_DUST_3_lore1: "§fCondensed from Nether Intermediate Energy Dust"
+NETHER_ENERGY_DUST_3_lore2: "§fIt can be used as fuel for generator"
+NETHER_ENERGY_DUST_3_lore3: "§eCombustion efficiency is greatly improved"
+CONCENTRATED_REINFORCED_PLATE: "§cConcentrated Reinforced Plate"
+ENHANCED_WITHER_ROSE: "§bNether Energy Rose"
+ENHANCED_WITHER_ROSE_lore1: "§bNeed to inject nether energy"
+BEDROCK_NUGGET: "§eBedrock Nugget"
+BEDROCK_NUGGET_lore1: "§cExtracted from cobblestones"
+COLDER_REACTOR_COOLANT_CELL: "§bColder Reactor Coolant Cell"
+COLDER_REACTOR_COOLANT_CELL_lore1: "§cIT IS BEING TESTED" ##这一行请不要编辑！ (Do not edit this line!)
+COLDER_REACTOR_COOLANT_CELL_lore2: "§cDO NOT USE IT" ##这一行请不要编辑！ (Do not edit this line!)
+
+MIDASIUM_ORE: "§eMidasium Ore"
+MIDASIUM_ORE_lore1: "§eShining!"
+MIDASIUM_INGOT: "§eMidasium Ingot"
+
+MRDWF: "§bEaster Egg -- Morans Lunch"
+MRDWF_lore1: "§bSmells nice!"
+MRDWF_lore2: "§fBut how to make it?"
+BIG_MRDWF: "§bMorans Big Lunch"
+BIG_MRDWF_lore1: "§bOh, it smells nice!"
+BIG_MRDWF_lore2: "§fRight click to have a bite"
+
+NETHER_ENERGY_DUST_GENERATOR: "§4Nether Energy Dust Generator"
+NETHER_ENERGY_DUST_GENERATOR_lore1: "§bNeed Nether Intermediate Energy Dust to work"
+NETHER_ENERGY_DUST_GENERATOR_lore2: "§4 "
+NETHER_ENERGY_DUST_GENERATOR_lore3: "§4End-Game Generator"
+NETHER_ENERGY_DUST_GENERATOR_lore4: "§8⇨ §e⚡ §75000 J Buffer"
+NETHER_ENERGY_DUST_GENERATOR_lore5: "§8⇨ §e⚡ §75000 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+NETHER_ENERGY_DUST_GENERATOR_2: "§cNether Energy Dust Generator II"
+NETHER_ENERGY_DUST_GENERATOR_2_lore1: "§cNeed Nether Advanced Energy Dust to work"
+NETHER_ENERGY_DUST_GENERATOR_2_lore2: "§c "
+NETHER_ENERGY_DUST_GENERATOR_2_lore3: "§cSuper Generator"
+NETHER_ENERGY_DUST_GENERATOR_2_lore4: "§8⇨ §e⚡ §7580000 J Buffer"
+NETHER_ENERGY_DUST_GENERATOR_2_lore5: "§8⇨ §e⚡ §711600 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+SMART_NUCLEAR_REACTOR: "§2Smart Nuclear Reactor"
+SMART_NUCLEAR_REACTOR_lore1: "§2 "
+SMART_NUCLEAR_REACTOR_lore2: "§dDo not need water surrounds"
+SMART_NUCLEAR_REACTOR_lore3: "§bDo not need coolant cells"
+SMART_NUCLEAR_REACTOR_lore4: "§4 "
+SMART_NUCLEAR_REACTOR_lore5: "§4End-Game Generator"
+SMART_NUCLEAR_REACTOR_lore6: "§8⇨ §e⚡ §718000 J Buffer"
+SMART_NUCLEAR_REACTOR_lore7: "§8⇨ §e⚡ §7400 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+
+NETHER_ENERGY_INJECTOR: "§dNether Energy Injector"
+NETHER_ENERGY_INJECTOR_lore1: "§dNeed nether energy to work"
+NETHER_ENERGY_INJECTOR_lore2: "§4 "
+NETHER_ENERGY_INJECTOR_lore3: "§4End-Game Machine"
+NETHER_ENERGY_INJECTOR_lore4: "§8⇨ §7Speed: §b1x"
+NETHER_ENERGY_INJECTOR_lore5: "§8⇨ §e⚡ §71200 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+NETHER_ENERGY_DUST_CREATOR: "§aNether Energy Dust Creator"
+NETHER_ENERGY_DUST_CREATOR_lore1: "§dProduce nether energy"
+NETHER_ENERGY_DUST_CREATOR_lore2: "§4 "
+NETHER_ENERGY_DUST_CREATOR_lore3: "§4End-Game Machine"
+NETHER_ENERGY_DUST_CREATOR_lore4: "§8⇨ §7Speed: §b1x"
+NETHER_ENERGY_DUST_CREATOR_lore5: "§8⇨ §e⚡ §71200 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+NETHER_STAR_CREATOR: "§cNether Star Creator"
+NETHER_STAR_CREATOR_lore1: "§cAn important machine"
+NETHER_STAR_CREATOR_lore2: "§c "
+NETHER_STAR_CREATOR_lore3: "§cSuper Machine"
+NETHER_STAR_CREATOR_lore4: "§8⇨ §7Speed: §b1x"
+NETHER_STAR_CREATOR_lore5: "§8⇨ §e⚡ §790800 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+ENHANCED_PRESS: "§fEnhanced Press"
+ENHANCED_PRESS_lore1: "§fUse it to generate some advanced items"
+ENHANCED_PRESS_lore2: "§4 "
+ENHANCED_PRESS_lore3: "§4End-Game Machine"
+ENHANCED_PRESS_lore4: "§8⇨ §7Speed: §b8x"
+ENHANCED_PRESS_lore5: "§8⇨ §e⚡ §71800 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+ENHANCED_ELECTRIC_SMELTERY: "§bEnhanced Electric Smeltery"
+ENHANCED_ELECTRIC_SMELTERY_lore1: "§4Advanced Items-Only"
+ENHANCED_ELECTRIC_SMELTERY_lore2: "§4 "
+ENHANCED_ELECTRIC_SMELTERY_lore3: "§4End-Game Machine"
+ENHANCED_ELECTRIC_SMELTERY_lore4: "§8⇨ §7Speed: §b8x"
+ENHANCED_ELECTRIC_SMELTERY_lore5: "§8⇨ §e⚡ §7100 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+
+WOOD_CREATOR: "§cWood Creator"
+WOOD_CREATOR_lore1: "§cUse saplings and bone meal"
+WOOD_CREATOR_lore2: "§cGenerate logs (different types of woods)"
+WOOD_CREATOR_lore3: "§4 "
+WOOD_CREATOR_lore4: "§6Advanced Machine"
+WOOD_CREATOR_lore5: "§8⇨ §7Speed: §b1x"
+WOOD_CREATOR_lore6: "§8⇨ §e⚡ §780 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+FREEZER_3: "§bFreezer §7(§eIII§7)"
+FREEZER_3_lore1: "§4 "
+FREEZER_3_lore2: "§cSuper Machine"
+FREEZER_3_lore3: "§8⇨ §7Speed: §b10x"
+FREEZER_3_lore4: "§8⇨ §e⚡ §7340 J Buffer"
+FREEZER_3_lore5: "§8⇨ §e⚡ §7170 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+
+BIG_MRDWF_message1: "§eYou had a bite of Morans lunch!"
+BIG_MRDWF_message2: "§eOH, YUMMY! Id like to have another bite!"
+
+GLASS_CUTTER: "§eGlass Cutter"
+GLASS_CUTTER_lore1: "§e "
+GLASS_CUTTER_lore2: "§eRight Click >>> Cut Glass"
+GLASS_CUTTER_lore3: "§e "
+GLASS_CUTTER_lore4: "§8⇨ §e⚡ §70 / 200 J" ##这一行请不要编辑！ (Do not edit this line!)

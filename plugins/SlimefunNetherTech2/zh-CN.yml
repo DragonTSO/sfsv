@@ -1,0 +1,139 @@
+##Language: zh-CN
+
+#####WARN: 请不要去掉在颜色代码后的空格
+#####举例: "§4 "是正确的, 但是 "§4"会导致插件出错
+
+##在升级或降级插件时，请先移除整个配置文件夹，
+##等到新的配置文件生成后，再进行覆盖
+##否则可能会出现问题！
+
+##配方名称 (Recipe Type)
+RT_NETHER_ENERGY_DUST_CREATOR: "§c在 下界能量粉生成器 内制作"
+RT_NETHER_ENERGY_INJECTOR: "§8在 下界能量注入器 内制作"
+RT_ENHANCED_PRESS: "§f在 强化压力机 内制作"
+RT_EASTER_EGG: "§b彩蛋，请自行探索合成方式吧！"
+RT_ENHANCED_ELECTRIC_SMELTERY: "§7在 强化电力冶炼炉 内制作"
+RT_FREEZER_3: "§b在 冰箱III 内制作"
+
+##组别名称 (Items/Machine Group)
+CRAZY_STUFF: "§b纪念物品"
+NETHER_TECH_MACHINE: "§b下界科技 --机器"
+NETHER_TECH_ITEMS: "§b下界科技 --物品"
+ENHANCED_SLIMEFUN: "§b下界科技 --强化粘液"
+
+##物品/机器 名称 + 描述行 (Items/Machines [Name + Lore])
+ENHANCED_CAPACITOR_1: "§4超级储能电容"
+ENHANCED_CAPACITOR_1_lore1: "§7范围: §c6 格"
+ENHANCED_CAPACITOR_1_lore2: "§4 "
+ENHANCED_CAPACITOR_1_lore3: "§4终极 电容"
+ENHANCED_CAPACITOR_1_lore4: "可储存"
+
+CRAZY_DIAMOND: "§c纪念钻石"
+CRAZY_DIAMOND_lore1: "§bThe_Banks 创建了第一个附属！祝贺！"
+NETHER_ENERGY_DUST: "§d下界能量粉"
+NETHER_ENERGY_DUST_lore1: "§f从下界物品内获取"
+NETHER_ENERGY_DUST_lore2: "§f它有广泛的用途"
+ENHANCED_WITHER_SKELETON_SKULL: "§b强化凋灵头颅"
+ENHANCED_WITHER_SKELETON_SKULL_lore1: "§f用它在机器内生成凋零"
+NETHER_ENERGY_DUST_2: "§d下界中级能量"
+NETHER_ENERGY_DUST_2_lore1: "§f从下界能量粉浓缩"
+NETHER_ENERGY_DUST_2_lore2: "§f它可以作为发电机的燃料"
+NETHER_ENERGY_DUST_2_lore3: "§f但它的反应效率没有被完全利用"
+NETHER_ENERGY_DUST_3: "§d下界高级能量"
+NETHER_ENERGY_DUST_3_lore1: "§f从下界中级能量浓缩"
+NETHER_ENERGY_DUST_3_lore2: "§f它可以作为发电机的燃料"
+NETHER_ENERGY_DUST_3_lore3: "§e燃烧效率大大提高"
+CONCENTRATED_REINFORCED_PLATE: "§c浓缩钢筋板"
+ENHANCED_WITHER_ROSE: "§b下界能量花朵"
+ENHANCED_WITHER_ROSE_lore1: "§b需要注入下界能量"
+BEDROCK_NUGGET: "§e基岩粒"
+BEDROCK_NUGGET_lore1: "§c从圆石内提取"
+COLDER_REACTOR_COOLANT_CELL: "§b极冷反应堆冷却剂"
+COLDER_REACTOR_COOLANT_CELL_lore1: "§c正在测试" ##这一行请不要编辑！ (Do not edit this line!)
+COLDER_REACTOR_COOLANT_CELL_lore2: "§c请勿使用" ##这一行请不要编辑！ (Do not edit this line!)
+
+MIDASIUM_ORE: "§e赤焰金矿"
+MIDASIUM_ORE_lore1: "§e闪闪发光！"
+MIDASIUM_INGOT: "§e赤焰金锭"
+
+MRDWF: "§b彩蛋 -- 陌然的午饭"
+MRDWF_lore1: "§b闻起来真棒！"
+MRDWF_lore2: "§f但如何获得它?"
+BIG_MRDWF: "§b陌然的大午饭"
+BIG_MRDWF_lore1: "§bOH，闻起来真棒！"
+BIG_MRDWF_lore2: "§f右键吃一口"
+
+NETHER_ENERGY_DUST_GENERATOR: "§4下界能量发电机"
+NETHER_ENERGY_DUST_GENERATOR_lore1: "§b需要下界中级能量来工作"
+NETHER_ENERGY_DUST_GENERATOR_lore2: "§4 "
+NETHER_ENERGY_DUST_GENERATOR_lore3: "§4终极 发电机"
+NETHER_ENERGY_DUST_GENERATOR_lore4: "§8⇨ §e⚡ §75000 J 可储存"
+NETHER_ENERGY_DUST_GENERATOR_lore5: "§8⇨ §e⚡ §75000 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+NETHER_ENERGY_DUST_GENERATOR_2: "§c下界能量发电机 II"
+NETHER_ENERGY_DUST_GENERATOR_2_lore1: "§c需要下界高级能量来工作"
+NETHER_ENERGY_DUST_GENERATOR_2_lore2: "§c "
+NETHER_ENERGY_DUST_GENERATOR_2_lore3: "§c超级 发电机"
+NETHER_ENERGY_DUST_GENERATOR_2_lore4: "§8⇨ §e⚡ §7580000 J 可储存"
+NETHER_ENERGY_DUST_GENERATOR_2_lore5: "§8⇨ §e⚡ §711600 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+SMART_NUCLEAR_REACTOR: "§2智能核反应堆"
+SMART_NUCLEAR_REACTOR_lore1: "§2 "
+SMART_NUCLEAR_REACTOR_lore2: "§d无需水环绕机器"
+SMART_NUCLEAR_REACTOR_lore3: "§b无需冷却剂"
+SMART_NUCLEAR_REACTOR_lore4: "§4 "
+SMART_NUCLEAR_REACTOR_lore5: "§4终极 发电机"
+SMART_NUCLEAR_REACTOR_lore6: "§8⇨ §e⚡ §718000 J 可储存"
+SMART_NUCLEAR_REACTOR_lore7: "§8⇨ §e⚡ §7400 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+
+NETHER_ENERGY_INJECTOR: "§d下界能量注入器"
+NETHER_ENERGY_INJECTOR_lore1: "§d需要下界能量来工作"
+NETHER_ENERGY_INJECTOR_lore2: "§4 "
+NETHER_ENERGY_INJECTOR_lore3: "§4终极 机器"
+NETHER_ENERGY_INJECTOR_lore4: "§8⇨ §7速度: §b1x"
+NETHER_ENERGY_INJECTOR_lore5: "§8⇨ §e⚡ §71200 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+NETHER_ENERGY_DUST_CREATOR: "§a下界能量发生器"
+NETHER_ENERGY_DUST_CREATOR_lore1: "§d产生下界能量"
+NETHER_ENERGY_DUST_CREATOR_lore2: "§4 "
+NETHER_ENERGY_DUST_CREATOR_lore3: "§4终极 机器"
+NETHER_ENERGY_DUST_CREATOR_lore4: "§8⇨ §7速度: §b1x"
+NETHER_ENERGY_DUST_CREATOR_lore5: "§8⇨ §e⚡ §71200 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+NETHER_STAR_CREATOR: "§c下界之星发生器"
+NETHER_STAR_CREATOR_lore1: "§c一个重要的机器"
+NETHER_STAR_CREATOR_lore2: "§c "
+NETHER_STAR_CREATOR_lore3: "§c超级 机器"
+NETHER_STAR_CREATOR_lore4: "§8⇨ §7速度: §b1x"
+NETHER_STAR_CREATOR_lore5: "§8⇨ §e⚡ §790800 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+ENHANCED_PRESS: "§f强化压力机"
+ENHANCED_PRESS_lore1: "§f使用它来生成高级的物品"
+ENHANCED_PRESS_lore2: "§4 "
+ENHANCED_PRESS_lore3: "§4终极 机器"
+ENHANCED_PRESS_lore4: "§8⇨ §7速度: §b8x"
+ENHANCED_PRESS_lore5: "§8⇨ §e⚡ §71800 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+ENHANCED_ELECTRIC_SMELTERY: "§b强化电力冶炼炉"
+ENHANCED_ELECTRIC_SMELTERY_lore1: "§4只能冶炼高级物品"
+ENHANCED_ELECTRIC_SMELTERY_lore2: "§4 "
+ENHANCED_ELECTRIC_SMELTERY_lore3: "§4终极 机器"
+ENHANCED_ELECTRIC_SMELTERY_lore4: "§8⇨ §7速度: §b8x"
+ENHANCED_ELECTRIC_SMELTERY_lore5: "§8⇨ §e⚡ §7100 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+
+WOOD_CREATOR: "§c原木发生器"
+WOOD_CREATOR_lore1: "§c使用树苗和骨粉"
+WOOD_CREATOR_lore2: "§c来生成原木 (不同种类的原木)"
+WOOD_CREATOR_lore3: "§4 "
+WOOD_CREATOR_lore4: "§6高级 机器"
+WOOD_CREATOR_lore5: "§8⇨ §7速度: §b1x"
+WOOD_CREATOR_lore6: "§8⇨ §e⚡ §780 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+FREEZER_3: "§b冰箱 §7(§eIII§7)"
+FREEZER_3_lore1: "§4 "
+FREEZER_3_lore2: "§c超级 机器"
+FREEZER_3_lore3: "§8⇨ §7速度: §b10x"
+FREEZER_3_lore4: "§8⇨ §e⚡ §7340 J 可储存"
+FREEZER_3_lore5: "§8⇨ §e⚡ §7170 J/s" ##这一行请不要编辑！ (Do not edit this line!)
+
+BIG_MRDWF_message1: "§e你吃了一口陌然的午饭！"
+BIG_MRDWF_message2: "§eOH，太好吃了！我还想再吃一口！"
+
+GLASS_CUTTER: "§e玻璃切割刀"
+GLASS_CUTTER_lore1: "§e "
+GLASS_CUTTER_lore2: "§e右键 >>> 割下玻璃"
+GLASS_CUTTER_lore3: "§e "
+GLASS_CUTTER_lore4: "§8⇨ §e⚡ §70 / 200 J" ##这一行请不要编辑！ (Do not edit this line!)

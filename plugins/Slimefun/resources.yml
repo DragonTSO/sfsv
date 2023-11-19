@@ -48,3 +48,14 @@ slimefunorechunks:
 betterreactor:
   borium:
     enabled: true
+globalwarming:
+  cinnabarite:
+    enabled: true
+slimefunwarfare:
+  arsenic:
+    enabled: true
+  mozanite:
+    enabled: true
+slimefunnethertech2:
+  midasium_ore:
+    enabled: true

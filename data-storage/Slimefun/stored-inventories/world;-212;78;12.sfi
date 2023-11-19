@@ -1,6 +1,0 @@
-preset: INFINITY_COBBLE_GEN
-'13':
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: COBBLESTONE
-  amount: 64

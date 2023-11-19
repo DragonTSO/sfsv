@@ -310,3 +310,41 @@ IRIDIUM:
   LINKS: true
 ULTIMANINIUM:
   LINKS: true
+SEGGANESSON:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+SLIME_STEEL:
+  BINDING: true
+  GAMBESON: true
+REINFORCED_SLIME_STEEL:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+OSMIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+OSMIUM_SUPERALLOY:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+UNPATENTABLIUM:
+  HEAD: true
+  ROD: true
+  PLATE: true
+  LINKS: true
+DAXI_STRENGTH:
+  HEAD: true
+DAXI_ABSORPTION:
+  PLATE: true
+DAXI_FORTITUDE:
+  PLATE: true
+DAXI_SATURATION:
+  PLATE: true
+DAXI_REGENERATION:
+  PLATE: true

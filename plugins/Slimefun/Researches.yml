@@ -1192,3 +1192,84 @@ gastronomicon:
   food:
     cost: 32
     enabled: true
+globalwarming:
+  thermometer:
+    cost: 10
+    enabled: true
+  air_quality_meter:
+    cost: 30
+    enabled: true
+  air_compressor:
+    cost: 40
+    enabled: true
+  canisters:
+    cost: 6
+    enabled: true
+  filter:
+    cost: 8
+    enabled: true
+  mercury:
+    cost: 12
+    enabled: true
+transcendence:
+  unstable:
+    cost: 23
+    enabled: true
+  stable:
+    cost: 30
+    enabled: true
+  quirp_scatterer:
+    cost: 20
+    enabled: true
+  nanobot_crafter:
+    cost: 15
+    enabled: true
+  quirp_oscillator:
+    cost: 37
+    enabled: true
+  zots:
+    cost: 30
+    enabled: true
+  daxis:
+    cost: 30
+    enabled: true
+  polarizers:
+    cost: 23
+    enabled: true
+  quirp_annihilator:
+    cost: 40
+    enabled: true
+  zot_overloader:
+    cost: 35
+    enabled: true
+soundmuffler:
+  sound_muffler:
+    cost: 11
+    enabled: true
+slimefunwarfare:
+  weapons_of_mass_destruction:
+    cost: 70
+    enabled: true
+  i_am_iron_man:
+    cost: 70
+    enabled: true
+  energy_weapons:
+    cost: 45
+    enabled: true
+  alien_metals:
+    cost: 40
+    enabled: true
+  rare_earths:
+    cost: 50
+    enabled: true
+fastmachines:
+  materials:
+    cost: 4
+    enabled: true
+  machines:
+    cost: 40
+    enabled: true
+slimefunnethertech2:
+  nether_techr:
+    cost: 50
+    enabled: true

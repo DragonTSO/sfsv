@@ -1,0 +1,7 @@
+##配置 (Configurable)
+language: "en-US"
+##可用语言列表 (Available languages): "en-US", "zh-CN" (简体中文), "custom".
+
+## If you set this to "custom", the plugin will use the words and messages in file custom.yml
+## (If your language is not available, you can turn this option to "custom" and configure that file)
+
