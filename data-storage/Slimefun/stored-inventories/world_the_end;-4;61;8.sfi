@@ -1,0 +1,76 @@
+preset: SUPREME_TECH_GENERATOR
+'10':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: MUSIC_DISC_CHIRP
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Card
+      Machine Magnet"}],"text":""}'
+    lore:
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Change
+      to Production Magnet"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Advanced
+      Machine"}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Supreme
+      Component"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: SUPREME_CARD_MAGNET
+'40':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Magnet"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: MAGNET
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: b47e7f73-0831-3936-b6a6-d4702f249a13
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJhOGViYzRjNmE4MTczMDk0NzQ5OWJmN2UxZDVlNzNmZWQ2YzFiYjJjMDUxZTk2ZDM1ZWIxNmQyNDYxMGU3In19fQ==
+'41':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Magnet"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: MAGNET
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: b47e7f73-0831-3936-b6a6-d4702f249a13
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJhOGViYzRjNmE4MTczMDk0NzQ5OWJmN2UxZDVlNzNmZWQ2YzFiYjJjMDUxZTk2ZDM1ZWIxNmQyNDYxMGU3In19fQ==
+'42':
+  ==: org.bukkit.inventory.ItemStack
+  v: 2975
+  type: PLAYER_HEAD
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Magnet"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: MAGNET
+    skull-owner:
+      ==: PlayerProfile
+      uniqueId: b47e7f73-0831-3936-b6a6-d4702f249a13
+      name: CS-CoreLib
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJhOGViYzRjNmE4MTczMDk0NzQ5OWJmN2UxZDVlNzNmZWQ2YzFiYjJjMDUxZTk2ZDM1ZWIxNmQyNDYxMGU3In19fQ==
